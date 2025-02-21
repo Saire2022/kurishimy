@@ -1,41 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { Audio } from "expo-av";
 import { Ionicons } from "@expo/vector-icons";
-import axios from "axios";
-import { Asset } from "expo-asset";
-import * as FileSystem from "expo-file-system";
-//import { EXPO_PUBLIC_HUGGING_FACE_API_KEY } from "@env";
+import { sendAudioToHuggingFace } from "./../script/sendAudioToHuggingFace";
+import { loadSound, playAudio, stopAudio } from "./../script/audioPlayer";
 
-// Example text & timestamps
 const textData = {
   text: "",
-};
-
-// Add helper function for converting audio to base64
-const convertAudioToBase64 = async (sound) => {
-  try {
-    if (!sound) {
-      throw new Error("No sound object provided");
-    }
-
-    const asset = Asset.fromModule(require("../assets/audio/audio.wav"));
-    await asset.downloadAsync();
-
-    const fileInfo = await FileSystem.getInfoAsync(asset.localUri);
-    if (!fileInfo.exists) {
-      throw new Error("Audio file not found");
-    }
-
-    const audioData = await FileSystem.readAsStringAsync(asset.localUri, {
-      encoding: FileSystem.EncodingType.Base64,
-    });
-
-    return audioData;
-  } catch (error) {
-    console.error("Error in convertAudioToBase64:", error);
-    throw error;
-  }
 };
 
 export default function AudioTextSync() {
@@ -45,53 +15,25 @@ export default function AudioTextSync() {
   const [displayText, setDisplayText] = useState(textData.text);
   const [processedText, setProcessedText] = useState(textData);
   const [isLoading, setIsLoading] = useState(true);
-
   const intervalRef = useRef(null);
+  const [words, setWords] = useState([
+    { word: "Hola", start: 0.2, end: 0.5 },
+    { word: "mundo.", start: 0.5, end: 1.0 },
+    { word: "Esto", start: 1.2, end: 1.6 },
+    { word: "es", start: 1.6, end: 1.8 },
+    { word: "una", start: 1.8, end: 2.1 },
+    { word: "prueba.", start: 2.1, end: 2.5 },
+  ]);
 
-  // Cleanup on unmount
-  // Add this function inside your component
-  async function loadSound() {
-    try {
-      // Request audio permissions first
-      const permission = await Audio.requestPermissionsAsync();
-      if (permission.status !== "granted") {
-        alert("Need audio permissions to play");
-        return null;
-      }
-
-      // Set audio mode
-      await Audio.setAudioModeAsync({
-        allowsRecordingIOS: false,
-        playsInSilentModeIOS: true,
-        shouldDuckAndroid: true,
-        staysActiveInBackground: true,
-        playThroughEarpieceAndroid: false,
-      });
-
-      // Load audio (but don't play)
-      const { sound: newSound } = await Audio.Sound.createAsync(
-        require("../assets/audio/audio.wav"),
-        { shouldPlay: false }
-      );
-
-      // Set the sound state
-      setSound(newSound);
-      return newSound;
-    } catch (error) {
-      console.error("Error loading sound:", error);
-      alert("Error loading audio file");
-      return null;
-    }
-  }
-
-  // Then modify your useEffect to use this function
   useEffect(() => {
     const loadInitialSound = async () => {
       try {
-        const loadedSound = await loadSound();
+        const loadedSound = await loadSound(setSound);
         if (loadedSound) {
-          // Optionally process text after sound is loaded
-          const initialText = await sendAudioToHuggingFace(loadedSound);
+          const initialText = await sendAudioToHuggingFace(
+            loadedSound,
+            setWords
+          );
           if (initialText) {
             setProcessedText(initialText);
             setIsLoading(false);
@@ -106,131 +48,40 @@ export default function AudioTextSync() {
     loadInitialSound();
   }, []);
 
-  async function sendAudioToHuggingFace(sound) {
+  async function handlePlayAudio() {
     try {
-      if (!sound) {
-        alert("No audio loaded to process");
-        return;
-      }
-
-      const HUGGING_FACE_API_KEY = process.env.EXPO_PUBLIC_HUGGING_FACE_API_KEY;
-      const MODEL_URL =
-        "https://api-inference.huggingface.co/models/facebook/wav2vec2-large-xlsr-53-spanish";
-
-      // Get audio data
-      console.log("Converting audio to base64...");
-      const audioBase64 = await convertAudioToBase64(sound);
-
-      if (!audioBase64) {
-        throw new Error("Failed to convert audio to base64");
-      }
-
-      console.log("Sending to HuggingFace API...");
-      const response = await axios.post(
-        MODEL_URL,
-        { inputs: audioBase64 },
-        {
-          headers: {
-            Authorization: `Bearer ${HUGGING_FACE_API_KEY}`,
-            "Content-Type": "application/json",
-          },
-          validateStatus: function (status) {
-            return status < 500;
-          },
-        }
-      );
-
-      if (response.status === 401) {
-        throw new Error("Invalid API key or authentication failed");
-      }
-
-      if (response.data && response.data.text) {
-        // console.log("Response received:", response.data);
-        // // Update the processed text state with new text and timing
-        // setProcessedText({
-        //   text: response.data.text,
-        console.log("Response received:", response.data.text);
-        return response.data.text;
-      } else {
-        throw new Error("Invalid response from API");
-      }
+      await playAudio(setSound, setIsPlaying, setCurrentTime, intervalRef);
     } catch (error) {
-      if (error.response?.status === 401) {
-        console.error("Authentication failed. Please check your API key.");
-        alert("Authentication failed. Please check your API key.");
-      } else {
-        console.error("Error details:", error.message, error.response?.data);
-        alert(`Error processing audio: ${error.message}`);
-      }
+      console.error("Error playing audio:", error);
     }
   }
 
-  // Load Audio
-  async function playAudio() {
+  async function handleStopAudio() {
     try {
-      // Request audio permissions first
-      const permission = await Audio.requestPermissionsAsync();
-      if (permission.status !== "granted") {
-        alert("Need audio permissions to play");
-        return;
-      }
-
-      // Set audio mode
-      await Audio.setAudioModeAsync({
-        allowsRecordingIOS: false,
-        playsInSilentModeIOS: true,
-        shouldDuckAndroid: true,
-        staysActiveInBackground: true,
-        playThroughEarpieceAndroid: false,
-      });
-
-      // Load and play audio
-      const { sound: newSound } = await Audio.Sound.createAsync(
-        require("../assets/audio/audio.wav"),
-        { shouldPlay: true }
-      );
-
-      setSound(newSound);
-      setIsPlaying(true);
-
-      // Update current time
-      intervalRef.current = setInterval(async () => {
-        const status = await newSound.getStatusAsync();
-        setCurrentTime(status.positionMillis / 1000);
-
-        // Stop interval when audio ends
-        if (status.didJustFinish) {
-          clearInterval(intervalRef.current);
-          setIsPlaying(false);
-          setCurrentTime(0);
-        }
-      }, 100);
-    } catch (error) {
-      console.error("Error loading audio:", error);
-      alert("Error loading audio file");
-    }
-  }
-
-  // Stop Audio
-  async function stopAudio() {
-    try {
-      if (sound) {
-        await sound.stopAsync();
-        await sound.setPositionAsync(0);
-        setCurrentTime(0);
-        setIsPlaying(false);
-        clearInterval(intervalRef.current);
-      }
+      await stopAudio(sound, setCurrentTime, setIsPlaying, intervalRef);
     } catch (error) {
       console.error("Error stopping audio:", error);
     }
   }
-
   // Highlight active word
   function getHighlightedText() {
-    console.log("Processed text:", processedText);
+    return (
+      <View style={styles.textContainer}>
+        {words.map((wordObj, index) => {
+          const isActive =
+            currentTime >= wordObj.start && currentTime <= wordObj.end;
 
-    return <Text style={styles.text}>{processedText}</Text>;
+          return (
+            <Text
+              key={index}
+              style={[styles.word, isActive && styles.highlightedWord]}
+            >
+              {wordObj.word}{" "}
+            </Text>
+          );
+        })}
+      </View>
+    );
   }
 
   if (isLoading) {
@@ -243,9 +94,9 @@ export default function AudioTextSync() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{getHighlightedText()}</Text>
+      {getHighlightedText()}
       <TouchableOpacity
-        onPress={isPlaying ? stopAudio : playAudio}
+        onPress={isPlaying ? handleStopAudio : handlePlayAudio}
         style={styles.button}
       >
         <Ionicons
@@ -296,5 +147,21 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 16,
     fontWeight: "bold",
+  },
+  textContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    padding: 10,
+  },
+  word: {
+    fontSize: 24,
+    color: "black",
+  },
+  highlightedWord: {
+    color: "blue",
+    fontWeight: "bold",
+    backgroundColor: "#e6f3ff",
+    borderRadius: 4,
   },
 });

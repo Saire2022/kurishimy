@@ -1,6 +1,6 @@
 import { Audio } from "expo-av";
 
-const audiopath = require("../assets/audio/1.mp3");
+const audiopath = require("../assets/audio/cap1.mp3");
 // Load Audio
 
 async function loadSound(setSound) {
@@ -45,15 +45,6 @@ async function playAudio(setSound, setIsPlaying, setCurrentTime, intervalRef) {
       return;
     }
 
-    // Set audio mode
-    await Audio.setAudioModeAsync({
-      allowsRecordingIOS: false,
-      playsInSilentModeIOS: true,
-      shouldDuckAndroid: true,
-      staysActiveInBackground: true,
-      playThroughEarpieceAndroid: false,
-    });
-
     // Load and play audio
     const { sound: newSound } = await Audio.Sound.createAsync(audiopath, {
       shouldPlay: true,
@@ -80,6 +71,19 @@ async function playAudio(setSound, setIsPlaying, setCurrentTime, intervalRef) {
   }
 }
 
+// Pause Audio
+async function pauseAudio(sound, setIsPlaying, intervalRef) {
+  try {
+    if (sound) {
+      await sound.pauseAsync();
+      setIsPlaying(false);
+      //clearInterval(intervalRef.current);
+    }
+  } catch (error) {
+    console.error("Error pausing audio:", error);
+  }
+}
+
 // Stop Audio
 async function stopAudio(sound, setCurrentTime, setIsPlaying, intervalRef) {
   try {
@@ -95,4 +99,4 @@ async function stopAudio(sound, setCurrentTime, setIsPlaying, intervalRef) {
   }
 }
 
-export { loadSound, playAudio, stopAudio };
+export { loadSound, playAudio, pauseAudio, stopAudio };

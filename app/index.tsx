@@ -28,12 +28,6 @@ export default function Index() {
       <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Text style={styles.textbutton}>Comenzar</Text>
       </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push("./readerScreen")}
-      >
-        <Text style={styles.textbutton}>Iniciar</Text>
-      </TouchableOpacity>
     </View>
   );
 }

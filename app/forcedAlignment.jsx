@@ -4,15 +4,15 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  ScrollView,
   ActivityIndicator,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import lessonData from "./../lessons/Chapter1.json";
-import processWordTimings from "./../scripts/wordProcessor";
+//import lessonData from "./../lessons/Chapter1.json";
+//import processWordTimings from "./../scripts/wordProcessor";
 import audioService from "./../scripts/audioService";
-import LanguageText from "./../components/LanguageText";
 import PlaybackControls from "../components/PlaybackControls";
+import { LayoutAnimationConfig } from "react-native-reanimated";
+import LanguageText from "../components/LanguageText";
 
 export default function AudioTextSync() {
   // State management
@@ -23,32 +23,36 @@ export default function AudioTextSync() {
   const [autoScroll, setAutoScroll] = useState(true);
 
   // References
-  const intervalRef = useRef(null);
-  const scrollViewRef = useRef(null);
-  const activeWordRef = useRef(null);
+  //const intervalRef = useRef(null);
+  //const scrollViewRef = useRef(null);
+  //const activeWordRef = useRef(null);
   const kichwaScrollViewRef = useRef(null);
   const spanishScrollViewRef = useRef(null);
   const activeKichwaWordRef = useRef(null);
   const activeSpanishWordRef = useRef(null);
 
   // Word timings for both languages
-  const [kichwaWordTimings, setKichwaWordTimings] = useState([]);
-  const [spanishWordTimings, setSpanishWordTimings] = useState([]);
+  //const [kichwaWordTimings, setKichwaWordTimings] = useState([]);
+  //const [spanishWordTimings, setSpanishWordTimings] = useState([]);
+  const [kichwaWords, setKichwaWords] = useState([]);
 
   // Audio path
   const audioPath = require("../assets/audio/cap1.mp3");
 
   // Process word timings from the lesson data
   useEffect(() => {
-    const kichwaWords = processWordTimings(lessonData, "kichwa");
-    const spanishWords = processWordTimings(lessonData, "spanish");
-
-    setKichwaWordTimings(kichwaWords);
-    setSpanishWordTimings(spanishWords);
+    //const kichwaWords = processWordTimings(lessonData, "kichwa");
+    const kichwaWords = require("../lessons/alignment_output.json");
+    //const spanishWords = processWordTimings(lessonData, "spanish");
+    //setKichwaWordTimings(kichwaWords);
+    //setSpanishWordTimings(spanishWords);
+    //console.log("kichwaWords: ", kichwaWords);
   }, []);
 
   // Load audio when component mounts
   useEffect(() => {
+    const kichwaWords = require("../lessons/alignment_output.json");
+    setKichwaWords(kichwaWords);
     async function setupAudio() {
       const success = await audioService.loadAudio(audioPath);
       setIsLoading(!success);
@@ -56,7 +60,7 @@ export default function AudioTextSync() {
 
     setupAudio();
 
-    // Cleanup on unmount
+    // Cleanup on unmountjumpToWord
     return () => {
       audioService.cleanup();
     };
@@ -148,52 +152,12 @@ export default function AudioTextSync() {
         console.error("Spanish auto-scroll error:", error);
       }
     }
-  }, [currentTime, autoScroll, viewMode]);
+  }, [currentTime, viewMode]);
 
-  // Render the highlighted text
-  function renderHighlightedText() {
-    return (
-      <ScrollView
-        ref={scrollViewRef}
-        horizontal={false}
-        style={styles.scrollContainer}
-        contentContainerStyle={styles.contentContainer}
-      >
-        <View style={styles.textContainer}>
-          {kichwaWordTimings.map((wordObj, index) => {
-            const isActive =
-              currentTime >= wordObj.start && currentTime <= wordObj.end;
-
-            // Check if this is a new sentence to add line breaks
-            const isNewSentence =
-              index > 0 &&
-              wordObj.sentenceId !== kichwaWordTimings[index - 1].sentenceId;
-
-            return (
-              <React.Fragment key={wordObj.id}>
-                {isNewSentence && <View style={styles.lineBreak} />}
-                <TouchableOpacity
-                  ref={isActive ? activeWordRef : null}
-                  onPress={() => jumpToWord(wordObj)}
-                  style={[
-                    styles.wordContainer,
-                    isActive && styles.activeWordContainer,
-                  ]}
-                >
-                  <Text
-                    style={[styles.word, isActive && styles.highlightedWord]}
-                  >
-                    {wordObj.word}
-                  </Text>
-                </TouchableOpacity>
-              </React.Fragment>
-            );
-          })}
-        </View>
-      </ScrollView>
-    );
+  async function handleSeek(time) {
+    // Create a function that sets the current time and also seeks in the audio
+    await audioService.seekTo(time, setCurrentTime);
   }
-
   // Loading indicator
   if (isLoading) {
     return (
@@ -225,61 +189,13 @@ export default function AudioTextSync() {
           </Text>
         </TouchableOpacity>
       </View>
-      {/* {renderHighlightedText()} */}
-
       <View style={styles.contentContainer}>
-        {/* Kichwa Text */}
-        {(viewMode === "kichwa" || viewMode === "dual") && (
-          <View
-            style={[
-              styles.languageSection,
-              viewMode === "dual" && styles.halfHeight,
-            ]}
-          >
-            {viewMode === "dual" && (
-              <View style={styles.languageHeader}>
-                <Text style={styles.languageTitle}>Kichwa</Text>
-              </View>
-            )}
-            {/* <LanguageText
-              ref={kichwaScrollViewRef}
-              wordTimings={kichwaWordTimings}
-              currentTime={currentTime}
-              onWordPress={jumpToWord}
-              activeWordRef={activeKichwaWordRef}
-            /> */}
-            <LanguageText
-              ref={kichwaScrollViewRef}
-              wordTimings={kichwaWordTimings}
-              currentTime={currentTime}
-              onWordPress={jumpToWord}
-              activeWordRef={activeKichwaWordRef}
-            />
-          </View>
-        )}
-
-        {/* Spanish Text */}
-        {(viewMode === "spanish" || viewMode === "dual") && (
-          <View
-            style={[
-              styles.languageSection,
-              viewMode === "dual" && styles.halfHeight,
-            ]}
-          >
-            {viewMode === "dual" && (
-              <View style={styles.languageHeader}>
-                <Text style={styles.languageTitle}>Spanish</Text>
-              </View>
-            )}
-            <LanguageText
-              ref={spanishScrollViewRef}
-              wordTimings={spanishWordTimings}
-              currentTime={currentTime}
-              onWordPress={jumpToWord}
-              activeWordRef={activeSpanishWordRef}
-            />
-          </View>
-        )}
+        <LanguageText
+          wordTimings={kichwaWords}
+          currentTime={currentTime}
+          onWordPress={jumpToWord}
+          activeWordRef={activeKichwaWordRef}
+        />
       </View>
 
       <View style={styles.controlsContainer}>
@@ -287,6 +203,7 @@ export default function AudioTextSync() {
           isPlaying={isPlaying}
           onPlayPause={handlePlayPause}
           onStop={handleStop}
+          onSeek={handleSeek} // Add this line
           autoScroll={autoScroll}
           onToggleAutoScroll={() => setAutoScroll(!autoScroll)}
           currentTime={currentTime}
@@ -297,7 +214,6 @@ export default function AudioTextSync() {
   );
 }
 
-// const styles = StyleSheet.create({
 //   container: {
 //     flex: 1,
 //     padding: 16,

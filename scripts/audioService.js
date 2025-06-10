@@ -3,15 +3,14 @@ import { Audio } from "expo-av";
 function AudioService() {
   let sound = null;
   let isPlaying = false;
-  let position = 0;
+  let currentPosition = 0;
   let duration = 0;
   let intervalId = null;
 
   async function loadAudio(audioPath) {
     try {
       if (sound) {
-        console.log("Loading audio...");
-
+        console.log("Unloading previous audio...");
         await sound.unloadAsync();
       }
       console.log("Loading audio...");
@@ -52,14 +51,22 @@ function AudioService() {
 
       // Track playback position
       intervalId = setInterval(async () => {
-        const status = await sound.getStatusAsync();
-        position = status.positionMillis;
-        updateTimeCallback(position);
+        try {
+          const status = await sound.getStatusAsync();
+          currentPosition = status.positionMillis;
 
-        if (status.didJustFinish) {
-          stop(updateTimeCallback);
+          if (updateTimeCallback) {
+            updateTimeCallback(currentPosition);
+          }
+
+          if (status.didJustFinish) {
+            stop(updateTimeCallback);
+          }
+        } catch (error) {
+          console.error("Error in playback interval:", error);
+          clearInterval(intervalId);
         }
-      }, 50);
+      }, 33);
 
       return true;
     } catch (error) {
@@ -93,7 +100,7 @@ function AudioService() {
     try {
       await sound.stopAsync();
       await sound.setPositionAsync(0);
-      position = 0;
+      currentPosition = 0;
       isPlaying = false;
 
       if (intervalId) {
@@ -101,7 +108,10 @@ function AudioService() {
         intervalId = null;
       }
 
-      updateTimeCallback(0);
+      if (updateTimeCallback) {
+        updateTimeCallback(0);
+      }
+
       return true;
     } catch (error) {
       console.error("Error stopping audio:", error);
@@ -109,13 +119,20 @@ function AudioService() {
     }
   }
 
-  async function seekTo(position, updateTimeCallback) {
+  async function seekTo(newPosition, updateTimeCallback) {
     if (!sound) return false;
 
     try {
-      await sound.setPositionAsync(position);
-      position = position;
-      updateTimeCallback(position);
+      // Ensure position is within valid range
+      newPosition = Math.max(0, Math.min(newPosition, duration));
+
+      await sound.setPositionAsync(newPosition);
+      currentPosition = newPosition;
+
+      if (updateTimeCallback) {
+        updateTimeCallback(newPosition);
+      }
+
       return true;
     } catch (error) {
       console.error("Error seeking audio:", error);
@@ -126,12 +143,17 @@ function AudioService() {
   function cleanup() {
     if (intervalId) {
       clearInterval(intervalId);
+      intervalId = null;
     }
 
     if (sound) {
       sound.unloadAsync();
       sound = null;
     }
+
+    isPlaying = false;
+    currentPosition = 0;
+    duration = 0;
   }
 
   return {
@@ -144,7 +166,14 @@ function AudioService() {
     get duration() {
       return duration;
     },
+    get position() {
+      return currentPosition;
+    },
+    get isPlaying() {
+      return isPlaying;
+    },
   };
 }
+
 const audioService = AudioService();
 export default audioService;

@@ -1,22 +1,34 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, memo } from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
 // Use forwardRef to allow the ref to be forwarded to the TouchableOpacity
-const Word = forwardRef(function Word(props, ref) {
-  const { word, isActive, onPress } = props;
+const Word = memo(
+  forwardRef(function Word(props, ref) {
+    const { word, isActive, isApproaching, onPress } = props;
 
-  return (
-    <TouchableOpacity
-      ref={ref}
-      onPress={onPress}
-      style={[styles.wordContainer, isActive && styles.activeWordContainer]}
-    >
-      <Text style={[styles.wordText, isActive && styles.activeWordText]}>
-        {word}
-      </Text>
-    </TouchableOpacity>
-  );
-});
+    return (
+      <TouchableOpacity
+        ref={ref}
+        onPress={onPress}
+        style={[
+          styles.wordContainer,
+          isApproaching && styles.approachingWordContainer,
+          isActive && styles.activeWordContainer,
+        ]}
+      >
+        <Text
+          style={[
+            styles.wordText,
+            isApproaching && styles.approachingWordText,
+            isActive && styles.activeWordText,
+          ]}
+        >
+          {word}
+        </Text>
+      </TouchableOpacity>
+    );
+  })
+);
 
 const styles = StyleSheet.create({
   wordContainer: {

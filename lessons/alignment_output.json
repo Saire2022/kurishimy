@@ -1,0 +1,7100 @@
+[
+  {
+    "word": "Ari,",
+    "start": 3.1,
+    "end": 3.42,
+    "segment": 0,
+    "key": "7318d286-733a-448a-97a0-da3e572f1bbd"
+  },
+  {
+    "word": "ari,",
+    "start": 3.48,
+    "end": 4.02,
+    "segment": 0,
+    "key": "6a7f8fad-1bcd-48ba-8fab-ac8385abc179"
+  },
+  {
+    "word": "kikinkuna,",
+    "start": 4.1,
+    "end": 5.01,
+    "segment": 0,
+    "key": "8ecc84be-6d34-4066-9066-3c11930f4b52"
+  },
+  {
+    "word": "wawkikuna",
+    "start": 5.09,
+    "end": 5.63,
+    "segment": 0,
+    "key": "d81b5df3-1ff1-49d1-884e-c3a29f8252fd"
+  },
+  {
+    "word": "panikuna.",
+    "start": 5.75,
+    "end": 6.43,
+    "segment": 0,
+    "key": "a383fca8-fce6-4b1e-8583-fbc4998009af"
+  },
+  {
+    "word": "Kayman,",
+    "start": 6.45,
+    "end": 6.98,
+    "segment": 1,
+    "key": "735d4a1b-751e-42d1-8e70-be224e774109"
+  },
+  {
+    "word": "kayman",
+    "start": 7.06,
+    "end": 7.28,
+    "segment": 1,
+    "key": "76b280f9-690f-4c7d-8db5-1f3987910f40"
+  },
+  {
+    "word": "shamuychik.",
+    "start": 7.36,
+    "end": 8.13,
+    "segment": 1,
+    "key": "4b1132c7-1306-4198-ad3e-d0812ffa95cc"
+  },
+  {
+    "word": "Ñukawan",
+    "start": 8.15,
+    "end": 8.83,
+    "segment": 2,
+    "key": "94f239e9-f3e4-496d-9b8f-43915735ea59"
+  },
+  {
+    "word": "purikrinchik.",
+    "start": 8.95,
+    "end": 9.8,
+    "segment": 2,
+    "key": "c96a2433-b572-4ba9-8cdc-5e606b0dacbb"
+  },
+  {
+    "word": "Ñuka",
+    "start": 10.04,
+    "end": 10.8,
+    "segment": 3,
+    "key": "890f45a8-68e5-4c5d-950e-b93396cc84d3"
+  },
+  {
+    "word": "ayllullaktata",
+    "start": 10.94,
+    "end": 11.71,
+    "segment": 3,
+    "key": "5a786be4-ad13-460b-86b3-d8be970c53ec"
+  },
+  {
+    "word": "riksichikrinimi.",
+    "start": 11.93,
+    "end": 13.15,
+    "segment": 3,
+    "key": "be1a8c8f-5b78-4f47-9c30-34e4b0b11c13"
+  },
+  {
+    "word": "Ñuka",
+    "start": 14.57,
+    "end": 15.01,
+    "segment": 4,
+    "key": "06776dbd-a9b8-4715-b572-bc04dea9276c"
+  },
+  {
+    "word": "ayllullaktataka",
+    "start": 15.09,
+    "end": 15.95,
+    "segment": 4,
+    "key": "855a492b-0637-41f6-9999-f3acd06d076d"
+  },
+  {
+    "word": "Esperanza",
+    "start": 16.27,
+    "end": 17.17,
+    "segment": 4,
+    "key": "94f05306-13ce-4e1a-9e10-397641067d8c"
+  },
+  {
+    "word": "nishpa",
+    "start": 17.33,
+    "end": 17.61,
+    "segment": 4,
+    "key": "96d643af-402f-4219-ba42-e78731b3e7e5"
+  },
+  {
+    "word": "riksin",
+    "start": 17.73,
+    "end": 18.01,
+    "segment": 4,
+    "key": "65d819a9-0d0e-47b6-87b4-25d4f66948a5"
+  },
+  {
+    "word": "karka,",
+    "start": 18.11,
+    "end": 18.75,
+    "segment": 4,
+    "key": "1eb4efed-780b-4d34-9a75-c70441178332"
+  },
+  {
+    "word": "shinapash",
+    "start": 18.83,
+    "end": 19.31,
+    "segment": 4,
+    "key": "0b99d5a8-167d-4217-9cc0-988bb7fc03ed"
+  },
+  {
+    "word": "na",
+    "start": 19.49,
+    "end": 19.51,
+    "segment": 4,
+    "key": "1f36ff32-05cf-431c-b104-0ec31fe7b468"
+  },
+  {
+    "word": "alli",
+    "start": 19.61,
+    "end": 19.77,
+    "segment": 4,
+    "key": "92c1d294-2250-4b86-a813-01eae9bfaded"
+  },
+  {
+    "word": "shimikuna",
+    "start": 19.92,
+    "end": 20.38,
+    "segment": 4,
+    "key": "eefe5fc4-060b-4957-ae82-588f1187dbe4"
+  },
+  {
+    "word": "tiyashkamanta",
+    "start": 20.5,
+    "end": 21.16,
+    "segment": 4,
+    "key": "ccd66724-2747-4336-a721-9d880db8eef5"
+  },
+  {
+    "word": "Jaboneropa",
+    "start": 21.7,
+    "end": 22.54,
+    "segment": 4,
+    "key": "5dfbbf73-a0b7-4d63-8178-704724f5e31a"
+  },
+  {
+    "word": "ayllullakta",
+    "start": 22.78,
+    "end": 23.38,
+    "segment": 4,
+    "key": "d4dbcad7-eb8a-4c13-b9f6-ed818d660211"
+  },
+  {
+    "word": "nishpa",
+    "start": 23.5,
+    "end": 23.76,
+    "segment": 4,
+    "key": "f4da8007-7b44-4705-a141-82a726bb4597"
+  },
+  {
+    "word": "riksinkuna.",
+    "start": 24.22,
+    "end": 25.12,
+    "segment": 4,
+    "key": "f5552318-34ba-41dc-8a45-b50a01a04723"
+  },
+  {
+    "word": "Ña",
+    "start": 25.3,
+    "end": 25.56,
+    "segment": 5,
+    "key": "a2e32b3b-525b-4ea6-ac0a-9bc9684e67a1"
+  },
+  {
+    "word": "imamanta",
+    "start": 25.78,
+    "end": 26.31,
+    "segment": 5,
+    "key": "7d8320e9-6170-42ad-a3cf-9cbd805da5cd"
+  },
+  {
+    "word": "shina",
+    "start": 26.43,
+    "end": 26.61,
+    "segment": 5,
+    "key": "2317fc40-3d8f-4968-a6bb-f170610d8e37"
+  },
+  {
+    "word": "riksikta",
+    "start": 26.73,
+    "end": 27.11,
+    "segment": 5,
+    "key": "c200d757-4576-4df3-9a03-294abda83838"
+  },
+  {
+    "word": "willakrinimi.",
+    "start": 27.49,
+    "end": 28.3,
+    "segment": 5,
+    "key": "2e2a90f0-e7c9-4957-8744-5bccbe079f77"
+  },
+  {
+    "word": "Jaboneropak",
+    "start": 29.19,
+    "end": 30.38,
+    "segment": 6,
+    "key": "b89cd296-8362-49bd-a22b-932a628d7a5a"
+  },
+  {
+    "word": "ayllullaktapi",
+    "start": 30.52,
+    "end": 31.43,
+    "segment": 6,
+    "key": "81af91ea-29e0-4747-889e-cf4c388489c9"
+  },
+  {
+    "word": "Pandemiamanta",
+    "start": 31.72,
+    "end": 32.79,
+    "segment": 7,
+    "key": "5e8d50a8-b9e8-442d-8ebf-f3275624d54a"
+  },
+  {
+    "word": "rimaykuna",
+    "start": 33.27,
+    "end": 33.88,
+    "segment": 7,
+    "key": "d803c528-87fe-4689-a63a-fc2ad4d6be95"
+  },
+  {
+    "word": "Shuk",
+    "start": 34.14,
+    "end": 34.56,
+    "segment": 8,
+    "key": "2fa775a3-35c9-42a8-8108-8104ecec58b0"
+  },
+  {
+    "word": "capítulo.",
+    "start": 34.75,
+    "end": 35.25,
+    "segment": 8,
+    "key": "fb2fd397-a85e-45bd-9fc0-7712392559d3"
+  },
+  {
+    "word": "Millay",
+    "start": 35.77,
+    "end": 36.45,
+    "segment": 9,
+    "key": "6e5d24ef-c510-40bb-b4eb-34d991ab0d9f"
+  },
+  {
+    "word": "ayapa",
+    "start": 36.51,
+    "end": 36.96,
+    "segment": 9,
+    "key": "092576b1-157d-42ba-8e97-708cf7b55d10"
+  },
+  {
+    "word": "marcawan",
+    "start": 37.08,
+    "end": 37.6,
+    "segment": 9,
+    "key": "ff37d3e9-b266-4aaf-8346-18c97333b874"
+  },
+  {
+    "word": "Mashi",
+    "start": 40.39,
+    "end": 40.93,
+    "segment": 10,
+    "key": "9f10a02b-de98-4e38-bc25-643e209818df"
+  },
+  {
+    "word": "Gumersinda,",
+    "start": 41.09,
+    "end": 42.16,
+    "segment": 10,
+    "key": "81df5977-4b67-4db4-8fcd-002d6f67d06c"
+  },
+  {
+    "word": "imanallatak",
+    "start": 42.22,
+    "end": 42.8,
+    "segment": 10,
+    "key": "b9416172-41bd-4c9d-9dba-52a8ce963742"
+  },
+  {
+    "word": "kapashkanki?",
+    "start": 42.88,
+    "end": 43.86,
+    "segment": 10,
+    "key": "d44d5a97-d140-4046-bc8c-c09d28ac9a7e"
+  },
+  {
+    "word": "Kaypi",
+    "start": 44.29,
+    "end": 44.81,
+    "segment": 11,
+    "key": "51fb9179-8c05-4bed-9dbc-f333cb6b00a2"
+  },
+  {
+    "word": "mana",
+    "start": 45.02,
+    "end": 45.24,
+    "segment": 11,
+    "key": "e3b14d0f-34a9-4186-ae2d-3f493309f3e4"
+  },
+  {
+    "word": "alli,",
+    "start": 45.42,
+    "end": 45.76,
+    "segment": 11,
+    "key": "e85acb09-9b1b-4304-bbdd-5ca8d2d68ed7"
+  },
+  {
+    "word": "mashi",
+    "start": 45.86,
+    "end": 46.07,
+    "segment": 11,
+    "key": "0de706d6-e0d3-4005-8381-641f19aefe54"
+  },
+  {
+    "word": "Eusebio.",
+    "start": 46.17,
+    "end": 46.61,
+    "segment": 11,
+    "key": "1d535f7b-8ea1-4872-a652-d4c2f08a73f6"
+  },
+  {
+    "word": "Ima",
+    "start": 46.69,
+    "end": 47.05,
+    "segment": 12,
+    "key": "6221ba6b-fece-444e-a230-8f28fac5dd90"
+  },
+  {
+    "word": "nishpa,",
+    "start": 47.25,
+    "end": 47.61,
+    "segment": 12,
+    "key": "a9b0da83-681a-450d-9b9f-67f928f6c614"
+  },
+  {
+    "word": "ima",
+    "start": 47.66,
+    "end": 47.78,
+    "segment": 12,
+    "key": "90e23b25-883c-4074-80b5-e326dc1fd5cf"
+  },
+  {
+    "word": "nishpa,",
+    "start": 47.92,
+    "end": 48.2,
+    "segment": 12,
+    "key": "98effadc-661f-4bf8-855f-e1be32510db9"
+  },
+  {
+    "word": "mashi.",
+    "start": 48.26,
+    "end": 48.54,
+    "segment": 12,
+    "key": "59f21a7d-5a77-45cc-8809-c5726d382e20"
+  },
+  {
+    "word": "Rikuway",
+    "start": 48.57,
+    "end": 49.15,
+    "segment": 13,
+    "key": "b63054ae-6c77-4259-826f-45a2a2ff8267"
+  },
+  {
+    "word": "imashinatak",
+    "start": 49.49,
+    "end": 50.07,
+    "segment": 13,
+    "key": "46b646b2-af9f-4396-a52b-1ae94022acbc"
+  },
+  {
+    "word": "kani,",
+    "start": 50.17,
+    "end": 50.71,
+    "segment": 13,
+    "key": "d66b6107-6a07-4ac8-9abf-e0281e7307d5"
+  },
+  {
+    "word": "chushak",
+    "start": 50.81,
+    "end": 51.21,
+    "segment": 13,
+    "key": "a0b8f526-0d7c-4e56-9c59-6e86ea56e05b"
+  },
+  {
+    "word": "makiwan",
+    "start": 51.29,
+    "end": 51.69,
+    "segment": 13,
+    "key": "f2d78a6f-cd40-4599-91f5-1ae468a64770"
+  },
+  {
+    "word": "kani,",
+    "start": 51.8,
+    "end": 52.46,
+    "segment": 13,
+    "key": "df6e7b48-3020-44d1-a778-902ec6157833"
+  },
+  {
+    "word": "kaypika",
+    "start": 52.56,
+    "end": 53.06,
+    "segment": 13,
+    "key": "6dcd9b2e-51d0-4035-b379-51be09084eb9"
+  },
+  {
+    "word": "nimatak",
+    "start": 53.24,
+    "end": 53.7,
+    "segment": 13,
+    "key": "104410f2-f68c-413c-a68b-62559bf8bf59"
+  },
+  {
+    "word": "mana",
+    "start": 53.78,
+    "end": 53.98,
+    "segment": 13,
+    "key": "cf233925-cf68-4b6b-b781-c7076fb83746"
+  },
+  {
+    "word": "katunichu.",
+    "start": 54.08,
+    "end": 54.84,
+    "segment": 13,
+    "key": "bdef337f-2087-4544-8dcd-92852ce705da"
+  },
+  {
+    "word": "Kay",
+    "start": 54.93,
+    "end": 55.17,
+    "segment": 14,
+    "key": "277f0e5d-dd2b-484c-adae-64d63da7b35d"
+  },
+  {
+    "word": "millay",
+    "start": 55.31,
+    "end": 55.57,
+    "segment": 14,
+    "key": "8952a414-2ae1-4790-aef5-ee720b3124e7"
+  },
+  {
+    "word": "unkuywan",
+    "start": 55.72,
+    "end": 56.16,
+    "segment": 14,
+    "key": "c1cda2bc-f51e-4fff-bc25-3aee84846fd8"
+  },
+  {
+    "word": "tukuyta",
+    "start": 56.28,
+    "end": 56.72,
+    "segment": 14,
+    "key": "97edfea7-b5e3-44b2-aecc-ebee6dcaf16e"
+  },
+  {
+    "word": "tukuchirkani.",
+    "start": 56.84,
+    "end": 57.65,
+    "segment": 14,
+    "key": "45db6e3b-0bb4-4119-b9b2-dba9dfdc740f"
+  },
+  {
+    "word": "Ah",
+    "start": 57.74,
+    "end": 58.34,
+    "segment": 15,
+    "key": "fa152997-03db-44a9-ae14-1c24b3988fa4"
+  },
+  {
+    "word": "mashi,",
+    "start": 58.48,
+    "end": 59.44,
+    "segment": 15,
+    "key": "3012e23c-f347-4c40-a50e-9b78eaf931fe"
+  },
+  {
+    "word": "ninkichu",
+    "start": 59.54,
+    "end": 59.98,
+    "segment": 15,
+    "key": "418e8bb5-40b1-495c-bce4-96b917e36afa"
+  },
+  {
+    "word": "mashi",
+    "start": 60.2,
+    "end": 60.42,
+    "segment": 15,
+    "key": "b0dcbcd1-235c-4e29-bd62-418b0cca20f8"
+  },
+  {
+    "word": "Gumer,",
+    "start": 60.54,
+    "end": 61.34,
+    "segment": 15,
+    "key": "50e7ec88-8171-41c7-884c-1744776bf22c"
+  },
+  {
+    "word": "kikinpak",
+    "start": 61.42,
+    "end": 61.91,
+    "segment": 15,
+    "key": "0beedf05-fbf2-425f-b4e1-352903f63008"
+  },
+  {
+    "word": "katuna",
+    "start": 61.99,
+    "end": 62.43,
+    "segment": 15,
+    "key": "0f2f8b1d-aa92-4151-900e-7e1865b75005"
+  },
+  {
+    "word": "ukupi",
+    "start": 62.53,
+    "end": 62.85,
+    "segment": 15,
+    "key": "30126dfb-87de-4834-b202-b72287d88ffe"
+  },
+  {
+    "word": "mana",
+    "start": 62.97,
+    "end": 63.15,
+    "segment": 15,
+    "key": "803d8388-4bcd-4473-a085-0c72244bb0a9"
+  },
+  {
+    "word": "katurikpika,",
+    "start": 63.23,
+    "end": 64.03,
+    "segment": 15,
+    "key": "1e4081e6-ad0d-450a-83a1-a20380acc864"
+  },
+  {
+    "word": "maypishi",
+    "start": 64.13,
+    "end": 64.63,
+    "segment": 15,
+    "key": "05f925d7-87f9-4ddb-b7bc-905e7361c9ed"
+  },
+  {
+    "word": "katurinka?",
+    "start": 64.73,
+    "end": 65.27,
+    "segment": 15,
+    "key": "7cfacaa9-6fdf-4ab0-9015-b4fff6175f9b"
+  },
+  {
+    "word": "Llakipachama",
+    "start": 66.88,
+    "end": 67.95,
+    "segment": 16,
+    "key": "bd76fe73-c17d-4e22-8b04-b66ea2a83f37"
+  },
+  {
+    "word": "kanchik,",
+    "start": 68.07,
+    "end": 68.35,
+    "segment": 16,
+    "key": "8824aa20-cf98-4e31-b2d8-27f4a39171f2"
+  },
+  {
+    "word": "mashi.",
+    "start": 68.42,
+    "end": 68.86,
+    "segment": 16,
+    "key": "5b07fdb8-1b7e-4a81-9c71-7e14cb566c2e"
+  },
+  {
+    "word": "Mejor",
+    "start": 68.88,
+    "end": 69.42,
+    "segment": 17,
+    "key": "137b8482-e8e7-4a68-bdd3-10088b5ef261"
+  },
+  {
+    "word": "mejorta",
+    "start": 69.54,
+    "end": 69.89,
+    "segment": 17,
+    "key": "46185d20-2185-4bf5-ade8-b4cb51d21fc2"
+  },
+  {
+    "word": "tamalkuta",
+    "start": 70.39,
+    "end": 70.91,
+    "segment": 17,
+    "key": "326e00c1-9c76-4329-a939-5761a7b1ef49"
+  },
+  {
+    "word": "chishiman",
+    "start": 71.03,
+    "end": 71.35,
+    "segment": 17,
+    "key": "902ac807-854f-43f0-a38f-c9dbf39087f9"
+  },
+  {
+    "word": "allichipanki,",
+    "start": 71.39,
+    "end": 71.86,
+    "segment": 17,
+    "key": "74f54bcb-1478-4113-80ef-38e6aec6d707"
+  },
+  {
+    "word": "mashi.",
+    "start": 71.92,
+    "end": 72.32,
+    "segment": 17,
+    "key": "27fcf6fe-a661-4989-b8be-70f9b49c1273"
+  },
+  {
+    "word": "Ari",
+    "start": 72.44,
+    "end": 72.86,
+    "segment": 18,
+    "key": "528a3637-a32b-4412-9922-6cbd7ea27ee2"
+  },
+  {
+    "word": "ari",
+    "start": 73.0,
+    "end": 73.18,
+    "segment": 18,
+    "key": "0e542fd0-0c49-4623-b60f-1d2f8a1ff6c3"
+  },
+  {
+    "word": "mashi",
+    "start": 73.38,
+    "end": 73.58,
+    "segment": 18,
+    "key": "8889d517-67a4-431c-b2f8-4d134cd60d3b"
+  },
+  {
+    "word": "Eusebio,",
+    "start": 73.66,
+    "end": 74.53,
+    "segment": 18,
+    "key": "34310824-5b93-452f-882c-aea73cc40a3e"
+  },
+  {
+    "word": "chayrak",
+    "start": 74.61,
+    "end": 75.01,
+    "segment": 18,
+    "key": "78df9b46-c6ed-4bb4-807e-1bd6146eea80"
+  },
+  {
+    "word": "shukkuta",
+    "start": 75.09,
+    "end": 75.41,
+    "segment": 18,
+    "key": "09bf2634-4e0f-4b68-8dbf-d9e51c93e0cc"
+  },
+  {
+    "word": "katuni.",
+    "start": 75.51,
+    "end": 76.13,
+    "segment": 18,
+    "key": "3ae5157e-4533-4083-820e-620b3274c700"
+  },
+  {
+    "word": "Mashi,",
+    "start": 76.36,
+    "end": 77.06,
+    "segment": 19,
+    "key": "7b366650-8fa6-4db2-8278-c91c0406f518"
+  },
+  {
+    "word": "mascarillataka",
+    "start": 77.14,
+    "end": 78.0,
+    "segment": 19,
+    "key": "57b17d79-48db-4196-aa40-060a37dbf205"
+  },
+  {
+    "word": "allita",
+    "start": 78.22,
+    "end": 78.64,
+    "segment": 19,
+    "key": "26ab357c-3e3a-4c43-a4a0-9cb82522703d"
+  },
+  {
+    "word": "churakuy,",
+    "start": 78.76,
+    "end": 79.72,
+    "segment": 19,
+    "key": "c5da8bec-24ba-4788-b60d-c94cc271642f"
+  },
+  {
+    "word": "kay",
+    "start": 79.81,
+    "end": 79.97,
+    "segment": 19,
+    "key": "c7d1a7e3-680c-40e0-88c9-ded2ccd73c44"
+  },
+  {
+    "word": "millay",
+    "start": 80.13,
+    "end": 80.41,
+    "segment": 19,
+    "key": "1f271185-8a8c-494f-8d94-5764b419efe3"
+  },
+  {
+    "word": "unkuyka",
+    "start": 80.47,
+    "end": 80.85,
+    "segment": 19,
+    "key": "9f9a08fc-cd49-4827-8062-b38b0702e8b3"
+  },
+  {
+    "word": "mana",
+    "start": 81.47,
+    "end": 81.91,
+    "segment": 19,
+    "key": "7cf76d1b-3da0-4e54-a391-4d2c701ef7d5"
+  },
+  {
+    "word": "kishpichikunchu!",
+    "start": 82.09,
+    "end": 83.19,
+    "segment": 19,
+    "key": "865a23f7-9e75-4d3c-bd3e-299d4078c94c"
+  },
+  {
+    "word": "Gumersinda",
+    "start": 84.98,
+    "end": 85.84,
+    "segment": 20,
+    "key": "cfe022a2-2100-418f-b64c-2777a7a21d3d"
+  },
+  {
+    "word": "mashika",
+    "start": 85.96,
+    "end": 86.77,
+    "segment": 20,
+    "key": "aff532b3-3c7c-4846-82d1-6704862fb1cd"
+  },
+  {
+    "word": "alli,",
+    "start": 86.79,
+    "end": 87.41,
+    "segment": 20,
+    "key": "ba929a0d-62d2-43d5-aa13-0fd65a078943"
+  },
+  {
+    "word": "kuyak",
+    "start": 87.53,
+    "end": 87.87,
+    "segment": 20,
+    "key": "86650b16-e12b-41b2-8fae-4e1c2287b7f9"
+  },
+  {
+    "word": "warmimi",
+    "start": 87.97,
+    "end": 88.36,
+    "segment": 20,
+    "key": "991a2524-0a96-4a9e-b4d1-b444ffb88ed9"
+  },
+  {
+    "word": "kan.",
+    "start": 88.5,
+    "end": 88.96,
+    "segment": 20,
+    "key": "bd83a811-32d2-409c-9100-79e1cc7e2b66"
+  },
+  {
+    "word": "Ñami",
+    "start": 89.17,
+    "end": 89.55,
+    "segment": 21,
+    "key": "7fb9f50e-c23a-4183-819b-6a86450339b9"
+  },
+  {
+    "word": "paypak",
+    "start": 89.72,
+    "end": 90.02,
+    "segment": 21,
+    "key": "79ff183b-2fdf-4b29-b9cd-6c2074e19e26"
+  },
+  {
+    "word": "watakunata",
+    "start": 90.1,
+    "end": 90.68,
+    "segment": 21,
+    "key": "b11b738f-ed45-4942-81b5-f5ed655a0bae"
+  },
+  {
+    "word": "charin.",
+    "start": 90.81,
+    "end": 91.29,
+    "segment": 21,
+    "key": "a64ce93c-b1c1-4fb4-ae66-2d3b99652cf9"
+  },
+  {
+    "word": "Mana",
+    "start": 91.46,
+    "end": 91.96,
+    "segment": 22,
+    "key": "5b8d9be6-b116-4935-8c7f-e9161faf3f87"
+  },
+  {
+    "word": "huchayuk,",
+    "start": 92.12,
+    "end": 93.04,
+    "segment": 22,
+    "key": "73f7c14c-b36b-4c45-a25c-217892fd5177"
+  },
+  {
+    "word": "pichana",
+    "start": 93.12,
+    "end": 93.52,
+    "segment": 22,
+    "key": "c9b115a3-6778-4e97-a55e-a71fefd19bdb"
+  },
+  {
+    "word": "kaspishina",
+    "start": 93.64,
+    "end": 94.26,
+    "segment": 22,
+    "key": "423fd7d0-d064-46a2-9acd-b0663a0457fa"
+  },
+  {
+    "word": "alli",
+    "start": 94.87,
+    "end": 95.13,
+    "segment": 22,
+    "key": "a476dc4e-2e07-4aba-aa20-3cae87020f21"
+  },
+  {
+    "word": "shayarishka",
+    "start": 95.25,
+    "end": 95.85,
+    "segment": 22,
+    "key": "89216081-f9ea-4020-a9f1-c0fd973811d7"
+  },
+  {
+    "word": "recta",
+    "start": 96.09,
+    "end": 96.45,
+    "segment": 22,
+    "key": "fe03c20b-cfaa-46a3-abdf-b5381dc1cbc1"
+  },
+  {
+    "word": "warmimi",
+    "start": 96.59,
+    "end": 96.91,
+    "segment": 22,
+    "key": "59d134f8-dc2e-407e-81dd-abc491c48789"
+  },
+  {
+    "word": "kan.",
+    "start": 97.05,
+    "end": 97.57,
+    "segment": 22,
+    "key": "ec1972f0-c9a1-4f6c-88ce-b5f512fd33ca"
+  },
+  {
+    "word": "Shinapash",
+    "start": 97.68,
+    "end": 98.5,
+    "segment": 23,
+    "key": "2db545a1-b984-4007-8d62-c46640b5cd08"
+  },
+  {
+    "word": "kay",
+    "start": 98.74,
+    "end": 98.84,
+    "segment": 23,
+    "key": "b65c7fcd-b8a1-497d-94a6-9cbe3758fe63"
+  },
+  {
+    "word": "pandemiawanka,",
+    "start": 99.02,
+    "end": 100.3,
+    "segment": 23,
+    "key": "6d3f7ca0-2c35-4a8b-872e-4ad4283c2e9a"
+  },
+  {
+    "word": "ah",
+    "start": 100.36,
+    "end": 100.66,
+    "segment": 23,
+    "key": "cf174e43-163e-43d3-954a-61b1684210bc"
+  },
+  {
+    "word": "imacha,",
+    "start": 100.78,
+    "end": 101.79,
+    "segment": 23,
+    "key": "7f03b093-d957-45c9-9cbf-494635404157"
+  },
+  {
+    "word": "imashina",
+    "start": 101.85,
+    "end": 102.41,
+    "segment": 23,
+    "key": "31e01a19-976e-4685-beb3-63b49ce67cf9"
+  },
+  {
+    "word": "shamukpi",
+    "start": 102.53,
+    "end": 102.97,
+    "segment": 23,
+    "key": "178650ee-f244-4ef4-967c-fb7debf8c114"
+  },
+  {
+    "word": "rikushpa",
+    "start": 103.37,
+    "end": 103.87,
+    "segment": 23,
+    "key": "26fb53ad-61a9-4ef4-a05e-fb8c52e94bed"
+  },
+  {
+    "word": "katinakunchik.",
+    "start": 104.03,
+    "end": 104.89,
+    "segment": 23,
+    "key": "f65f6022-54cd-4fd7-9d6a-e6adbd928c4c"
+  },
+  {
+    "word": "Rikuychik,",
+    "start": 107.22,
+    "end": 107.86,
+    "segment": 24,
+    "key": "18e8eb2e-9893-4121-8d8a-d433dab4b9b0"
+  },
+  {
+    "word": "rikuychik,",
+    "start": 107.92,
+    "end": 108.54,
+    "segment": 24,
+    "key": "779ccd39-3cea-4157-a1cf-73eaf320e576"
+  },
+  {
+    "word": "chayta",
+    "start": 108.62,
+    "end": 109.0,
+    "segment": 24,
+    "key": "b162fbd8-3a65-4cff-a510-06a90d07075e"
+  },
+  {
+    "word": "chapamukukka",
+    "start": 109.14,
+    "end": 109.88,
+    "segment": 24,
+    "key": "67a7921e-57ff-46aa-b8e3-aa08a744e450"
+  },
+  {
+    "word": "Apoloniomi",
+    "start": 110.36,
+    "end": 111.12,
+    "segment": 24,
+    "key": "fa7ba957-59fa-4131-a167-4c07505f2057"
+  },
+  {
+    "word": "kan,",
+    "start": 111.29,
+    "end": 111.85,
+    "segment": 24,
+    "key": "a395f9e6-c589-4369-9f9e-2cce51068840"
+  },
+  {
+    "word": "payka",
+    "start": 111.93,
+    "end": 112.21,
+    "segment": 24,
+    "key": "d5b47ae7-6183-433a-b3c5-9abdc10c4b64"
+  },
+  {
+    "word": "raku",
+    "start": 112.39,
+    "end": 112.81,
+    "segment": 24,
+    "key": "4798705b-8c26-4c7f-a82e-d7295133ed87"
+  },
+  {
+    "word": "runa,",
+    "start": 112.93,
+    "end": 113.65,
+    "segment": 24,
+    "key": "ce65addf-5724-46cd-8051-3132a8c9c28a"
+  },
+  {
+    "word": "antawakunawan",
+    "start": 113.71,
+    "end": 114.59,
+    "segment": 24,
+    "key": "7c211d95-e408-429e-9b5d-87643cee49df"
+  },
+  {
+    "word": "llamkan.",
+    "start": 114.65,
+    "end": 115.17,
+    "segment": 24,
+    "key": "b7cd7052-26e8-4a7b-a494-469a695a682f"
+  },
+  {
+    "word": "Tukuy",
+    "start": 115.48,
+    "end": 116.04,
+    "segment": 25,
+    "key": "cbf45562-3875-4fbe-b8dc-20257cb4a52c"
+  },
+  {
+    "word": "pachapi",
+    "start": 116.16,
+    "end": 116.58,
+    "segment": 25,
+    "key": "54fa77e1-5f7e-4fe8-b720-cf85dd14741c"
+  },
+  {
+    "word": "mapa",
+    "start": 116.75,
+    "end": 117.01,
+    "segment": 25,
+    "key": "4eaf9724-0856-405d-90b3-b5680084ef9c"
+  },
+  {
+    "word": "mapa",
+    "start": 117.25,
+    "end": 117.63,
+    "segment": 25,
+    "key": "ea9f205a-86b0-42e8-8bc4-cdae4b16be74"
+  },
+  {
+    "word": "wira",
+    "start": 118.03,
+    "end": 118.29,
+    "segment": 25,
+    "key": "e15b8d50-822d-47c8-be27-307f447d8ea8"
+  },
+  {
+    "word": "hunta,",
+    "start": 118.53,
+    "end": 118.92,
+    "segment": 25,
+    "key": "978f3562-274d-4b99-8148-68423d5af718"
+  },
+  {
+    "word": "churanakunawan.",
+    "start": 118.98,
+    "end": 119.9,
+    "segment": 25,
+    "key": "7034064b-3ae8-49b3-8de3-7bd87e6ce632"
+  },
+  {
+    "word": "Tukuykuna",
+    "start": 119.92,
+    "end": 120.74,
+    "segment": 26,
+    "key": "6dd05d6d-31e4-455a-a768-caf22e34e117"
+  },
+  {
+    "word": "shina,",
+    "start": 120.89,
+    "end": 121.45,
+    "segment": 26,
+    "key": "0b3fa3ae-80bc-45d6-ac90-8133376f988a"
+  },
+  {
+    "word": "ashalla",
+    "start": 121.53,
+    "end": 122.13,
+    "segment": 26,
+    "key": "b9c3f754-fcea-4db9-8b2c-a15d58773c9d"
+  },
+  {
+    "word": "llamkayta",
+    "start": 122.19,
+    "end": 122.72,
+    "segment": 26,
+    "key": "d69341d9-92ad-4006-900c-f7daaf7dce12"
+  },
+  {
+    "word": "charin.",
+    "start": 122.82,
+    "end": 123.36,
+    "segment": 26,
+    "key": "31842071-c908-4b6f-ad76-61d32138c673"
+  },
+  {
+    "word": "Kay",
+    "start": 123.53,
+    "end": 123.91,
+    "segment": 27,
+    "key": "772274cc-0df3-4ab0-bd36-41f24f9f2f63"
+  },
+  {
+    "word": "llaktapika",
+    "start": 123.99,
+    "end": 124.67,
+    "segment": 27,
+    "key": "350cbe0c-7f3d-4372-8137-bb8c11ed4413"
+  },
+  {
+    "word": "llamkay",
+    "start": 125.05,
+    "end": 125.54,
+    "segment": 27,
+    "key": "b30254ee-c31c-4f49-a083-ad4a2bbc2ba1"
+  },
+  {
+    "word": "mana",
+    "start": 125.66,
+    "end": 125.86,
+    "segment": 27,
+    "key": "6f60b44d-e488-4784-954a-f3620350f5fd"
+  },
+  {
+    "word": "tiyashkamantami",
+    "start": 125.96,
+    "end": 126.78,
+    "segment": 27,
+    "key": "e419245e-bb5a-4c74-9cbb-da25e9b55531"
+  },
+  {
+    "word": "millay",
+    "start": 127.28,
+    "end": 127.56,
+    "segment": 27,
+    "key": "a32b434b-e71a-4024-8686-12a603b2bff7"
+  },
+  {
+    "word": "unkuytapash",
+    "start": 127.64,
+    "end": 128.28,
+    "segment": 27,
+    "key": "06d81c93-8af7-4774-aa3a-702123130929"
+  },
+  {
+    "word": "yalli",
+    "start": 128.61,
+    "end": 128.89,
+    "segment": 27,
+    "key": "68ce7ad8-8479-4e3a-a14b-ec8d9b7e9105"
+  },
+  {
+    "word": "llakichishka.",
+    "start": 128.97,
+    "end": 129.89,
+    "segment": 27,
+    "key": "ff86223d-d144-4ac9-8f09-ef1f1d5f098b"
+  },
+  {
+    "word": "Willachiwarkami,",
+    "start": 130.23,
+    "end": 132.51,
+    "segment": 28,
+    "key": "f9e2e09e-6892-45ff-a992-e8cc12a0e894"
+  },
+  {
+    "word": "shinacha",
+    "start": 132.63,
+    "end": 133.03,
+    "segment": 28,
+    "key": "73d7400f-33f6-4540-a2ad-34e6c5e1c757"
+  },
+  {
+    "word": "imacha,",
+    "start": 133.11,
+    "end": 133.72,
+    "segment": 28,
+    "key": "15553040-32a7-4609-816a-0711463dbc4c"
+  },
+  {
+    "word": "shinapash",
+    "start": 133.84,
+    "end": 134.32,
+    "segment": 28,
+    "key": "c248e1a8-598c-49b8-a6b4-7f406316c68d"
+  },
+  {
+    "word": "kashna",
+    "start": 134.62,
+    "end": 135.08,
+    "segment": 28,
+    "key": "b70caa00-e17f-4acc-8808-6ad66fb1ccb8"
+  },
+  {
+    "word": "ninakunmi,",
+    "start": 135.22,
+    "end": 135.88,
+    "segment": 28,
+    "key": "876562d8-a321-4791-a296-401dd057d8f5"
+  },
+  {
+    "word": "uyankichik,",
+    "start": 135.94,
+    "end": 137.06,
+    "segment": 28,
+    "key": "57c542d1-eb02-4e9d-9c0b-03ae1bee1e2e"
+  },
+  {
+    "word": "Apolonio",
+    "start": 137.14,
+    "end": 137.78,
+    "segment": 28,
+    "key": "46c7af11-7682-4368-b21f-2f0c2a611019"
+  },
+  {
+    "word": "runaka",
+    "start": 137.9,
+    "end": 138.3,
+    "segment": 28,
+    "key": "841e9955-9fd8-42dc-9aae-bdb48578ca21"
+  },
+  {
+    "word": "tutakunami",
+    "start": 138.8,
+    "end": 139.54,
+    "segment": 28,
+    "key": "d6adc7f1-f17f-4a0b-85ce-bbe592d8305e"
+  },
+  {
+    "word": "ñanpi",
+    "start": 139.81,
+    "end": 140.11,
+    "segment": 28,
+    "key": "5c17d569-c539-40c7-bfc3-0734920722bc"
+  },
+  {
+    "word": "tachuelakunata",
+    "start": 140.27,
+    "end": 141.05,
+    "segment": 28,
+    "key": "a80afb6d-0872-4012-ac38-c49239f6ff4a"
+  },
+  {
+    "word": "shitankapak",
+    "start": 141.21,
+    "end": 141.87,
+    "segment": 28,
+    "key": "0bb740c7-59b4-4ebd-9093-c33b4a850824"
+  },
+  {
+    "word": "llukshin",
+    "start": 142.11,
+    "end": 142.51,
+    "segment": 28,
+    "key": "626a22fc-cd08-4feb-b8a7-86f5be1900a5"
+  },
+  {
+    "word": "nin.",
+    "start": 142.61,
+    "end": 142.93,
+    "segment": 28,
+    "key": "8487b05e-5eaf-4074-84f6-667f03c2bed5"
+  },
+  {
+    "word": "Antawakunapa",
+    "start": 143.46,
+    "end": 144.6,
+    "segment": 29,
+    "key": "30d24acd-7d40-40d2-8f83-df2ac220ab31"
+  },
+  {
+    "word": "llantakuna",
+    "start": 144.7,
+    "end": 145.42,
+    "segment": 29,
+    "key": "f838e54b-70f8-45ad-89f4-721f0d7b84b6"
+  },
+  {
+    "word": "tukyakpika",
+    "start": 145.55,
+    "end": 146.11,
+    "segment": 29,
+    "key": "98eb3993-3a55-42ed-bde9-59a47b01677c"
+  },
+  {
+    "word": "payka",
+    "start": 146.59,
+    "end": 146.95,
+    "segment": 29,
+    "key": "69a2fdfd-6725-4732-b77c-6a74082e5175"
+  },
+  {
+    "word": "allichishpa",
+    "start": 147.13,
+    "end": 147.91,
+    "segment": 29,
+    "key": "a139e442-d38c-4869-b3a1-0991d23c5974"
+  },
+  {
+    "word": "katin",
+    "start": 148.07,
+    "end": 148.35,
+    "segment": 29,
+    "key": "d2df855f-179b-4b1f-b4b6-169123f6159d"
+  },
+  {
+    "word": "nin,",
+    "start": 148.45,
+    "end": 149.11,
+    "segment": 29,
+    "key": "783a585b-f9c8-4125-b31e-b63445648804"
+  },
+  {
+    "word": "shinacha",
+    "start": 149.19,
+    "end": 149.5,
+    "segment": 29,
+    "key": "a7d16270-940c-44bd-87d3-adf9b40dca25"
+  },
+  {
+    "word": "imacha,",
+    "start": 149.56,
+    "end": 150.04,
+    "segment": 29,
+    "key": "f2b00268-5166-4abd-b141-d252695391a4"
+  },
+  {
+    "word": "shinapash",
+    "start": 150.1,
+    "end": 150.48,
+    "segment": 29,
+    "key": "011cd79b-cb80-4d3a-80b0-d2fe829564b8"
+  },
+  {
+    "word": "kashna",
+    "start": 150.58,
+    "end": 150.86,
+    "segment": 29,
+    "key": "b9d8d82a-4dba-4176-98db-c6bf8792efc7"
+  },
+  {
+    "word": "nin.",
+    "start": 150.98,
+    "end": 151.34,
+    "segment": 29,
+    "key": "f2bb03d9-982c-4c4e-b81b-0252ba40a479"
+  },
+  {
+    "word": "Apolonio.",
+    "start": 152.26,
+    "end": 153.25,
+    "segment": 30,
+    "key": "320e49e2-16e9-4abb-8ebf-dd8e5f852987"
+  },
+  {
+    "word": "Imanalla",
+    "start": 153.27,
+    "end": 154.1,
+    "segment": 31,
+    "key": "e850d329-903d-435a-83ea-9cccd64c2402"
+  },
+  {
+    "word": "kanki.",
+    "start": 154.22,
+    "end": 154.89,
+    "segment": 31,
+    "key": "4e4a66bb-8110-4195-a8a4-0d27a85a5678"
+  },
+  {
+    "word": "Imashinatak",
+    "start": 154.91,
+    "end": 155.66,
+    "segment": 32,
+    "key": "8f342d32-5f6b-4648-b570-a3f28036ba3b"
+  },
+  {
+    "word": "kawsakunki?",
+    "start": 155.76,
+    "end": 156.65,
+    "segment": 32,
+    "key": "f1a60b6c-1ef1-4046-8519-32f80d81d533"
+  },
+  {
+    "word": "Kaypi",
+    "start": 156.67,
+    "end": 156.97,
+    "segment": 33,
+    "key": "71940415-3da9-4aaa-808b-1ad2d71734a3"
+  },
+  {
+    "word": "shinalla,",
+    "start": 157.11,
+    "end": 158.08,
+    "segment": 33,
+    "key": "33553b87-93fb-4dc6-bd12-a16bb3a355cf"
+  },
+  {
+    "word": "mashi",
+    "start": 158.14,
+    "end": 158.38,
+    "segment": 33,
+    "key": "e97f0a76-ec0e-4b7f-b6e4-6509bb8dcf9c"
+  },
+  {
+    "word": "Eusebio.",
+    "start": 158.52,
+    "end": 159.06,
+    "segment": 33,
+    "key": "2d5a9e04-22a0-44b0-980f-3c3e1cf5a7f2"
+  },
+  {
+    "word": "Imashinalla",
+    "start": 159.08,
+    "end": 159.79,
+    "segment": 34,
+    "key": "d3563e3d-7c98-4012-8ab5-6e7a0593a753"
+  },
+  {
+    "word": "mashi,",
+    "start": 159.87,
+    "end": 160.13,
+    "segment": 34,
+    "key": "80bc5041-d66c-455b-b67f-3b415ac253f4"
+  },
+  {
+    "word": "imashinalla.",
+    "start": 160.17,
+    "end": 160.96,
+    "segment": 34,
+    "key": "2fa40b47-61d8-4488-bfa6-f13def28f56f"
+  },
+  {
+    "word": "Ñukaka",
+    "start": 161.13,
+    "end": 161.59,
+    "segment": 35,
+    "key": "9f4741b1-22f5-4601-907a-90f5257fea96"
+  },
+  {
+    "word": "mana",
+    "start": 162.14,
+    "end": 162.44,
+    "segment": 35,
+    "key": "5c819bae-26da-421a-bfb0-63608f89ea83"
+  },
+  {
+    "word": "wakarinichu.",
+    "start": 163.04,
+    "end": 163.93,
+    "segment": 35,
+    "key": "cb4d4b16-e611-48fe-9370-1b52a8c79e71"
+  },
+  {
+    "word": "Wakin",
+    "start": 164.18,
+    "end": 164.6,
+    "segment": 36,
+    "key": "47f3e61f-c879-4e0a-9cf7-f8ca93bf3fc7"
+  },
+  {
+    "word": "llantakunata",
+    "start": 164.66,
+    "end": 165.3,
+    "segment": 36,
+    "key": "c203db7e-01ed-4b55-8f76-ddb17900c069"
+  },
+  {
+    "word": "charinkapak",
+    "start": 165.4,
+    "end": 166.04,
+    "segment": 36,
+    "key": "178fa9db-5dfc-4da6-82c9-33be3777ebac"
+  },
+  {
+    "word": "pachamamapa",
+    "start": 166.17,
+    "end": 166.77,
+    "segment": 36,
+    "key": "b7eab599-a821-4339-84ff-3df2a6cf24c6"
+  },
+  {
+    "word": "alli",
+    "start": 166.89,
+    "end": 167.07,
+    "segment": 36,
+    "key": "224f8b09-ac29-4772-9152-860b429b1a95"
+  },
+  {
+    "word": "yanapawashkami.",
+    "start": 167.17,
+    "end": 167.99,
+    "segment": 36,
+    "key": "a3a9d3e3-b1ea-463f-8e5f-55d76e06faaf"
+  },
+  {
+    "word": "Imashina",
+    "start": 168.11,
+    "end": 168.78,
+    "segment": 37,
+    "key": "7cfb4c42-3b03-4376-af46-09b7f661a592"
+  },
+  {
+    "word": "ninki,",
+    "start": 168.9,
+    "end": 169.36,
+    "segment": 37,
+    "key": "c092be07-cee0-4012-b0ff-828f2ac8ce90"
+  },
+  {
+    "word": "pachakamak?",
+    "start": 169.44,
+    "end": 170.33,
+    "segment": 37,
+    "key": "a8f8b6ca-3d9c-4fd1-84f3-0182dc9b2134"
+  },
+  {
+    "word": "O",
+    "start": 170.35,
+    "end": 170.35,
+    "segment": 38,
+    "key": "43731c54-492c-4e4a-ad55-db1488bf3cbe"
+  },
+  {
+    "word": "mana",
+    "start": 170.69,
+    "end": 170.9,
+    "segment": 38,
+    "key": "bda0315c-5678-43fc-907e-8ebb70b6e831"
+  },
+  {
+    "word": "kashpa",
+    "start": 171.04,
+    "end": 171.28,
+    "segment": 38,
+    "key": "546ea54c-077d-4700-9ecf-3d954ca44dae"
+  },
+  {
+    "word": "supay,",
+    "start": 171.44,
+    "end": 171.85,
+    "segment": 38,
+    "key": "fc528845-0bc8-403a-9962-ab28f00aa9d9"
+  },
+  {
+    "word": "pi?",
+    "start": 171.95,
+    "end": 172.19,
+    "segment": 38,
+    "key": "017fb3d5-fa3c-4ad3-95b7-bb269aca9a5a"
+  },
+  {
+    "word": "Imashina",
+    "start": 172.83,
+    "end": 173.51,
+    "segment": 39,
+    "key": "c31669ae-67c7-4047-bdce-d8283288e34b"
+  },
+  {
+    "word": "ninki,",
+    "start": 173.64,
+    "end": 173.82,
+    "segment": 39,
+    "key": "319d3307-755e-4ccf-ae59-e66f6361e832"
+  },
+  {
+    "word": "mashi?",
+    "start": 173.9,
+    "end": 174.3,
+    "segment": 39,
+    "key": "249becaf-72bc-4012-8c30-f7c0b8dab3ec"
+  },
+  {
+    "word": "Kay",
+    "start": 175.86,
+    "end": 176.16,
+    "segment": 40,
+    "key": "91d2716e-edcb-4b8c-9a44-af2f5d8e32bd"
+  },
+  {
+    "word": "ayllullaktapika",
+    "start": 176.3,
+    "end": 177.14,
+    "segment": 40,
+    "key": "c5ca5332-9932-4700-b43f-a5abfce5fd60"
+  },
+  {
+    "word": "tukuy",
+    "start": 177.4,
+    "end": 177.75,
+    "segment": 40,
+    "key": "766fa8c0-b08e-4667-8fd1-93a100298e48"
+  },
+  {
+    "word": "layakunami",
+    "start": 177.91,
+    "end": 178.69,
+    "segment": 40,
+    "key": "d7509f8f-da02-42ec-a690-514d1b3a9c6f"
+  },
+  {
+    "word": "tiyan.",
+    "start": 178.79,
+    "end": 179.35,
+    "segment": 40,
+    "key": "214e07df-1184-4ca5-a9e4-3416e0194009"
+  },
+  {
+    "word": "Nortemanta",
+    "start": 179.67,
+    "end": 180.69,
+    "segment": 41,
+    "key": "de7c5cc6-1d2f-43e4-a0fb-9bdc78aa7a2a"
+  },
+  {
+    "word": "mashikuna,",
+    "start": 180.81,
+    "end": 181.91,
+    "segment": 41,
+    "key": "b4420f01-d595-448a-a3eb-f902f2163540"
+  },
+  {
+    "word": "surmanta",
+    "start": 182.1,
+    "end": 182.74,
+    "segment": 41,
+    "key": "2acb67e7-963f-44b3-91a8-a5920fc62f6b"
+  },
+  {
+    "word": "mashikunapash,",
+    "start": 182.86,
+    "end": 183.96,
+    "segment": 41,
+    "key": "63e4a3cf-4660-4ca7-9e00-057c96329098"
+  },
+  {
+    "word": "Amazoníamanta",
+    "start": 184.02,
+    "end": 185.34,
+    "segment": 41,
+    "key": "e21de768-e7e0-4f48-b5a1-a7978d3cf294"
+  },
+  {
+    "word": "mashi,",
+    "start": 185.46,
+    "end": 186.0,
+    "segment": 41,
+    "key": "b58550ef-1d02-4041-a1cd-0061e484e6f4"
+  },
+  {
+    "word": "wawki",
+    "start": 186.14,
+    "end": 186.5,
+    "segment": 41,
+    "key": "2a225369-378f-488c-9d92-e1d4c1296b1f"
+  },
+  {
+    "word": "panikunapash,",
+    "start": 186.62,
+    "end": 187.71,
+    "segment": 41,
+    "key": "aeee8c86-4116-4133-83fd-52bc3199bda7"
+  },
+  {
+    "word": "Costamantakunapash.",
+    "start": 187.81,
+    "end": 189.07,
+    "segment": 41,
+    "key": "2bad5889-7793-4fb2-a783-887d41ce698e"
+  },
+  {
+    "word": "Mashi",
+    "start": 189.13,
+    "end": 189.51,
+    "segment": 42,
+    "key": "75a5ee3a-e3e2-41f6-9324-cdc2f5f56844"
+  },
+  {
+    "word": "Eusebio,",
+    "start": 189.65,
+    "end": 190.84,
+    "segment": 42,
+    "key": "b964b96b-d0a2-4e29-bb4b-0099df93dea9"
+  },
+  {
+    "word": "mashi",
+    "start": 190.92,
+    "end": 191.18,
+    "segment": 42,
+    "key": "5272e460-7a3e-451a-98a9-6dd2b7a8001d"
+  },
+  {
+    "word": "Eusebio,",
+    "start": 191.3,
+    "end": 192.46,
+    "segment": 42,
+    "key": "54be537a-787b-4440-8742-5c8886135f53"
+  },
+  {
+    "word": "kunuklla",
+    "start": 192.56,
+    "end": 193.0,
+    "segment": 42,
+    "key": "facc9ffb-3650-486c-a8f8-466ce94df193"
+  },
+  {
+    "word": "sara",
+    "start": 193.12,
+    "end": 193.28,
+    "segment": 42,
+    "key": "d2bf45ea-9f58-4422-b504-c6bcb3d7a757"
+  },
+  {
+    "word": "tantakuta",
+    "start": 193.42,
+    "end": 193.9,
+    "segment": 42,
+    "key": "c99cbb20-a30d-4e10-afd7-15b555e66335"
+  },
+  {
+    "word": "katukuni,",
+    "start": 194.0,
+    "end": 194.55,
+    "segment": 42,
+    "key": "3f89aadd-5cc0-4afa-9b1d-dcc0d575dd3b"
+  },
+  {
+    "word": "manachu",
+    "start": 194.63,
+    "end": 194.97,
+    "segment": 42,
+    "key": "c912e94b-f044-412d-bc89-a3f5916214f6"
+  },
+  {
+    "word": "munanki?",
+    "start": 195.05,
+    "end": 195.79,
+    "segment": 42,
+    "key": "b756282c-fc4a-4cbe-8dc1-905e6d9ad3d0"
+  },
+  {
+    "word": "Shukkuta,",
+    "start": 195.87,
+    "end": 196.44,
+    "segment": 43,
+    "key": "4c3823c1-286e-4dd4-891b-6ffe47fac261"
+  },
+  {
+    "word": "shukkuta",
+    "start": 196.52,
+    "end": 196.84,
+    "segment": 43,
+    "key": "6b52e443-c920-454c-a628-23aee6250de8"
+  },
+  {
+    "word": "mashi",
+    "start": 196.94,
+    "end": 197.12,
+    "segment": 43,
+    "key": "0c46a9ac-8ac8-4409-a4a8-fe590b20d421"
+  },
+  {
+    "word": "karaway.",
+    "start": 197.22,
+    "end": 197.77,
+    "segment": 43,
+    "key": "f24baaac-3067-4074-b9ad-b6e1df6ff99a"
+  },
+  {
+    "word": "Ecuadormantallatak",
+    "start": 199.45,
+    "end": 200.65,
+    "segment": 44,
+    "key": "9a089864-5d29-45f9-9c0d-80e97a5e0f39"
+  },
+  {
+    "word": "ayllukuna,",
+    "start": 200.71,
+    "end": 201.59,
+    "segment": 44,
+    "key": "29a0d7d0-f51e-464e-8939-ef492d4af46e"
+  },
+  {
+    "word": "Boliviamanta,",
+    "start": 201.67,
+    "end": 202.82,
+    "segment": 44,
+    "key": "23774af5-b890-4df3-816e-9cbe8a46e06c"
+  },
+  {
+    "word": "Perúmanta",
+    "start": 202.9,
+    "end": 203.6,
+    "segment": 44,
+    "key": "283beb26-8b4c-4ac6-8fb5-52beb6f0f94e"
+  },
+  {
+    "word": "wawki",
+    "start": 203.76,
+    "end": 204.04,
+    "segment": 44,
+    "key": "bd8a1edf-8663-4f2f-b231-12f2674b3157"
+  },
+  {
+    "word": "panikunami",
+    "start": 204.14,
+    "end": 204.74,
+    "segment": 44,
+    "key": "75a7bcbd-d251-47a5-a828-9f93824d3bc0"
+  },
+  {
+    "word": "chayamushka.",
+    "start": 205.1,
+    "end": 205.98,
+    "segment": 44,
+    "key": "77ec25a5-4216-490e-9ce6-0040428cad0f"
+  },
+  {
+    "word": "Shamuychik,",
+    "start": 206.21,
+    "end": 207.25,
+    "segment": 45,
+    "key": "caaf16c3-105a-48ac-94a3-0dcaf607a6a9"
+  },
+  {
+    "word": "kayta",
+    "start": 207.35,
+    "end": 207.67,
+    "segment": 45,
+    "key": "55079e92-0ecc-4640-b9a2-1b98eb12e727"
+  },
+  {
+    "word": "shamuychik,",
+    "start": 207.79,
+    "end": 208.76,
+    "segment": 45,
+    "key": "8bf99edf-1427-4c71-a038-7a68aa342f76"
+  },
+  {
+    "word": "shuk",
+    "start": 208.86,
+    "end": 209.02,
+    "segment": 45,
+    "key": "41223701-b9a2-41bb-b37e-c8f99366581e"
+  },
+  {
+    "word": "ñankunata",
+    "start": 209.18,
+    "end": 209.74,
+    "segment": 45,
+    "key": "b16b5731-ada8-476b-a1ea-cec54fd364d0"
+  },
+  {
+    "word": "rikuchinkapak",
+    "start": 209.84,
+    "end": 210.48,
+    "segment": 45,
+    "key": "89a86460-5bdc-47bc-a4eb-baa4d82c5262"
+  },
+  {
+    "word": "munani.",
+    "start": 210.58,
+    "end": 210.98,
+    "segment": 45,
+    "key": "161d567f-3409-496d-8c42-95d849e78569"
+  },
+  {
+    "word": "Chay",
+    "start": 213.98,
+    "end": 214.26,
+    "segment": 46,
+    "key": "1c55c892-0924-44db-b69b-a9e6bb144991"
+  },
+  {
+    "word": "takikunaka",
+    "start": 214.44,
+    "end": 215.08,
+    "segment": 46,
+    "key": "2ab58b14-2c15-41dc-9b80-d409031b6926"
+  },
+  {
+    "word": "chay",
+    "start": 215.28,
+    "end": 215.51,
+    "segment": 46,
+    "key": "e97fda89-5ef3-44c4-97db-1e298ba952cc"
+  },
+  {
+    "word": "wasimantami",
+    "start": 215.65,
+    "end": 216.31,
+    "segment": 46,
+    "key": "02850787-a5cc-426a-9e1d-ebf2f8fcb174"
+  },
+  {
+    "word": "uyarikun.",
+    "start": 216.41,
+    "end": 216.95,
+    "segment": 46,
+    "key": "c6d8a8db-5409-4836-88bc-0350196270f7"
+  },
+  {
+    "word": "Rikuychik,",
+    "start": 217.37,
+    "end": 218.19,
+    "segment": 47,
+    "key": "8e9eede2-28c6-4176-b512-7d8930875449"
+  },
+  {
+    "word": "chayta",
+    "start": 218.29,
+    "end": 218.55,
+    "segment": 47,
+    "key": "94c03dcf-b353-4471-8994-fc4e5f42eb98"
+  },
+  {
+    "word": "rikuychik,",
+    "start": 218.63,
+    "end": 219.41,
+    "segment": 47,
+    "key": "2367841a-97d5-4072-9987-ede350dc1c11"
+  },
+  {
+    "word": "chay",
+    "start": 219.51,
+    "end": 219.65,
+    "segment": 47,
+    "key": "787bfa73-2636-4119-b852-ed60b7ea476c"
+  },
+  {
+    "word": "waminsi",
+    "start": 219.81,
+    "end": 220.34,
+    "segment": 47,
+    "key": "68e34641-181c-41f4-9a4c-5d92e4dd91b8"
+  },
+  {
+    "word": "wasita",
+    "start": 220.44,
+    "end": 220.72,
+    "segment": 47,
+    "key": "b0d9e735-ea1b-4e08-8b4c-fe2dcf45e688"
+  },
+  {
+    "word": "rikunkichik,",
+    "start": 220.8,
+    "end": 221.54,
+    "segment": 47,
+    "key": "8487c8eb-7187-4017-a033-d6c8c27d213d"
+  },
+  {
+    "word": "ay,",
+    "start": 221.62,
+    "end": 222.3,
+    "segment": 47,
+    "key": "0c0913ba-e674-4f9e-bb4a-0580f52b7323"
+  },
+  {
+    "word": "chay.",
+    "start": 222.36,
+    "end": 222.74,
+    "segment": 47,
+    "key": "79c53357-c9a2-4c54-ad22-07c0d6cdebb8"
+  },
+  {
+    "word": "Kan,",
+    "start": 224.17,
+    "end": 224.57,
+    "segment": 48,
+    "key": "e96a4513-55a0-417b-a21b-e1b8a513bd21"
+  },
+  {
+    "word": "wawki,",
+    "start": 224.65,
+    "end": 225.42,
+    "segment": 48,
+    "key": "53dd3771-b563-4a3d-9fa4-31059593b8ee"
+  },
+  {
+    "word": "imata",
+    "start": 225.5,
+    "end": 225.78,
+    "segment": 48,
+    "key": "d987337a-66a4-41b4-bc93-ae1171024aae"
+  },
+  {
+    "word": "tukushka,",
+    "start": 225.92,
+    "end": 226.8,
+    "segment": 48,
+    "key": "5da2fcbb-b6d2-4ddb-bc1d-387ee2c0dcd2"
+  },
+  {
+    "word": "ah,",
+    "start": 226.86,
+    "end": 227.2,
+    "segment": 48,
+    "key": "08658d5f-ef80-469a-b4b7-9a3e469d89d8"
+  },
+  {
+    "word": "imanishpatak",
+    "start": 227.26,
+    "end": 227.93,
+    "segment": 48,
+    "key": "ee0c5a16-76f8-42a0-89e7-9d2cccdd0945"
+  },
+  {
+    "word": "rikuchiwakunki?",
+    "start": 227.99,
+    "end": 229.07,
+    "segment": 48,
+    "key": "82257223-0826-4cb2-af02-024bcc2d64cc"
+  },
+  {
+    "word": "Nimatak,",
+    "start": 229.22,
+    "end": 229.9,
+    "segment": 49,
+    "key": "2e1300c3-634a-4354-a39b-2699ee29112e"
+  },
+  {
+    "word": "wampra,",
+    "start": 229.96,
+    "end": 230.38,
+    "segment": 49,
+    "key": "adb75709-3c74-4714-97ab-9645df44b949"
+  },
+  {
+    "word": "ñukanchikka,",
+    "start": 230.46,
+    "end": 231.86,
+    "segment": 49,
+    "key": "3feda89a-04a7-4c80-aee7-26a7e41bf661"
+  },
+  {
+    "word": "ama",
+    "start": 231.92,
+    "end": 232.09,
+    "segment": 49,
+    "key": "ad5b83fd-da9b-4131-a423-90d3d3956d1b"
+  },
+  {
+    "word": "ama",
+    "start": 232.17,
+    "end": 232.29,
+    "segment": 49,
+    "key": "de449ed7-11b1-4660-ab8a-a972162006be"
+  },
+  {
+    "word": "llakiyarikuychu,",
+    "start": 232.37,
+    "end": 232.99,
+    "segment": 49,
+    "key": "87f40304-26de-459b-9772-7acd64fa6bbf"
+  },
+  {
+    "word": "ñukanchikka",
+    "start": 233.05,
+    "end": 233.43,
+    "segment": 49,
+    "key": "c9ad00ff-ade1-4a9e-aec9-3a91209e1b02"
+  },
+  {
+    "word": "yankata",
+    "start": 233.53,
+    "end": 233.93,
+    "segment": 49,
+    "key": "ac91f694-48ca-4ca3-982e-d609d971ce01"
+  },
+  {
+    "word": "rimanakunchik.",
+    "start": 234.03,
+    "end": 234.79,
+    "segment": 49,
+    "key": "22b89a94-2cbd-4d8d-8000-8bb725681c0a"
+  },
+  {
+    "word": "Puriy,",
+    "start": 234.83,
+    "end": 235.09,
+    "segment": 50,
+    "key": "9ce374ea-4380-4ec1-8b20-9dd77b86d7f6"
+  },
+  {
+    "word": "puriy,",
+    "start": 235.19,
+    "end": 236.04,
+    "segment": 50,
+    "key": "5237973a-6c16-42f9-ba24-d77c70d97d86"
+  },
+  {
+    "word": "nimapash",
+    "start": 236.12,
+    "end": 236.52,
+    "segment": 50,
+    "key": "6399c208-1f8a-44bf-b685-82e0dce7f0df"
+  },
+  {
+    "word": "kaykunaman",
+    "start": 236.6,
+    "end": 237.08,
+    "segment": 50,
+    "key": "4ddec3e3-1171-492b-aa16-08ef53150683"
+  },
+  {
+    "word": "mana",
+    "start": 237.22,
+    "end": 237.4,
+    "segment": 50,
+    "key": "0fff58c0-07b0-4357-88b7-0ede14ee5cf2"
+  },
+  {
+    "word": "chinkashkachu,",
+    "start": 237.52,
+    "end": 238.67,
+    "segment": 50,
+    "key": "76fad51c-a3c1-45a0-b0bb-a6b6c72b24e8"
+  },
+  {
+    "word": "puriy,",
+    "start": 238.75,
+    "end": 238.93,
+    "segment": 50,
+    "key": "a36c2a3a-aa50-46fb-a614-fb9e7593416f"
+  },
+  {
+    "word": "puriy.",
+    "start": 239.01,
+    "end": 239.47,
+    "segment": 50,
+    "key": "aa74a78c-36bc-4dde-99d0-c3772036671e"
+  },
+  {
+    "word": "Ay,",
+    "start": 240.55,
+    "end": 241.16,
+    "segment": 51,
+    "key": "e0c32207-d483-497b-b790-dc351f7dc49a"
+  },
+  {
+    "word": "kay",
+    "start": 241.26,
+    "end": 241.36,
+    "segment": 51,
+    "key": "b0cd90e9-da45-4056-8376-2d94109d1770"
+  },
+  {
+    "word": "pacha",
+    "start": 241.5,
+    "end": 241.74,
+    "segment": 51,
+    "key": "da025a4d-92b1-4ade-bedd-b1b330b4b1e1"
+  },
+  {
+    "word": "wamprakuna.",
+    "start": 241.86,
+    "end": 242.71,
+    "segment": 51,
+    "key": "f09126ec-03d5-43b7-97b2-73663c5164da"
+  },
+  {
+    "word": "Shinapash,",
+    "start": 242.94,
+    "end": 244.12,
+    "segment": 52,
+    "key": "aa986861-6f42-42f1-b648-77a9c4a0acc2"
+  },
+  {
+    "word": "kaynamanta,",
+    "start": 244.2,
+    "end": 245.37,
+    "segment": 52,
+    "key": "45452fd2-74ec-42ae-8562-6efb8fc8421a"
+  },
+  {
+    "word": "kayamanta",
+    "start": 245.47,
+    "end": 246.15,
+    "segment": 52,
+    "key": "1b761460-fa21-4ba3-b1e2-a65de22613b0"
+  },
+  {
+    "word": "wamprakuna,",
+    "start": 246.29,
+    "end": 247.43,
+    "segment": 52,
+    "key": "bca4b332-f4dd-4dc3-bdd6-d00752284cf5"
+  },
+  {
+    "word": "ñukanchik",
+    "start": 247.53,
+    "end": 248.05,
+    "segment": 52,
+    "key": "4d3254ba-f3cb-4214-8cca-1fee5ac00535"
+  },
+  {
+    "word": "wamprakuna",
+    "start": 248.13,
+    "end": 248.69,
+    "segment": 52,
+    "key": "f916c5f8-9c7e-4470-b271-9d8d2c59f52d"
+  },
+  {
+    "word": "kashka",
+    "start": 248.89,
+    "end": 249.19,
+    "segment": 52,
+    "key": "d5bb8619-82c8-4a5f-b01e-44cf2240794f"
+  },
+  {
+    "word": "pachakunapash",
+    "start": 249.31,
+    "end": 250.03,
+    "segment": 52,
+    "key": "edff7ee3-3607-4fe0-82c4-f78e34d0ae35"
+  },
+  {
+    "word": "shinallatak",
+    "start": 250.56,
+    "end": 251.1,
+    "segment": 52,
+    "key": "9adb6090-827f-484c-a070-cf617eb0add1"
+  },
+  {
+    "word": "millaykuna",
+    "start": 251.2,
+    "end": 251.72,
+    "segment": 52,
+    "key": "78cd01a8-208b-464c-84b8-40f47ddd0638"
+  },
+  {
+    "word": "karkanchik.",
+    "start": 251.82,
+    "end": 252.38,
+    "segment": 52,
+    "key": "3b006edb-12f4-4576-bc9c-eafc31d94984"
+  },
+  {
+    "word": "Kay",
+    "start": 252.56,
+    "end": 252.78,
+    "segment": 53,
+    "key": "3bc28ef1-c05e-4199-817d-9162f9aa331e"
+  },
+  {
+    "word": "kuña",
+    "start": 252.94,
+    "end": 253.22,
+    "segment": 53,
+    "key": "b96993d9-f4f4-4804-beaa-346c351a858d"
+  },
+  {
+    "word": "sinka",
+    "start": 253.46,
+    "end": 253.69,
+    "segment": 53,
+    "key": "d449330d-3f9f-41ee-8bbd-de9655a3c8b1"
+  },
+  {
+    "word": "wamprakunashina.",
+    "start": 253.79,
+    "end": 254.71,
+    "segment": 53,
+    "key": "cefa8ae1-541e-46b6-9be4-79d23dc874d1"
+  },
+  {
+    "word": "Rikuychik,",
+    "start": 256.74,
+    "end": 257.32,
+    "segment": 54,
+    "key": "75903ccc-276e-475b-a9a7-da37212de4f8"
+  },
+  {
+    "word": "rikuychik,",
+    "start": 257.38,
+    "end": 258.04,
+    "segment": 54,
+    "key": "2c1bb4ee-0611-48e2-a376-b30d88f4f6c3"
+  },
+  {
+    "word": "mana",
+    "start": 258.12,
+    "end": 258.37,
+    "segment": 54,
+    "key": "9d5d1651-c306-4199-96ab-c36c5e52c141"
+  },
+  {
+    "word": "pantashpaka,",
+    "start": 258.49,
+    "end": 259.23,
+    "segment": 54,
+    "key": "4d986a5d-0a43-4226-853f-51ef63bf4a45"
+  },
+  {
+    "word": "chay",
+    "start": 259.35,
+    "end": 259.49,
+    "segment": 54,
+    "key": "ae43c077-8c73-486f-893a-b8189ac7c864"
+  },
+  {
+    "word": "waminsi",
+    "start": 259.65,
+    "end": 260.17,
+    "segment": 54,
+    "key": "95614ec4-4004-4026-8d65-b74e8f7da5f2"
+  },
+  {
+    "word": "wasipika",
+    "start": 260.31,
+    "end": 260.79,
+    "segment": 54,
+    "key": "09832279-293b-4e23-82a0-806cff832018"
+  },
+  {
+    "word": "tushunakunmi.",
+    "start": 261.2,
+    "end": 262.38,
+    "segment": 54,
+    "key": "06d5dda3-5e7a-4342-a6cc-4847c8213666"
+  },
+  {
+    "word": "Ñukawan",
+    "start": 262.88,
+    "end": 263.42,
+    "segment": 55,
+    "key": "7f7d6930-4b0a-480a-bfa8-1f7f6ea8c4fe"
+  },
+  {
+    "word": "shamuychik,",
+    "start": 263.5,
+    "end": 264.04,
+    "segment": 55,
+    "key": "7680e6d3-6ac7-4148-b569-2444970574d2"
+  },
+  {
+    "word": "ari",
+    "start": 264.11,
+    "end": 264.23,
+    "segment": 55,
+    "key": "6bd41a3c-d8e4-4814-bcac-27281ce8d24c"
+  },
+  {
+    "word": "ari",
+    "start": 264.33,
+    "end": 264.41,
+    "segment": 55,
+    "key": "34172a49-0898-4024-ae54-5bc2d3ca32bb"
+  },
+  {
+    "word": "shamuychik,",
+    "start": 264.51,
+    "end": 265.15,
+    "segment": 55,
+    "key": "ee19a63b-ece0-47ea-b8d9-d201473b7990"
+  },
+  {
+    "word": "hakuchik,",
+    "start": 265.21,
+    "end": 265.97,
+    "segment": 55,
+    "key": "6870ac7c-7da9-4309-9e5a-c8602e2db408"
+  },
+  {
+    "word": "upalla",
+    "start": 266.01,
+    "end": 266.44,
+    "segment": 55,
+    "key": "cb56aa0a-780e-49ba-9704-778dbc1e15dd"
+  },
+  {
+    "word": "chapakrishunchik.",
+    "start": 266.54,
+    "end": 267.56,
+    "segment": 55,
+    "key": "a0cea94b-c1b5-4204-89bc-a978edd3c68f"
+  },
+  {
+    "word": "Ñukaka",
+    "start": 269.33,
+    "end": 269.94,
+    "segment": 56,
+    "key": "fed5aa3e-4be6-455a-b9c9-cf6d47732d79"
+  },
+  {
+    "word": "yuyarkani.",
+    "start": 270.4,
+    "end": 271.51,
+    "segment": 56,
+    "key": "9ba089a1-49d7-48fb-9ca5-6549435f04b8"
+  },
+  {
+    "word": "Chaymantami",
+    "start": 271.99,
+    "end": 273.17,
+    "segment": 57,
+    "key": "cc2675b3-345b-4cd0-815d-fbc911a443a5"
+  },
+  {
+    "word": "Jaboneropak",
+    "start": 273.38,
+    "end": 274.22,
+    "segment": 57,
+    "key": "2591afe8-bf5f-4be8-9b98-2b4a8546751f"
+  },
+  {
+    "word": "ayllullakta",
+    "start": 274.38,
+    "end": 275.22,
+    "segment": 57,
+    "key": "88f40cae-51fc-44bb-9bb9-83acda8b8e0e"
+  },
+  {
+    "word": "nishpa",
+    "start": 275.38,
+    "end": 275.69,
+    "segment": 57,
+    "key": "e997cef5-71e4-4715-b9f7-4bda282b3312"
+  },
+  {
+    "word": "shutichishka.",
+    "start": 275.89,
+    "end": 276.81,
+    "segment": 57,
+    "key": "d4c449a5-ee34-44e3-a1ae-47bccd838df1"
+  },
+  {
+    "word": "Kaypika,",
+    "start": 277.1,
+    "end": 277.98,
+    "segment": 58,
+    "key": "1837d4a2-659e-4cb6-9d09-bcfb52411217"
+  },
+  {
+    "word": "mana",
+    "start": 278.06,
+    "end": 278.28,
+    "segment": 58,
+    "key": "23354190-bbf8-4af1-b8d3-4a0e4abbad77"
+  },
+  {
+    "word": "pipash,",
+    "start": 278.44,
+    "end": 279.3,
+    "segment": 58,
+    "key": "1740e920-e346-4bbe-86a6-4d7f45e7cd6c"
+  },
+  {
+    "word": "mana",
+    "start": 279.43,
+    "end": 279.65,
+    "segment": 58,
+    "key": "a2b712ce-697c-4256-b96a-62d0ae792b30"
+  },
+  {
+    "word": "urmashpaka",
+    "start": 279.71,
+    "end": 280.25,
+    "segment": 58,
+    "key": "39ffd226-209e-49e4-b8dc-c16d6709a959"
+  },
+  {
+    "word": "lluchkanmi.",
+    "start": 280.59,
+    "end": 281.51,
+    "segment": 58,
+    "key": "9704a421-0fb4-4bcd-bf4a-4457db9db112"
+  },
+  {
+    "word": "Unkuymanta",
+    "start": 282.02,
+    "end": 283.07,
+    "segment": 59,
+    "key": "ea8ad5cd-2fd1-4646-988f-1a6284360b2b"
+  },
+  {
+    "word": "shina",
+    "start": 283.23,
+    "end": 283.45,
+    "segment": 59,
+    "key": "49e414bc-734a-4b0a-bbce-9fec6455cfc0"
+  },
+  {
+    "word": "tantanakuykunaka",
+    "start": 283.65,
+    "end": 284.63,
+    "segment": 59,
+    "key": "da9f517d-244a-4096-a7f7-c2dec24558e1"
+  },
+  {
+    "word": "mana",
+    "start": 284.97,
+    "end": 285.2,
+    "segment": 59,
+    "key": "ae1d79ef-f308-40b1-93c0-b37a1cd7cf6b"
+  },
+  {
+    "word": "tiyanachu.",
+    "start": 285.32,
+    "end": 286.08,
+    "segment": 59,
+    "key": "8c2e8305-c16b-48e2-acbe-79acf440c902"
+  },
+  {
+    "word": "Chay",
+    "start": 286.55,
+    "end": 286.97,
+    "segment": 60,
+    "key": "b91594e7-d68f-4866-83a4-f845d2c560ed"
+  },
+  {
+    "word": "wasi,",
+    "start": 287.21,
+    "end": 287.83,
+    "segment": 60,
+    "key": "a12f46a6-d380-49c5-bb99-128505976b37"
+  },
+  {
+    "word": "chay",
+    "start": 287.93,
+    "end": 288.05,
+    "segment": 60,
+    "key": "83c04cb3-5449-43aa-badc-a60b7b5e3e59"
+  },
+  {
+    "word": "wasika",
+    "start": 288.21,
+    "end": 288.59,
+    "segment": 60,
+    "key": "a58c9303-826b-4a6d-a9d6-a5864ba780dd"
+  },
+  {
+    "word": "alli",
+    "start": 288.89,
+    "end": 289.23,
+    "segment": 60,
+    "key": "541d351d-129c-4406-ab4a-33ccfb87112f"
+  },
+  {
+    "word": "ayllukunapakmi",
+    "start": 289.37,
+    "end": 290.21,
+    "segment": 60,
+    "key": "c80fbaf1-20c6-474b-9cf9-b46340388d7c"
+  },
+  {
+    "word": "kan,",
+    "start": 290.33,
+    "end": 290.81,
+    "segment": 60,
+    "key": "ee11fffa-663c-43da-a89a-2e4089ee33fd"
+  },
+  {
+    "word": "shinapash",
+    "start": 290.89,
+    "end": 291.41,
+    "segment": 60,
+    "key": "2d4f6a85-3932-40bf-b509-0d0e5fc36e92"
+  },
+  {
+    "word": "runakunaka",
+    "start": 291.49,
+    "end": 292.1,
+    "segment": 60,
+    "key": "c43bc3e6-b4f2-4dab-871d-6e46adc4382c"
+  },
+  {
+    "word": "shuk",
+    "start": 292.56,
+    "end": 292.72,
+    "segment": 60,
+    "key": "6dc9d3d3-c8d0-439d-8ada-2c99074bd8c6"
+  },
+  {
+    "word": "dolar",
+    "start": 292.88,
+    "end": 293.2,
+    "segment": 60,
+    "key": "36b9124f-d8b4-4b9e-a52d-20e9792a8df3"
+  },
+  {
+    "word": "kullkita",
+    "start": 293.32,
+    "end": 293.74,
+    "segment": 60,
+    "key": "5af67d09-58ee-48c1-8d77-9cc5aeab056c"
+  },
+  {
+    "word": "tantachinamanta",
+    "start": 293.88,
+    "end": 294.82,
+    "segment": 60,
+    "key": "e7141325-26f9-46a6-90ec-74e467a549d3"
+  },
+  {
+    "word": "musparinakun.",
+    "start": 295.38,
+    "end": 296.94,
+    "segment": 60,
+    "key": "2bace5ec-ce3e-4665-9d98-22cad708afe5"
+  },
+  {
+    "word": "Uyaychik,",
+    "start": 298.01,
+    "end": 298.69,
+    "segment": 61,
+    "key": "86f77f0a-0e95-4144-bbca-c9733c218b85"
+  },
+  {
+    "word": "uyaychik,",
+    "start": 298.75,
+    "end": 299.76,
+    "segment": 61,
+    "key": "056d8b41-db85-4f4d-af9c-ef72b34c1ca1"
+  },
+  {
+    "word": "pitak",
+    "start": 299.84,
+    "end": 300.12,
+    "segment": 61,
+    "key": "6a0ecae1-8e98-4f9b-8885-1ca5fb696660"
+  },
+  {
+    "word": "kay",
+    "start": 300.2,
+    "end": 300.28,
+    "segment": 61,
+    "key": "46a666fa-0a93-4156-bb93-69d74541bf18"
+  },
+  {
+    "word": "raymikunata",
+    "start": 300.36,
+    "end": 300.86,
+    "segment": 61,
+    "key": "998d58bd-8b57-4ed0-9493-abdc14a2bc4d"
+  },
+  {
+    "word": "rurachun",
+    "start": 300.94,
+    "end": 301.19,
+    "segment": 61,
+    "key": "fac58e85-53a2-43e0-8758-b6fc2f28bf95"
+  },
+  {
+    "word": "sakirka?",
+    "start": 301.27,
+    "end": 302.11,
+    "segment": 61,
+    "key": "b75c9e98-de7f-4104-a5de-408f94e3c5bf"
+  },
+  {
+    "word": "Tukuykuna",
+    "start": 302.13,
+    "end": 302.81,
+    "segment": 62,
+    "key": "68dc41a5-4ad5-4f8b-9396-6df1b61dca44"
+  },
+  {
+    "word": "pirkaman",
+    "start": 302.93,
+    "end": 303.24,
+    "segment": 62,
+    "key": "61b47b22-c39e-4e0e-b9e0-834f668d2c98"
+  },
+  {
+    "word": "sakiriychik!",
+    "start": 303.32,
+    "end": 304.12,
+    "segment": 62,
+    "key": "9b7f0503-975b-4f0a-aec3-9a053273689b"
+  },
+  {
+    "word": "Tukuykuna",
+    "start": 304.14,
+    "end": 304.91,
+    "segment": 63,
+    "key": "83e4ff93-2472-470b-8bac-8970e238787a"
+  },
+  {
+    "word": "nirkani.",
+    "start": 305.01,
+    "end": 305.61,
+    "segment": 63,
+    "key": "00361dea-9346-4b76-b161-9c041df63012"
+  },
+  {
+    "word": "Policía",
+    "start": 305.67,
+    "end": 306.11,
+    "segment": 64,
+    "key": "0f57202e-977d-4942-bf82-91a4ce21d774"
+  },
+  {
+    "word": "pushak,",
+    "start": 306.23,
+    "end": 307.0,
+    "segment": 64,
+    "key": "9012b6ed-4740-486d-9885-0ef509f786ea"
+  },
+  {
+    "word": "shuk",
+    "start": 307.08,
+    "end": 307.2,
+    "segment": 64,
+    "key": "4fc80478-8374-4476-8735-2cab831e5765"
+  },
+  {
+    "word": "ayllupak",
+    "start": 307.26,
+    "end": 307.62,
+    "segment": 64,
+    "key": "3f2ef0ef-c3bb-4a96-80dc-83b18cf1a58e"
+  },
+  {
+    "word": "raymipillami",
+    "start": 307.7,
+    "end": 308.27,
+    "segment": 64,
+    "key": "4d61ddf0-5aa9-4838-b055-c53800a2db3f"
+  },
+  {
+    "word": "kanchik.",
+    "start": 308.39,
+    "end": 308.93,
+    "segment": 64,
+    "key": "cffcbb6f-c52d-4e85-b4c4-c322a185d23c"
+  },
+  {
+    "word": "Kikin,",
+    "start": 309.22,
+    "end": 309.64,
+    "segment": 65,
+    "key": "91a4947e-c02a-471e-90d3-c838325c7830"
+  },
+  {
+    "word": "manachu",
+    "start": 309.74,
+    "end": 310.04,
+    "segment": 65,
+    "key": "5f23a58c-ef21-46f5-bfa5-4b58a22b302e"
+  },
+  {
+    "word": "yachanki,",
+    "start": 310.1,
+    "end": 310.99,
+    "segment": 65,
+    "key": "953c8222-2cf9-419c-8f18-c0128039e3eb"
+  },
+  {
+    "word": "mana",
+    "start": 311.09,
+    "end": 311.33,
+    "segment": 65,
+    "key": "7e07c822-311e-47f0-81a9-4ed0edda3ea9"
+  },
+  {
+    "word": "chuskupura",
+    "start": 311.45,
+    "end": 311.93,
+    "segment": 65,
+    "key": "e17a2fa9-b057-409d-896d-b956a4f3a752"
+  },
+  {
+    "word": "tantanakushka",
+    "start": 312.05,
+    "end": 312.68,
+    "segment": 65,
+    "key": "3efb7782-eb93-4355-952c-8e54619e64c0"
+  },
+  {
+    "word": "purinachu?",
+    "start": 312.82,
+    "end": 313.64,
+    "segment": 65,
+    "key": "63b32e0e-d715-484b-bb49-0c7bdb96a013"
+  },
+  {
+    "word": "Shinapash",
+    "start": 313.73,
+    "end": 314.5,
+    "segment": 66,
+    "key": "2156713c-ea11-4b21-9ac8-14f361864f60"
+  },
+  {
+    "word": "shimitapash",
+    "start": 314.56,
+    "end": 315.1,
+    "segment": 66,
+    "key": "b88df45b-12c4-4190-af0f-39315fa604e1"
+  },
+  {
+    "word": "mana",
+    "start": 315.22,
+    "end": 315.4,
+    "segment": 66,
+    "key": "fd7e1772-6a89-4738-8ecb-519cd0d05673"
+  },
+  {
+    "word": "killparishka",
+    "start": 315.5,
+    "end": 315.92,
+    "segment": 66,
+    "key": "55c5e2c5-096d-4163-afc1-d50b08719f2c"
+  },
+  {
+    "word": "kankichik.",
+    "start": 316.01,
+    "end": 316.67,
+    "segment": 66,
+    "key": "59753a23-e686-4f29-8b41-92f0dde2db9b"
+  },
+  {
+    "word": "Ari,",
+    "start": 316.69,
+    "end": 317.72,
+    "segment": 67,
+    "key": "d9a3f2ce-6227-4939-8d2a-b49cc74b925b"
+  },
+  {
+    "word": "yachanimi.",
+    "start": 317.82,
+    "end": 318.66,
+    "segment": 67,
+    "key": "7ccfdbf0-171f-4803-8405-a05dca74538f"
+  },
+  {
+    "word": "Kaypika",
+    "start": 319.09,
+    "end": 319.5,
+    "segment": 68,
+    "key": "b229cbe5-26cd-4a59-9b0a-5d83b52ec60a"
+  },
+  {
+    "word": "turnarinchikmi.",
+    "start": 319.62,
+    "end": 320.63,
+    "segment": 68,
+    "key": "06ffa640-4c6e-41ca-9376-862b76466df7"
+  },
+  {
+    "word": "Chusku",
+    "start": 321.0,
+    "end": 321.39,
+    "segment": 69,
+    "key": "e47ccf29-88c5-4399-8924-ed17ce72eeb2"
+  },
+  {
+    "word": "yaykun,",
+    "start": 321.5,
+    "end": 321.99,
+    "segment": 69,
+    "key": "1369f29b-3d80-4261-97bf-d5e4691da9b7"
+  },
+  {
+    "word": "chusku",
+    "start": 322.06,
+    "end": 322.29,
+    "segment": 69,
+    "key": "ef9b1ade-ec58-4261-9e92-8ba3dda6f617"
+  },
+  {
+    "word": "llukshin,",
+    "start": 322.35,
+    "end": 323.12,
+    "segment": 69,
+    "key": "9def5a6a-6878-4a6b-983a-26661b828db4"
+  },
+  {
+    "word": "chayka.",
+    "start": 323.22,
+    "end": 323.86,
+    "segment": 69,
+    "key": "f80d7875-fef2-4b0c-8ed8-3953be41080b"
+  },
+  {
+    "word": "Kayna",
+    "start": 323.88,
+    "end": 324.14,
+    "segment": 70,
+    "key": "ff91cab8-6644-4156-843e-515221505fa5"
+  },
+  {
+    "word": "wacharishka",
+    "start": 324.24,
+    "end": 324.67,
+    "segment": 70,
+    "key": "79f2acc4-cba1-4eb9-90d6-ed1849a10aa0"
+  },
+  {
+    "word": "yawankichu",
+    "start": 324.69,
+    "end": 325.01,
+    "segment": 70,
+    "key": "1f875f88-406c-4d9f-aebb-5435ccd95892"
+  },
+  {
+    "word": "imatak?",
+    "start": 325.03,
+    "end": 325.54,
+    "segment": 70,
+    "key": "46c7fe46-1f09-4893-9eb2-59576efe7cdf"
+  },
+  {
+    "word": "Pirkaman,",
+    "start": 325.56,
+    "end": 326.15,
+    "segment": 71,
+    "key": "d7101262-37f6-4910-80ad-6bd8e893052a"
+  },
+  {
+    "word": "tukuykuna.",
+    "start": 326.25,
+    "end": 326.96,
+    "segment": 71,
+    "key": "a5ef9629-5543-4530-bf9d-5ae7e2034b75"
+  },
+  {
+    "word": "Llukshiy",
+    "start": 326.98,
+    "end": 327.55,
+    "segment": 72,
+    "key": "86409a3d-5c0f-4fed-bcae-aef9e710a0e6"
+  },
+  {
+    "word": "kaymanta.",
+    "start": 327.63,
+    "end": 328.22,
+    "segment": 72,
+    "key": "06b77e67-9b45-4e21-bdbb-ed4d99ef6fcc"
+  },
+  {
+    "word": "Ñukaka?",
+    "start": 328.26,
+    "end": 329.08,
+    "segment": 73,
+    "key": "d5f3ebea-3040-4312-96df-dde30aa02fce"
+  },
+  {
+    "word": "Kikinka",
+    "start": 329.12,
+    "end": 329.59,
+    "segment": 74,
+    "key": "7e009de4-ebe1-4011-af20-591cf0d582e3"
+  },
+  {
+    "word": "ñukawan",
+    "start": 329.71,
+    "end": 330.15,
+    "segment": 74,
+    "key": "9dd6cf2d-476c-41e6-ba95-889dbcc2b833"
+  },
+  {
+    "word": "rinki.",
+    "start": 330.23,
+    "end": 330.74,
+    "segment": 74,
+    "key": "2664dec8-e733-41ed-b133-77dd1726ab4a"
+  },
+  {
+    "word": "Wata",
+    "start": 330.81,
+    "end": 331.25,
+    "segment": 75,
+    "key": "b67d389d-99b7-4b83-b78b-39230359a3bd"
+  },
+  {
+    "word": "paktay",
+    "start": 331.39,
+    "end": 331.67,
+    "segment": 75,
+    "key": "8d27ecc0-2e2a-404e-9d86-796b1eccbf1f"
+  },
+  {
+    "word": "raymipimi",
+    "start": 331.75,
+    "end": 332.25,
+    "segment": 75,
+    "key": "d3353656-a3cf-4695-949a-4e9170f2908b"
+  },
+  {
+    "word": "kanchik,",
+    "start": 332.41,
+    "end": 332.8,
+    "segment": 75,
+    "key": "0e7d5d87-5fc0-43fd-b2d6-26a3aa838e38"
+  },
+  {
+    "word": "policía",
+    "start": 332.9,
+    "end": 333.28,
+    "segment": 75,
+    "key": "a5622b0e-05b6-4fee-a6e6-c1094cce9811"
+  },
+  {
+    "word": "pushak.",
+    "start": 333.44,
+    "end": 334.3,
+    "segment": 75,
+    "key": "52d06a63-ba5c-410f-bbbe-3c578689f915"
+  },
+  {
+    "word": "Wata",
+    "start": 334.32,
+    "end": 334.42,
+    "segment": 76,
+    "key": "ff6023e9-6227-4e85-8555-95f20c659c62"
+  },
+  {
+    "word": "paktay",
+    "start": 334.44,
+    "end": 334.54,
+    "segment": 76,
+    "key": "b3b3588d-fcd4-46c3-8bfc-85f857c4ccff"
+  },
+  {
+    "word": "raymipimi",
+    "start": 334.68,
+    "end": 334.84,
+    "segment": 76,
+    "key": "726c7401-0e26-42c6-9e5b-481850b28312"
+  },
+  {
+    "word": "kanchik,",
+    "start": 334.86,
+    "end": 335.08,
+    "segment": 76,
+    "key": "b8b3b039-68a9-434f-9fcd-e83e12c8499c"
+  },
+  {
+    "word": "policía",
+    "start": 335.1,
+    "end": 335.22,
+    "segment": 76,
+    "key": "b8a4b906-10ba-43ce-a1d3-ba3db0c9b289"
+  },
+  {
+    "word": "pushak,",
+    "start": 335.24,
+    "end": 335.38,
+    "segment": 76,
+    "key": "33bdae59-2c89-433c-930a-4d83aaee8ae3"
+  },
+  {
+    "word": "manachu",
+    "start": 335.46,
+    "end": 335.6,
+    "segment": 76,
+    "key": "35199ab1-8d0c-4e24-aedd-eeb52325574b"
+  },
+  {
+    "word": "wata",
+    "start": 335.62,
+    "end": 335.68,
+    "segment": 76,
+    "key": "b6aa71f4-54d1-4f72-aae7-0fcf5a533d26"
+  },
+  {
+    "word": "paktay",
+    "start": 335.7,
+    "end": 335.8,
+    "segment": 76,
+    "key": "edc6292a-ce2f-41b1-9888-f5910be3d11a"
+  },
+  {
+    "word": "raymikunata",
+    "start": 335.86,
+    "end": 336.47,
+    "segment": 76,
+    "key": "455ceeb4-ec3e-45e9-82e5-aff5efd044b9"
+  },
+  {
+    "word": "ruray",
+    "start": 336.59,
+    "end": 336.83,
+    "segment": 76,
+    "key": "019880c4-646f-44d4-929c-d014b7b93b4a"
+  },
+  {
+    "word": "ushanchik?",
+    "start": 336.91,
+    "end": 337.55,
+    "segment": 76,
+    "key": "ebbd1bb4-8f13-4558-a793-1dfbae94476d"
+  },
+  {
+    "word": "Pandemia",
+    "start": 337.58,
+    "end": 338.24,
+    "segment": 77,
+    "key": "62bbeb84-f9da-490f-a967-de2bdf1f16fb"
+  },
+  {
+    "word": "pachakunapika,",
+    "start": 338.34,
+    "end": 339.28,
+    "segment": 77,
+    "key": "fee5d3e7-7e02-4a96-a3b9-c51c11ebe9e5"
+  },
+  {
+    "word": "tukuykunami",
+    "start": 339.34,
+    "end": 339.96,
+    "segment": 77,
+    "key": "6528bb7f-1f07-4829-975b-2582e2aaf22c"
+  },
+  {
+    "word": "chay",
+    "start": 340.06,
+    "end": 340.16,
+    "segment": 77,
+    "key": "2f70956b-5897-4d96-b4cc-e053e8080069"
+  },
+  {
+    "word": "wata",
+    "start": 340.26,
+    "end": 340.46,
+    "segment": 77,
+    "key": "3d820232-3e33-40ee-ab0a-b1a0ade48ae7"
+  },
+  {
+    "word": "charishkawan",
+    "start": 340.58,
+    "end": 341.19,
+    "segment": 77,
+    "key": "03b944bb-de69-42e1-9757-20d652e686df"
+  },
+  {
+    "word": "sakirinchik,",
+    "start": 341.69,
+    "end": 342.49,
+    "segment": 77,
+    "key": "a88c1d1d-e2c7-4b57-8c6d-530927db41f4"
+  },
+  {
+    "word": "uyaychik,",
+    "start": 342.55,
+    "end": 342.99,
+    "segment": 77,
+    "key": "ca6a59c8-9d7b-46fc-824a-13c41672f14f"
+  },
+  {
+    "word": "mashikuna.",
+    "start": 343.05,
+    "end": 343.95,
+    "segment": 77,
+    "key": "0013bb8d-f8f3-4183-b474-293bb4eb8b77"
+  },
+  {
+    "word": "Shinapash,",
+    "start": 344.29,
+    "end": 345.33,
+    "segment": 78,
+    "key": "baa31461-f324-405a-adfc-10d324aa44a2"
+  },
+  {
+    "word": "policía",
+    "start": 345.39,
+    "end": 345.76,
+    "segment": 78,
+    "key": "2828b4dc-bea6-44ac-93d6-1a80e3d22ebc"
+  },
+  {
+    "word": "pushak.",
+    "start": 345.9,
+    "end": 346.56,
+    "segment": 78,
+    "key": "b5df03ba-8a8a-487c-96bc-8ebdc4dbb2f2"
+  },
+  {
+    "word": "Ama",
+    "start": 346.58,
+    "end": 346.89,
+    "segment": 79,
+    "key": "9c05e40e-3398-4bf6-a191-119e2e5cccbf"
+  },
+  {
+    "word": "kimiriychu.",
+    "start": 347.01,
+    "end": 347.76,
+    "segment": 79,
+    "key": "1dd0972e-ef9c-417e-a2d1-9a6da59a4074"
+  },
+  {
+    "word": "Ishkay",
+    "start": 347.78,
+    "end": 348.14,
+    "segment": 80,
+    "key": "14a99cf6-773c-434a-87e9-7c97df3aa870"
+  },
+  {
+    "word": "metropi",
+    "start": 348.24,
+    "end": 348.58,
+    "segment": 80,
+    "key": "f9313a8f-f1c4-4b85-815c-d0570be36518"
+  },
+  {
+    "word": "sakiriy.",
+    "start": 348.71,
+    "end": 349.39,
+    "segment": 80,
+    "key": "3ca4391c-1542-4842-be85-f5b8896bea9f"
+  },
+  {
+    "word": "Hatun",
+    "start": 349.41,
+    "end": 349.91,
+    "segment": 81,
+    "key": "bc0f6407-c603-4c10-a9a8-d1f37211d8f5"
+  },
+  {
+    "word": "pushak",
+    "start": 349.99,
+    "end": 350.26,
+    "segment": 81,
+    "key": "4d61b520-301c-4a0e-a02c-02584cc68c95"
+  },
+  {
+    "word": "policíaman",
+    "start": 350.34,
+    "end": 350.96,
+    "segment": 81,
+    "key": "264f4d4f-b25f-427c-b13d-951ee9186dbd"
+  },
+  {
+    "word": "willanki.",
+    "start": 351.36,
+    "end": 352.01,
+    "segment": 81,
+    "key": "96061130-a2f9-4933-a181-f25f0a9e2162"
+  },
+  {
+    "word": "Purishpa,",
+    "start": 352.03,
+    "end": 352.65,
+    "segment": 82,
+    "key": "9a1ce4ee-38a5-416d-8746-3f15a24a7ebd"
+  },
+  {
+    "word": "purishpa.",
+    "start": 352.74,
+    "end": 353.26,
+    "segment": 82,
+    "key": "4ef5c0dd-1b06-4a78-ba82-156342621f3d"
+  },
+  {
+    "word": "Shuyay,",
+    "start": 353.28,
+    "end": 353.78,
+    "segment": 83,
+    "key": "a3f6f159-3fca-4230-8b4e-e6b58dabe5b3"
+  },
+  {
+    "word": "shuyay,",
+    "start": 353.88,
+    "end": 354.35,
+    "segment": 83,
+    "key": "d2269a5a-4fb0-4c72-a3b3-9e2f1ba20e79"
+  },
+  {
+    "word": "policía",
+    "start": 354.43,
+    "end": 354.77,
+    "segment": 83,
+    "key": "da6454d4-d28d-412e-b99f-2da48117b75d"
+  },
+  {
+    "word": "pushak.",
+    "start": 354.91,
+    "end": 355.21,
+    "segment": 83,
+    "key": "2174c125-7ffa-4ab2-86f1-4bb475baaedd"
+  },
+  {
+    "word": "Ñukaka",
+    "start": 362.04,
+    "end": 362.67,
+    "segment": 84,
+    "key": "1d999d39-0caa-4a45-87fb-a88e14955b01"
+  },
+  {
+    "word": "purikurinirakmi.",
+    "start": 362.83,
+    "end": 363.88,
+    "segment": 84,
+    "key": "c22e3cc4-f1be-4d43-89e6-0360d2e1fb07"
+  },
+  {
+    "word": "Kunanka",
+    "start": 363.96,
+    "end": 364.58,
+    "segment": 85,
+    "key": "191d7270-bc7a-4c3d-a053-6e2da44bdcfb"
+  },
+  {
+    "word": "alcaldíaman",
+    "start": 364.66,
+    "end": 365.45,
+    "segment": 85,
+    "key": "8988065b-7b81-49e2-9c86-ef79585ee82d"
+  },
+  {
+    "word": "rikrini,",
+    "start": 365.51,
+    "end": 366.51,
+    "segment": 85,
+    "key": "7d541fe5-573e-4706-87b3-3601c1ba0d03"
+  },
+  {
+    "word": "ñuka",
+    "start": 366.61,
+    "end": 366.81,
+    "segment": 85,
+    "key": "2c829ce8-208d-4c40-a727-bf0ac4bc4b53"
+  },
+  {
+    "word": "wasimanta",
+    "start": 366.93,
+    "end": 367.41,
+    "segment": 85,
+    "key": "f7cb3383-1d40-403a-8c87-7b2472809868"
+  },
+  {
+    "word": "mana",
+    "start": 367.64,
+    "end": 367.8,
+    "segment": 85,
+    "key": "43d75941-fddf-4277-85b3-6cff81718fca"
+  },
+  {
+    "word": "karuchu.",
+    "start": 367.92,
+    "end": 368.58,
+    "segment": 85,
+    "key": "9a440de8-b3b6-4a59-9317-af66f3144e15"
+  },
+  {
+    "word": "Chaypimi",
+    "start": 368.84,
+    "end": 369.68,
+    "segment": 86,
+    "key": "0ba86b92-7041-4ab3-90af-5db8ba7d2634"
+  },
+  {
+    "word": "piñanakuy,",
+    "start": 369.85,
+    "end": 370.63,
+    "segment": 86,
+    "key": "34059b85-be77-463c-89d3-b6b7cb9f7294"
+  },
+  {
+    "word": "kapariykuna",
+    "start": 370.73,
+    "end": 371.52,
+    "segment": 86,
+    "key": "4cdda01c-ea78-4ea6-a5bd-569625f88d9e"
+  },
+  {
+    "word": "uyarin.",
+    "start": 371.64,
+    "end": 372.28,
+    "segment": 86,
+    "key": "6286268d-4937-49a7-aa2e-561532f6191b"
+  },
+  {
+    "word": "Ama",
+    "start": 372.41,
+    "end": 372.79,
+    "segment": 87,
+    "key": "dea19bfe-2231-4f0d-956e-899cf1bc2e66"
+  },
+  {
+    "word": "chinkaychik,",
+    "start": 372.95,
+    "end": 373.76,
+    "segment": 87,
+    "key": "383a3320-a725-418b-82cc-8423b87e6222"
+  },
+  {
+    "word": "ñukawan",
+    "start": 373.82,
+    "end": 374.16,
+    "segment": 87,
+    "key": "d8ded276-71f9-47e7-9025-d60d913ca524"
+  },
+  {
+    "word": "shamuychik,",
+    "start": 374.22,
+    "end": 374.74,
+    "segment": 87,
+    "key": "1f731439-261f-4c9d-82ef-d30ee4a1b322"
+  },
+  {
+    "word": "hakuychik.",
+    "start": 374.82,
+    "end": 375.73,
+    "segment": 87,
+    "key": "1cdbff9c-5ee1-4fae-ba0c-a8c68f452bcb"
+  },
+  {
+    "word": "Alcaldesa",
+    "start": 375.8,
+    "end": 376.55,
+    "segment": 88,
+    "key": "039979fb-4883-4755-ac9c-ceab4367994b"
+  },
+  {
+    "word": "pushak.",
+    "start": 376.69,
+    "end": 377.16,
+    "segment": 88,
+    "key": "a83b462d-a6f3-4892-885d-0eab35e33b85"
+  },
+  {
+    "word": "Ari?",
+    "start": 377.23,
+    "end": 377.72,
+    "segment": 89,
+    "key": "c29ff586-64eb-42f1-a89b-16fb604eb144"
+  },
+  {
+    "word": "Waminsi",
+    "start": 377.98,
+    "end": 378.66,
+    "segment": 90,
+    "key": "7c424e0d-794b-4f69-ac34-00cf8cb99be6"
+  },
+  {
+    "word": "waisipi",
+    "start": 378.79,
+    "end": 379.13,
+    "segment": 90,
+    "key": "53a25f5a-d3f9-4bae-9230-9ff64460bcdf"
+  },
+  {
+    "word": "raymimanta",
+    "start": 379.25,
+    "end": 379.73,
+    "segment": 90,
+    "key": "f901bf05-7d28-4bd5-a0c1-2a6e0a23ce6f"
+  },
+  {
+    "word": "yacharkankichu?",
+    "start": 379.87,
+    "end": 380.82,
+    "segment": 90,
+    "key": "331b9f6d-fa21-4172-9a03-cf52bae6a042"
+  },
+  {
+    "word": "Ishkay",
+    "start": 381.33,
+    "end": 381.81,
+    "segment": 91,
+    "key": "29a63967-fa31-4ee3-bf6a-bf734b7da40d"
+  },
+  {
+    "word": "chunka",
+    "start": 381.97,
+    "end": 382.21,
+    "segment": 91,
+    "key": "ed577e59-ac7f-4efa-997a-07425fa77596"
+  },
+  {
+    "word": "hapiy",
+    "start": 382.31,
+    "end": 382.51,
+    "segment": 91,
+    "key": "7e1200e9-1bbe-4ec3-8d7b-57544f738e57"
+  },
+  {
+    "word": "tukushkakuna",
+    "start": 382.61,
+    "end": 383.31,
+    "segment": 91,
+    "key": "317ef449-bd70-4902-84bf-26a48b368f58"
+  },
+  {
+    "word": "shinallatak",
+    "start": 383.81,
+    "end": 384.53,
+    "segment": 91,
+    "key": "fcfff33a-ff7a-4748-8bf8-9dfda5cf2976"
+  },
+  {
+    "word": "tankariymanta",
+    "start": 384.9,
+    "end": 385.6,
+    "segment": 91,
+    "key": "063cd67e-445a-4b6e-af51-e6cba992f189"
+  },
+  {
+    "word": "ishkay",
+    "start": 385.86,
+    "end": 386.16,
+    "segment": 91,
+    "key": "c56f3c9f-7985-48af-9f49-cfc67915248d"
+  },
+  {
+    "word": "chukrishkakunapash",
+    "start": 386.28,
+    "end": 387.18,
+    "segment": 91,
+    "key": "7d67e17b-4531-4a5b-b524-62e5574ec2c2"
+  },
+  {
+    "word": "tiyashkaka.",
+    "start": 387.26,
+    "end": 387.98,
+    "segment": 91,
+    "key": "3a9b3f69-4397-4fa3-91ea-8e7d27d2b4eb"
+  },
+  {
+    "word": "Ha",
+    "start": 388.12,
+    "end": 388.34,
+    "segment": 92,
+    "key": "50165b4a-ad41-4c8b-b53b-b485413b473b"
+  },
+  {
+    "word": "pushak",
+    "start": 388.66,
+    "end": 388.9,
+    "segment": 92,
+    "key": "3fe3f277-d5d5-4742-99e7-41b4eebd4ea6"
+  },
+  {
+    "word": "periodista,",
+    "start": 388.98,
+    "end": 389.72,
+    "segment": 92,
+    "key": "9156eae8-c2fd-451f-8dd2-1b656b60ca4e"
+  },
+  {
+    "word": "mana",
+    "start": 389.92,
+    "end": 390.14,
+    "segment": 92,
+    "key": "8c0e0813-1bd1-42f5-ab7f-1b53dc18764b"
+  },
+  {
+    "word": "hamuktanka,",
+    "start": 390.27,
+    "end": 391.09,
+    "segment": 92,
+    "key": "ae23fe6d-9f79-44da-9aaa-f2f69236ee82"
+  },
+  {
+    "word": "mana",
+    "start": 391.25,
+    "end": 391.47,
+    "segment": 92,
+    "key": "9a996542-5458-46fb-927a-4d589add7269"
+  },
+  {
+    "word": "kasunchu.",
+    "start": 391.59,
+    "end": 392.17,
+    "segment": 92,
+    "key": "aa4cfdc6-c2a7-4cb6-84b0-587c6c16e9d1"
+  },
+  {
+    "word": "Kimsa",
+    "start": 392.19,
+    "end": 392.89,
+    "segment": 93,
+    "key": "a98c9a18-6350-48e9-8f46-afec531341ba"
+  },
+  {
+    "word": "emekunamanta",
+    "start": 393.13,
+    "end": 394.14,
+    "segment": 93,
+    "key": "b9fac012-6654-4ef8-8d22-40924975bc9b"
+  },
+  {
+    "word": "willarkani.",
+    "start": 394.24,
+    "end": 394.72,
+    "segment": 93,
+    "key": "77ed052f-581f-44d4-829d-e9a418b3f3c6"
+  },
+  {
+    "word": "Shinapash",
+    "start": 394.74,
+    "end": 395.27,
+    "segment": 94,
+    "key": "01dc3e4f-b883-4718-982f-33f6be786af0"
+  },
+  {
+    "word": "mana",
+    "start": 395.63,
+    "end": 395.79,
+    "segment": 94,
+    "key": "f4cc1ce0-5075-4e22-a8c8-f3b296c94bed"
+  },
+  {
+    "word": "ruranchu.",
+    "start": 395.87,
+    "end": 396.24,
+    "segment": 94,
+    "key": "01fc9b50-b67c-48d0-870d-72f89324c81f"
+  },
+  {
+    "word": "Alcaldesa",
+    "start": 396.26,
+    "end": 396.86,
+    "segment": 95,
+    "key": "190259e0-d678-415b-a16c-16f239bdcef2"
+  },
+  {
+    "word": "pushak,",
+    "start": 397.02,
+    "end": 397.84,
+    "segment": 95,
+    "key": "07773938-60b0-4354-af6f-891042a30063"
+  },
+  {
+    "word": "maykantak",
+    "start": 397.92,
+    "end": 398.41,
+    "segment": 95,
+    "key": "38061818-cd0a-43f2-8992-ea9fc79f7399"
+  },
+  {
+    "word": "chay",
+    "start": 398.51,
+    "end": 398.65,
+    "segment": 95,
+    "key": "cb2d9b8e-f9d5-4329-8617-b6e64ced7191"
+  },
+  {
+    "word": "emekunaka?",
+    "start": 398.81,
+    "end": 399.75,
+    "segment": 95,
+    "key": "4935f48c-d025-4362-908b-e102186d8ce9"
+  },
+  {
+    "word": "Mascarilla,",
+    "start": 399.86,
+    "end": 400.98,
+    "segment": 96,
+    "key": "98a57736-59ac-467a-aea1-bd4c2bd8f221"
+  },
+  {
+    "word": "maki",
+    "start": 401.08,
+    "end": 401.3,
+    "segment": 96,
+    "key": "d370faf8-a0dc-4a2e-bec8-5839bc2081e6"
+  },
+  {
+    "word": "mayllariy,",
+    "start": 401.44,
+    "end": 402.09,
+    "segment": 96,
+    "key": "cb3dc032-5423-47f2-9336-ffbd512a45ac"
+  },
+  {
+    "word": "metro",
+    "start": 402.19,
+    "end": 402.47,
+    "segment": 96,
+    "key": "faa32a08-94f3-487a-be08-27da9044d766"
+  },
+  {
+    "word": "karulla.",
+    "start": 402.61,
+    "end": 403.55,
+    "segment": 96,
+    "key": "730a264b-9ffb-4da9-b5b1-96b3e11f6a52"
+  },
+  {
+    "word": "Shinapash",
+    "start": 403.57,
+    "end": 404.95,
+    "segment": 97,
+    "key": "c6d1f321-c186-4cdb-8789-b18d8a2f87ee"
+  },
+  {
+    "word": "paykunapak",
+    "start": 405.05,
+    "end": 405.82,
+    "segment": 97,
+    "key": "cbf3b681-2bd7-4f06-985a-5e1e128d88ec"
+  },
+  {
+    "word": "munashkata",
+    "start": 405.92,
+    "end": 406.44,
+    "segment": 97,
+    "key": "8309f6c0-9ab1-4883-be7a-a32538774fad"
+  },
+  {
+    "word": "ruran.",
+    "start": 406.52,
+    "end": 407.0,
+    "segment": 97,
+    "key": "6873f288-f8e7-4534-bbd5-68e573c096ed"
+  },
+  {
+    "word": "Chusku",
+    "start": 407.02,
+    "end": 407.61,
+    "segment": 98,
+    "key": "49fcad96-9637-4302-b506-294501f1843e"
+  },
+  {
+    "word": "ememan",
+    "start": 407.67,
+    "end": 408.01,
+    "segment": 98,
+    "key": "588c9ee1-c622-4129-a732-5229707f96ea"
+  },
+  {
+    "word": "kachakrini.",
+    "start": 408.07,
+    "end": 408.5,
+    "segment": 98,
+    "key": "d8dfdf99-606c-4814-9878-a0d56bbb4616"
+  },
+  {
+    "word": "Pushak",
+    "start": 408.54,
+    "end": 408.94,
+    "segment": 99,
+    "key": "c68900ea-1d40-4ea5-8f61-272896aae6af"
+  },
+  {
+    "word": "alcaldesa,",
+    "start": 409.02,
+    "end": 410.08,
+    "segment": 99,
+    "key": "e101fcea-d41d-4230-a986-78ea953375ad"
+  },
+  {
+    "word": "nachu",
+    "start": 410.18,
+    "end": 410.4,
+    "segment": 99,
+    "key": "748472a6-2ff2-443a-bd98-07faa4e2b9c8"
+  },
+  {
+    "word": "yapalla",
+    "start": 410.5,
+    "end": 410.9,
+    "segment": 99,
+    "key": "33674694-0959-48fe-bddb-3d418d6949dc"
+  },
+  {
+    "word": "kan",
+    "start": 411.04,
+    "end": 411.2,
+    "segment": 99,
+    "key": "ca79bc76-ec59-4e7d-a763-713db7bd3bac"
+  },
+  {
+    "word": "watapaktay",
+    "start": 411.28,
+    "end": 411.87,
+    "segment": 99,
+    "key": "a69f16ea-74f5-4ebb-9c06-d964b334b392"
+  },
+  {
+    "word": "raymikunatapash",
+    "start": 411.95,
+    "end": 412.87,
+    "segment": 99,
+    "key": "78ea0e67-6119-4260-82f6-5161f63ab1b5"
+  },
+  {
+    "word": "ama",
+    "start": 413.05,
+    "end": 413.21,
+    "segment": 99,
+    "key": "454efa12-0822-479b-bba1-6762bd4d100a"
+  },
+  {
+    "word": "rurachun",
+    "start": 413.31,
+    "end": 413.67,
+    "segment": 99,
+    "key": "1a3c0d6f-2c75-456d-bff3-62facdeb70b8"
+  },
+  {
+    "word": "nishpaka?",
+    "start": 413.75,
+    "end": 414.31,
+    "segment": 99,
+    "key": "a46411c0-031c-4c27-b9fc-3acdf190a82f"
+  },
+  {
+    "word": "Millay",
+    "start": 414.35,
+    "end": 414.97,
+    "segment": 100,
+    "key": "4f136d98-e251-466b-8d9d-63a2ec5a27aa"
+  },
+  {
+    "word": "unkuyta",
+    "start": 415.05,
+    "end": 415.57,
+    "segment": 100,
+    "key": "94f281ef-f3f2-4b77-a680-73a96549929a"
+  },
+  {
+    "word": "hapishpaka",
+    "start": 415.67,
+    "end": 416.25,
+    "segment": 100,
+    "key": "20c00b44-41c4-4a7a-84a6-362309c86e18"
+  },
+  {
+    "word": "mana",
+    "start": 416.74,
+    "end": 416.98,
+    "segment": 100,
+    "key": "1176e979-8fb0-44db-85c5-57e1eca7ad4d"
+  },
+  {
+    "word": "wata",
+    "start": 417.12,
+    "end": 417.3,
+    "segment": 100,
+    "key": "0eddf072-fbc6-4e57-a508-75fd06434b68"
+  },
+  {
+    "word": "paktaykuna",
+    "start": 417.46,
+    "end": 418.06,
+    "segment": 100,
+    "key": "5404728e-95bd-45ab-8ca1-6d349baa554c"
+  },
+  {
+    "word": "tiyankachu.",
+    "start": 418.18,
+    "end": 418.9,
+    "segment": 100,
+    "key": "c7b2fb18-04e8-4fcd-b324-1d23eb82e396"
+  },
+  {
+    "word": "Kikin,",
+    "start": 418.99,
+    "end": 419.57,
+    "segment": 101,
+    "key": "6401c92d-7478-4be0-bd42-96699730c620"
+  },
+  {
+    "word": "periodista",
+    "start": 419.65,
+    "end": 420.11,
+    "segment": 101,
+    "key": "30595e53-e5e8-4a9d-b175-0a9c27d7364b"
+  },
+  {
+    "word": "pushak,",
+    "start": 420.23,
+    "end": 420.84,
+    "segment": 101,
+    "key": "4b887cef-4e1b-4bf6-90d2-cc477e34cd67"
+  },
+  {
+    "word": "muyunti",
+    "start": 420.98,
+    "end": 421.56,
+    "segment": 101,
+    "key": "26b897f8-bc27-4612-87b4-39b1be9a3d85"
+  },
+  {
+    "word": "kawsak",
+    "start": 421.74,
+    "end": 422.14,
+    "segment": 101,
+    "key": "709444f2-15b5-4061-b18d-9f2dd31d82e4"
+  },
+  {
+    "word": "ayllukunata",
+    "start": 422.22,
+    "end": 422.83,
+    "segment": 101,
+    "key": "af18a952-d7c7-49f7-a100-561e6295dcb7"
+  },
+  {
+    "word": "kayachipay.",
+    "start": 422.97,
+    "end": 423.99,
+    "segment": 101,
+    "key": "038a2914-284d-4a5b-aeb1-957fcd3ac02d"
+  },
+  {
+    "word": "Kay",
+    "start": 424.01,
+    "end": 424.29,
+    "segment": 102,
+    "key": "82ca9eab-d973-4133-8f37-be34d860db04"
+  },
+  {
+    "word": "chishi",
+    "start": 424.47,
+    "end": 424.73,
+    "segment": 102,
+    "key": "e0cc83d7-5be2-4378-8109-aab47bf262d0"
+  },
+  {
+    "word": "importante",
+    "start": 424.93,
+    "end": 425.9,
+    "segment": 102,
+    "key": "bd913449-d2e4-442f-a660-41f4e1e4ab98"
+  },
+  {
+    "word": "willachiykunata",
+    "start": 426.1,
+    "end": 426.9,
+    "segment": 102,
+    "key": "21890336-0968-4fa2-9557-27a9d07d516f"
+  },
+  {
+    "word": "kukrinchik.",
+    "start": 427.04,
+    "end": 427.64,
+    "segment": 102,
+    "key": "ecf78940-039c-47e5-8875-82e44ce41042"
+  },
+  {
+    "word": "Kashna",
+    "start": 429.61,
+    "end": 430.11,
+    "segment": 103,
+    "key": "3d6d8869-4272-4a5f-8942-a9e18b260d8e"
+  },
+  {
+    "word": "willachikpika",
+    "start": 430.23,
+    "end": 430.96,
+    "segment": 103,
+    "key": "785fa7e2-602c-4d17-8f7c-f1bdb72fa918"
+  },
+  {
+    "word": "tayta",
+    "start": 431.38,
+    "end": 431.74,
+    "segment": 103,
+    "key": "0fe7471e-9443-429d-bb2b-b66ac2b03f31"
+  },
+  {
+    "word": "curapash",
+    "start": 431.9,
+    "end": 432.39,
+    "segment": 103,
+    "key": "789ba6b7-1148-4102-8d53-2a038cd559ea"
+  },
+  {
+    "word": "chayamurka.",
+    "start": 432.47,
+    "end": 433.09,
+    "segment": 103,
+    "key": "5264cf68-e1a4-4789-86a7-c47a5e0c6bf8"
+  },
+  {
+    "word": "Tayta",
+    "start": 433.11,
+    "end": 433.57,
+    "segment": 104,
+    "key": "126e8728-6ae3-4387-a904-2fa16857ccd9"
+  },
+  {
+    "word": "curapash,",
+    "start": 433.71,
+    "end": 434.47,
+    "segment": 104,
+    "key": "d2835dd0-9646-4633-bbe1-8e5cc1e9e17a"
+  },
+  {
+    "word": "pastorpash,",
+    "start": 434.53,
+    "end": 435.54,
+    "segment": 104,
+    "key": "384d0a9a-0bcf-48ba-89c2-0108beba0c66"
+  },
+  {
+    "word": "kay",
+    "start": 435.64,
+    "end": 435.8,
+    "segment": 104,
+    "key": "8249e912-d5fd-49cc-b27c-e9bf4c6d7784"
+  },
+  {
+    "word": "ayllullaktapika",
+    "start": 435.94,
+    "end": 436.82,
+    "segment": 104,
+    "key": "1eedfd98-9dfe-43a4-9c5e-35835dff6731"
+  },
+  {
+    "word": "ishkay",
+    "start": 437.12,
+    "end": 437.59,
+    "segment": 104,
+    "key": "e33b9e82-59bc-4606-9807-7917ea84258c"
+  },
+  {
+    "word": "iglesiami",
+    "start": 437.71,
+    "end": 438.33,
+    "segment": 104,
+    "key": "8b6818f4-a101-4009-bd13-95412d0452fe"
+  },
+  {
+    "word": "tiyan.",
+    "start": 438.45,
+    "end": 438.91,
+    "segment": 104,
+    "key": "2f832276-d773-4699-a7ad-1386f48c0ba0"
+  },
+  {
+    "word": "Upalla",
+    "start": 440.91,
+    "end": 441.53,
+    "segment": 105,
+    "key": "1a581290-337f-4ed5-84fc-8d30ce0e29aa"
+  },
+  {
+    "word": "kapaychik,",
+    "start": 441.69,
+    "end": 442.68,
+    "segment": 105,
+    "key": "76065e23-8ab2-43e4-ad6a-37f8ef7b196e"
+  },
+  {
+    "word": "tukuy",
+    "start": 442.8,
+    "end": 443.06,
+    "segment": 105,
+    "key": "447c1fa5-dc12-4681-8324-aef979933d51"
+  },
+  {
+    "word": "mashikuna.",
+    "start": 443.18,
+    "end": 444.35,
+    "segment": 105,
+    "key": "700282e6-38b5-4101-b6e4-cad32aee0934"
+  },
+  {
+    "word": "Upalla",
+    "start": 444.37,
+    "end": 444.96,
+    "segment": 106,
+    "key": "8f26e36f-594a-4b9e-8fe6-85f0abb07cca"
+  },
+  {
+    "word": "kapaychik.",
+    "start": 445.12,
+    "end": 446.33,
+    "segment": 106,
+    "key": "0a2f6cae-1d72-4d9f-a8fe-a3ebd6f3878d"
+  },
+  {
+    "word": "Tiyarinakuna",
+    "start": 446.35,
+    "end": 447.35,
+    "segment": 107,
+    "key": "8b24f880-5030-423e-aaf0-7756c63fbbc8"
+  },
+  {
+    "word": "karulla",
+    "start": 447.49,
+    "end": 447.82,
+    "segment": 107,
+    "key": "5cdad85b-e8a4-4e4f-98ac-40ff6f0f86ac"
+  },
+  {
+    "word": "kachun,",
+    "start": 447.98,
+    "end": 449.02,
+    "segment": 107,
+    "key": "caa28fd7-76cc-4cba-82e5-560927896c0f"
+  },
+  {
+    "word": "ashtawan",
+    "start": 449.08,
+    "end": 449.76,
+    "segment": 107,
+    "key": "86cbb8ba-79c8-4c45-a6d1-a396016864d1"
+  },
+  {
+    "word": "karulla",
+    "start": 449.86,
+    "end": 450.22,
+    "segment": 107,
+    "key": "0ba50d14-96d2-455e-b484-9f877c7ce370"
+  },
+  {
+    "word": "kapaychik.",
+    "start": 450.35,
+    "end": 451.63,
+    "segment": 107,
+    "key": "38b22e37-244c-4c72-b62e-c8d605fa9b0d"
+  },
+  {
+    "word": "Ari,",
+    "start": 452.57,
+    "end": 453.16,
+    "segment": 108,
+    "key": "3535e8f2-0747-4fe6-8b08-431189ed0feb"
+  },
+  {
+    "word": "yupaychani.",
+    "start": 453.24,
+    "end": 454.29,
+    "segment": 108,
+    "key": "6d6cd716-e56d-4b21-b00c-a3e187796bad"
+  },
+  {
+    "word": "Rikushun.",
+    "start": 455.07,
+    "end": 455.99,
+    "segment": 109,
+    "key": "d29da435-9736-425c-b3d9-d09534ac64ba"
+  },
+  {
+    "word": "Ishkay",
+    "start": 456.28,
+    "end": 457.0,
+    "segment": 110,
+    "key": "7080af01-3840-49dc-a9b4-19be93d073e6"
+  },
+  {
+    "word": "willachikuna",
+    "start": 457.12,
+    "end": 457.81,
+    "segment": 110,
+    "key": "2826507a-dd51-4407-ae4c-01d825170a4e"
+  },
+  {
+    "word": "charini,",
+    "start": 457.93,
+    "end": 458.65,
+    "segment": 110,
+    "key": "a625d56d-32f5-4226-b959-5b02118147c7"
+  },
+  {
+    "word": "shuk",
+    "start": 458.75,
+    "end": 458.91,
+    "segment": 110,
+    "key": "5a90a9c8-488e-4af7-9c01-f608df37c80d"
+  },
+  {
+    "word": "alli,",
+    "start": 459.01,
+    "end": 459.52,
+    "segment": 110,
+    "key": "c31f9ed1-14fe-45e8-84eb-93895bf76e69"
+  },
+  {
+    "word": "shuk",
+    "start": 459.62,
+    "end": 459.74,
+    "segment": 110,
+    "key": "5f4e5313-7ecd-4088-b181-acf855657518"
+  },
+  {
+    "word": "mana",
+    "start": 459.82,
+    "end": 459.98,
+    "segment": 110,
+    "key": "4137dbd4-4867-44cf-a39d-1f04a89c261f"
+  },
+  {
+    "word": "alli.",
+    "start": 460.04,
+    "end": 460.54,
+    "segment": 110,
+    "key": "92b1f63b-0e54-4441-876c-321052da87e6"
+  },
+  {
+    "word": "Maykanmantatak",
+    "start": 460.56,
+    "end": 461.89,
+    "segment": 111,
+    "key": "75448649-8247-476a-9c67-4b339ce2749b"
+  },
+  {
+    "word": "kallarisha?",
+    "start": 461.97,
+    "end": 462.61,
+    "segment": 111,
+    "key": "0e7c2d7d-dad2-482f-84c5-8c3443e08ef5"
+  },
+  {
+    "word": "Mana",
+    "start": 462.75,
+    "end": 463.15,
+    "segment": 112,
+    "key": "1bed20c4-6bc6-4c83-b745-fd4d10fa8dfe"
+  },
+  {
+    "word": "alli",
+    "start": 463.23,
+    "end": 463.39,
+    "segment": 112,
+    "key": "a9d98409-cf19-4e26-9b82-c4aa8345b979"
+  },
+  {
+    "word": "manta",
+    "start": 463.53,
+    "end": 463.79,
+    "segment": 112,
+    "key": "8dcfaa7e-defa-40c0-acde-62b516795775"
+  },
+  {
+    "word": "kallariy,",
+    "start": 463.93,
+    "end": 464.43,
+    "segment": 112,
+    "key": "3ac100e7-5412-48a5-b897-26a236e70452"
+  },
+  {
+    "word": "alcaldesa,",
+    "start": 464.49,
+    "end": 465.53,
+    "segment": 112,
+    "key": "2d809f9e-c560-4bf9-bcb6-b25bfe851a7d"
+  },
+  {
+    "word": "kaspiwan",
+    "start": 465.61,
+    "end": 466.16,
+    "segment": 112,
+    "key": "492d76c7-d89c-4ac6-927b-67f254ed50ec"
+  },
+  {
+    "word": "waktarishpa",
+    "start": 466.26,
+    "end": 466.92,
+    "segment": 112,
+    "key": "c311abd9-3b52-473e-ae5f-0f4035628a34"
+  },
+  {
+    "word": "yacharishkami",
+    "start": 467.08,
+    "end": 467.78,
+    "segment": 112,
+    "key": "b3f8cc13-c477-4952-b7ff-82532b01ece0"
+  },
+  {
+    "word": "kanchik.",
+    "start": 467.92,
+    "end": 468.54,
+    "segment": 112,
+    "key": "0f818624-44b0-4dbe-872b-5a5d5647e42c"
+  },
+  {
+    "word": "Shinaka,",
+    "start": 468.65,
+    "end": 469.75,
+    "segment": 113,
+    "key": "99b3e361-1456-4eda-99a2-2978902e963d"
+  },
+  {
+    "word": "coronaviruska",
+    "start": 469.89,
+    "end": 470.84,
+    "segment": 113,
+    "key": "f16a88a4-2e54-4d66-9926-8656d9f8a76f"
+  },
+  {
+    "word": "mana",
+    "start": 471.4,
+    "end": 471.74,
+    "segment": 113,
+    "key": "78dc64b8-6f4c-47f6-8279-7465bd84f8d7"
+  },
+  {
+    "word": "treguata",
+    "start": 471.9,
+    "end": 472.32,
+    "segment": 113,
+    "key": "834c025d-5a9c-4791-b7e9-4ef1e66239d6"
+  },
+  {
+    "word": "kunchu.",
+    "start": 472.5,
+    "end": 473.0,
+    "segment": 113,
+    "key": "a8e698c6-7fc4-40aa-8ae8-d79b1f5b22be"
+  },
+  {
+    "word": "Hospitalmanta",
+    "start": 473.1,
+    "end": 474.2,
+    "segment": 114,
+    "key": "a4b528c6-b181-4a88-ae84-22cfb73ebb6c"
+  },
+  {
+    "word": "willachimun",
+    "start": 474.32,
+    "end": 475.01,
+    "segment": 114,
+    "key": "29dfa5ba-0164-4bb6-8f51-b4a2a655f4c4"
+  },
+  {
+    "word": "chunka",
+    "start": 475.85,
+    "end": 476.45,
+    "segment": 114,
+    "key": "b18c5147-3e68-4c47-b34d-d0811bbf6dd9"
+  },
+  {
+    "word": "kanchis",
+    "start": 476.71,
+    "end": 477.19,
+    "segment": 114,
+    "key": "b2aa5877-a52e-4b96-b610-782aff4f370e"
+  },
+  {
+    "word": "mushuk",
+    "start": 477.35,
+    "end": 477.61,
+    "segment": 114,
+    "key": "470546c4-a7cd-463d-811b-c220b935f3c2"
+  },
+  {
+    "word": "contagiadokunami",
+    "start": 477.77,
+    "end": 478.94,
+    "segment": 114,
+    "key": "a57d57ef-3b58-43af-a62e-54dc53b23606"
+  },
+  {
+    "word": "tiyan",
+    "start": 479.1,
+    "end": 479.34,
+    "segment": 114,
+    "key": "f608743d-230e-4da8-bf6f-35cfefce8e0c"
+  },
+  {
+    "word": "nishpa.",
+    "start": 479.44,
+    "end": 479.98,
+    "segment": 114,
+    "key": "79ae160f-f798-4653-bd13-e5293f67b787"
+  },
+  {
+    "word": "Mushuk",
+    "start": 480.14,
+    "end": 480.78,
+    "segment": 115,
+    "key": "d38e7d4e-25b2-4911-b112-f22101865f18"
+  },
+  {
+    "word": "unkuymi",
+    "start": 480.9,
+    "end": 481.28,
+    "segment": 115,
+    "key": "b68b363f-6943-452a-ba46-7bc575d66bb2"
+  },
+  {
+    "word": "nin,",
+    "start": 481.4,
+    "end": 482.19,
+    "segment": 115,
+    "key": "dfab76ca-435e-4a60-97f1-9b940c7b1d52"
+  },
+  {
+    "word": "shukpashmi",
+    "start": 482.31,
+    "end": 482.89,
+    "segment": 115,
+    "key": "fd71997a-c228-4e8a-9df1-a70169d899f8"
+  },
+  {
+    "word": "wacharikun",
+    "start": 483.13,
+    "end": 483.85,
+    "segment": 115,
+    "key": "eaabf07b-36c9-42d5-b90a-117fc5777e1b"
+  },
+  {
+    "word": "nin,",
+    "start": 483.97,
+    "end": 484.7,
+    "segment": 115,
+    "key": "19fa1d0f-5218-4852-9557-1c383a2fd908"
+  },
+  {
+    "word": "na",
+    "start": 484.82,
+    "end": 484.86,
+    "segment": 115,
+    "key": "0c59a206-3226-44bb-9133-ecd9f363e861"
+  },
+  {
+    "word": "yachanchikchu.",
+    "start": 485.02,
+    "end": 485.8,
+    "segment": 115,
+    "key": "0d6fe6e5-d0a3-4074-8a4e-46c6199b7512"
+  },
+  {
+    "word": "Shinapash",
+    "start": 485.91,
+    "end": 486.63,
+    "segment": 116,
+    "key": "3aa67ef1-e4c2-4835-b784-d06ba2d1e822"
+  },
+  {
+    "word": "ashalla",
+    "start": 486.98,
+    "end": 487.64,
+    "segment": 116,
+    "key": "85d8c937-d42f-4f55-91f4-99eee5033ee5"
+  },
+  {
+    "word": "respiradorkunatami",
+    "start": 487.8,
+    "end": 489.25,
+    "segment": 116,
+    "key": "92c7ad6d-d3e0-4a75-9580-a8c3acf8e88c"
+  },
+  {
+    "word": "charinchik.",
+    "start": 489.37,
+    "end": 490.01,
+    "segment": 116,
+    "key": "cb702df9-99f3-4f78-bb0b-4176f3d5c12f"
+  },
+  {
+    "word": "Allika?",
+    "start": 490.27,
+    "end": 491.12,
+    "segment": 117,
+    "key": "e6437655-e31d-49d3-9e49-8b071f562a8d"
+  },
+  {
+    "word": "Alli",
+    "start": 491.16,
+    "end": 491.54,
+    "segment": 118,
+    "key": "546f919c-79b5-4b3d-bd2d-0f5b63c5d82d"
+  },
+  {
+    "word": "willayka",
+    "start": 491.7,
+    "end": 492.2,
+    "segment": 118,
+    "key": "94a020f5-522f-4be2-96ee-204f0cc2c6df"
+  },
+  {
+    "word": "ñami",
+    "start": 492.61,
+    "end": 492.89,
+    "segment": 118,
+    "key": "e22f0500-7927-4220-b413-b1f8d30c1d5e"
+  },
+  {
+    "word": "shukniki",
+    "start": 493.17,
+    "end": 493.83,
+    "segment": 118,
+    "key": "e2023d66-e35d-4c2e-9ee2-0711bfc5180c"
+  },
+  {
+    "word": "vacunakunata",
+    "start": 494.01,
+    "end": 494.87,
+    "segment": 118,
+    "key": "d5be6dd2-1210-449e-8a8d-b5f04ff5e902"
+  },
+  {
+    "word": "churankapak",
+    "start": 495.01,
+    "end": 495.62,
+    "segment": 118,
+    "key": "e4eac974-bb6c-4cb1-a347-28f95782dd14"
+  },
+  {
+    "word": "chayamushka.",
+    "start": 495.7,
+    "end": 496.56,
+    "segment": 118,
+    "key": "59e59fcb-0d13-40cd-a98f-2eefdad49c96"
+  },
+  {
+    "word": "Mana",
+    "start": 496.63,
+    "end": 497.25,
+    "segment": 119,
+    "key": "976c7280-c99d-454b-8eb4-c1d5f0a94f5a"
+  },
+  {
+    "word": "ashtakachu,",
+    "start": 497.31,
+    "end": 497.85,
+    "segment": 119,
+    "key": "f10718dc-68f2-40dd-aa57-b462a4a7f90b"
+  },
+  {
+    "word": "tukuy",
+    "start": 497.97,
+    "end": 498.17,
+    "segment": 119,
+    "key": "d696c239-e283-41c0-bff6-9b45d8c8d0cf"
+  },
+  {
+    "word": "hampikunapak,",
+    "start": 498.25,
+    "end": 499.27,
+    "segment": 119,
+    "key": "31ff1b07-ed40-48d0-ab74-e9f5f03d787e"
+  },
+  {
+    "word": "enfermerakunapak,",
+    "start": 499.33,
+    "end": 500.88,
+    "segment": 119,
+    "key": "d33f69d4-9119-4aa9-be13-53be46b66d88"
+  },
+  {
+    "word": "hampishpak",
+    "start": 500.96,
+    "end": 501.72,
+    "segment": 119,
+    "key": "bbc1a0d0-0ef3-4e83-8d0b-75ad3806b08f"
+  },
+  {
+    "word": "ñawpakkunapak.",
+    "start": 501.82,
+    "end": 503.16,
+    "segment": 119,
+    "key": "5737378b-b1d1-4c34-9f21-daba19cc9bbc"
+  },
+  {
+    "word": "Shinallatak",
+    "start": 503.27,
+    "end": 504.12,
+    "segment": 120,
+    "key": "a3511b57-672d-4c5b-a8aa-d7afbc8c7f8e"
+  },
+  {
+    "word": "ruku",
+    "start": 504.46,
+    "end": 504.7,
+    "segment": 120,
+    "key": "5bbfca56-3603-4491-b014-095185b46fa4"
+  },
+  {
+    "word": "payakunapakpash.",
+    "start": 504.88,
+    "end": 506.05,
+    "segment": 120,
+    "key": "fe7976f9-74c0-4880-8480-bd7fb1cc4d60"
+  },
+  {
+    "word": "Ashtaka",
+    "start": 506.11,
+    "end": 506.83,
+    "segment": 121,
+    "key": "b77b59aa-1d69-4d9c-a954-a1f3176e3c87"
+  },
+  {
+    "word": "mushuk",
+    "start": 507.2,
+    "end": 507.52,
+    "segment": 121,
+    "key": "8d6f4959-f98c-4148-93a1-97dc3fa27f38"
+  },
+  {
+    "word": "watakunata",
+    "start": 507.6,
+    "end": 508.3,
+    "segment": 121,
+    "key": "faa968d8-dc39-4d86-b449-689c29364e24"
+  },
+  {
+    "word": "tantachishkakunapa.",
+    "start": 508.5,
+    "end": 509.85,
+    "segment": 121,
+    "key": "c326f0d1-e3b4-4e1b-8de7-15dbfc532be0"
+  },
+  {
+    "word": "Wakchakunapakka,",
+    "start": 512.28,
+    "end": 513.69,
+    "segment": 122,
+    "key": "5ba2d5f9-8b91-450b-89ee-3b2785d577b0"
+  },
+  {
+    "word": "ima",
+    "start": 513.75,
+    "end": 513.93,
+    "segment": 122,
+    "key": "42e9a96d-c2ad-4443-bba7-eb0741af635a"
+  },
+  {
+    "word": "horasshi",
+    "start": 514.09,
+    "end": 514.39,
+    "segment": 122,
+    "key": "1a57383d-fe87-4ebb-b9cb-495b2c672ffb"
+  },
+  {
+    "word": "vacunakunaka",
+    "start": 514.67,
+    "end": 515.32,
+    "segment": 122,
+    "key": "98046188-e81d-4d36-84ef-c62ae66789e5"
+  },
+  {
+    "word": "chayamunka?",
+    "start": 515.42,
+    "end": 515.82,
+    "segment": 122,
+    "key": "c488a0bf-a3cf-4cde-b8e0-9b612184fe94"
+  },
+  {
+    "word": "Ministerio",
+    "start": 516.42,
+    "end": 516.9,
+    "segment": 123,
+    "key": "23691d74-0622-4643-b8af-37cc40a9b849"
+  },
+  {
+    "word": "de",
+    "start": 516.98,
+    "end": 517.02,
+    "segment": 123,
+    "key": "11ab669b-2150-4caf-8869-91a90461faaf"
+  },
+  {
+    "word": "salud",
+    "start": 517.14,
+    "end": 517.34,
+    "segment": 123,
+    "key": "46eafb59-46be-4c1f-a0bd-01bc4daecd5a"
+  },
+  {
+    "word": "ukumanta",
+    "start": 517.42,
+    "end": 517.92,
+    "segment": 123,
+    "key": "3354c8f6-92d2-4870-8dca-8ba0a0d5340c"
+  },
+  {
+    "word": "willachishka",
+    "start": 518.04,
+    "end": 518.62,
+    "segment": 123,
+    "key": "5c47cc0a-da6a-4b6e-b15c-5525e66c50d5"
+  },
+  {
+    "word": "ashtaka",
+    "start": 518.82,
+    "end": 519.55,
+    "segment": 123,
+    "key": "68553249-f0d8-4c7a-a73c-970eecceb115"
+  },
+  {
+    "word": "waranka",
+    "start": 519.71,
+    "end": 520.07,
+    "segment": 123,
+    "key": "8e8e611a-e42f-4e6a-ae4a-0cbf6e65e5ad"
+  },
+  {
+    "word": "vacunatami",
+    "start": 520.15,
+    "end": 520.85,
+    "segment": 123,
+    "key": "a06470e2-2a15-427c-8629-5eac650e1f61"
+  },
+  {
+    "word": "charikrinchik",
+    "start": 521.03,
+    "end": 521.73,
+    "segment": 123,
+    "key": "14e13101-6525-4681-99c7-056819c6039d"
+  },
+  {
+    "word": "nishpa.",
+    "start": 521.87,
+    "end": 522.55,
+    "segment": 123,
+    "key": "3a00d436-ff8f-4a89-8a0c-0cd2de6eaa3e"
+  },
+  {
+    "word": "Ashtawan",
+    "start": 522.87,
+    "end": 523.53,
+    "segment": 124,
+    "key": "03aab32b-f696-432b-b0d6-dff85788f150"
+  },
+  {
+    "word": "mutsurinchik,",
+    "start": 523.63,
+    "end": 524.38,
+    "segment": 124,
+    "key": "d668ba68-c081-43d2-be3d-8898f235cba6"
+  },
+  {
+    "word": "shinapa",
+    "start": 524.46,
+    "end": 525.0,
+    "segment": 124,
+    "key": "aa128127-6807-4c84-9228-bd41f369911e"
+  },
+  {
+    "word": "Ama",
+    "start": 525.12,
+    "end": 525.42,
+    "segment": 125,
+    "key": "a9a96311-206f-47eb-b69e-4f51eed2292a"
+  },
+  {
+    "word": "llakichu,",
+    "start": 525.48,
+    "end": 526.27,
+    "segment": 125,
+    "key": "4520a2f0-04ca-49b3-a758-e1c5a99c1997"
+  },
+  {
+    "word": "alcaldesa,",
+    "start": 526.33,
+    "end": 527.27,
+    "segment": 125,
+    "key": "805c3717-9f91-4916-a83b-ab0630bdfdc4"
+  },
+  {
+    "word": "puchunkami.",
+    "start": 527.37,
+    "end": 528.16,
+    "segment": 125,
+    "key": "53f125b6-25fd-4cb6-b4f5-23bfdf4499f8"
+  },
+  {
+    "word": "Imatak",
+    "start": 528.2,
+    "end": 528.51,
+    "segment": 126,
+    "key": "a5ff2d86-e211-4f6e-bc35-5c53800f361a"
+  },
+  {
+    "word": "nikunki?",
+    "start": 528.57,
+    "end": 529.22,
+    "segment": 126,
+    "key": "c9812d95-a8d0-4344-872d-49ae4f9414b2"
+  },
+  {
+    "word": "Ñukaka",
+    "start": 529.29,
+    "end": 529.83,
+    "segment": 127,
+    "key": "e768c1aa-b234-45e3-9ffa-baf70457f139"
+  },
+  {
+    "word": "chaytaka",
+    "start": 530.03,
+    "end": 530.45,
+    "segment": 127,
+    "key": "1ea34e7c-29e8-4850-8a9d-a53f0d5a7469"
+  },
+  {
+    "word": "mana",
+    "start": 530.69,
+    "end": 530.98,
+    "segment": 127,
+    "key": "54902df7-a26b-47c3-92e6-594db866865d"
+  },
+  {
+    "word": "churarikrinichu.",
+    "start": 531.26,
+    "end": 532.14,
+    "segment": 127,
+    "key": "7f749e83-28af-42ea-a0c4-cb650d54ae42"
+  },
+  {
+    "word": "Ñukapash.",
+    "start": 533.28,
+    "end": 534.5,
+    "segment": 128,
+    "key": "c92b08b4-2560-4789-abda-e18e684c6d5a"
+  },
+  {
+    "word": "chaykunaka",
+    "start": 534.52,
+    "end": 535.31,
+    "segment": 129,
+    "key": "d4c3745a-d9a0-4769-bd10-4edd19760cb4"
+  },
+  {
+    "word": "supaypa",
+    "start": 535.45,
+    "end": 535.97,
+    "segment": 129,
+    "key": "4bab4167-c11b-453d-86f6-d29d188b8aed"
+  },
+  {
+    "word": "ruraykunami.",
+    "start": 536.11,
+    "end": 537.08,
+    "segment": 129,
+    "key": "ea276e38-89a0-473f-95d5-ceee24b4a2b5"
+  },
+  {
+    "word": "Kishpichiway,",
+    "start": 538.47,
+    "end": 539.73,
+    "segment": 130,
+    "key": "c1da7209-45f7-4707-8a6f-05ffd7d97482"
+  },
+  {
+    "word": "kankunaka",
+    "start": 539.81,
+    "end": 540.42,
+    "segment": 130,
+    "key": "c9276803-920e-4c85-be13-dcee0dd02f76"
+  },
+  {
+    "word": "imatatak",
+    "start": 540.5,
+    "end": 540.98,
+    "segment": 130,
+    "key": "eaed60a4-d705-495c-8eb1-97e589d48015"
+  },
+  {
+    "word": "nikunkichik?",
+    "start": 541.08,
+    "end": 541.76,
+    "segment": 130,
+    "key": "b882a111-9602-464a-9b1e-45df6d066b75"
+  },
+  {
+    "word": "Kikinka",
+    "start": 541.78,
+    "end": 542.2,
+    "segment": 131,
+    "key": "1ff1e62e-06ba-4c98-bf23-67c209084b6f"
+  },
+  {
+    "word": "manachu",
+    "start": 542.28,
+    "end": 542.58,
+    "segment": 131,
+    "key": "6e4ac452-7506-4970-b841-e6648cbc2ceb"
+  },
+  {
+    "word": "yachanki,",
+    "start": 542.7,
+    "end": 543.3,
+    "segment": 131,
+    "key": "9136b074-4c6a-4bdd-85f4-11160a797ead"
+  },
+  {
+    "word": "pushak",
+    "start": 543.42,
+    "end": 543.72,
+    "segment": 131,
+    "key": "319b58e1-bcb9-49f5-8840-8516f17c3b47"
+  },
+  {
+    "word": "alcaldesa,",
+    "start": 543.8,
+    "end": 544.69,
+    "segment": 131,
+    "key": "a1cc99c9-d47a-402c-b876-201055b0e54d"
+  },
+  {
+    "word": "covid",
+    "start": 544.77,
+    "end": 545.05,
+    "segment": 131,
+    "key": "66deed7e-54d8-4315-be34-1e6127e4a7b3"
+  },
+  {
+    "word": "unkuyka",
+    "start": 545.15,
+    "end": 545.53,
+    "segment": 131,
+    "key": "df847283-792a-4876-9661-4bca85f6d1af"
+  },
+  {
+    "word": "huchakuna",
+    "start": 545.97,
+    "end": 546.47,
+    "segment": 131,
+    "key": "440328dd-ad38-4721-a623-65508cd50e74"
+  },
+  {
+    "word": "hunta",
+    "start": 546.65,
+    "end": 546.93,
+    "segment": 131,
+    "key": "e3c9db5c-6934-46c1-8e03-1f0ceb206b02"
+  },
+  {
+    "word": "kashkamanta,",
+    "start": 547.03,
+    "end": 548.01,
+    "segment": 131,
+    "key": "07e0c0ab-db87-47b8-ae01-c0fede2918fd"
+  },
+  {
+    "word": "supaypak",
+    "start": 548.09,
+    "end": 548.55,
+    "segment": 131,
+    "key": "a93e1cc6-bbc2-456a-89b3-2cdbcd498b03"
+  },
+  {
+    "word": "ruraykunami",
+    "start": 548.63,
+    "end": 549.11,
+    "segment": 131,
+    "key": "c615337d-abe4-4809-ba09-8f56afdde2ab"
+  },
+  {
+    "word": "kan,t",
+    "start": 549.23,
+    "end": 549.99,
+    "segment": 131,
+    "key": "65661e3e-ebac-474b-84fc-b2ea78f0d992"
+  },
+  {
+    "word": "ukuy",
+    "start": 550.03,
+    "end": 550.36,
+    "segment": 131,
+    "key": "b31952c9-1985-46ab-a499-04067f077c58"
+  },
+  {
+    "word": "runakunata",
+    "start": 550.46,
+    "end": 551.12,
+    "segment": 131,
+    "key": "f02154b4-b157-48c8-8d4c-5f9982c09969"
+  },
+  {
+    "word": "manchachishka",
+    "start": 551.34,
+    "end": 552.32,
+    "segment": 131,
+    "key": "67de68fb-37da-472a-995c-04cc43c9d8d6"
+  },
+  {
+    "word": "charinkapak?",
+    "start": 552.44,
+    "end": 553.16,
+    "segment": 131,
+    "key": "207ec2a1-3eca-4144-9c01-96cf907a17ec"
+  },
+  {
+    "word": "Ari,",
+    "start": 553.24,
+    "end": 553.7,
+    "segment": 132,
+    "key": "0381d859-45fb-4fee-a270-2a1981629f99"
+  },
+  {
+    "word": "shinami.",
+    "start": 553.8,
+    "end": 554.52,
+    "segment": 132,
+    "key": "089c022e-bdc1-4528-bc99-50f3cbf97b3d"
+  },
+  {
+    "word": "Shinapash",
+    "start": 554.54,
+    "end": 555.18,
+    "segment": 133,
+    "key": "691c9e50-a74f-4b1a-ade8-5a778f28381b"
+  },
+  {
+    "word": "kikinka",
+    "start": 555.38,
+    "end": 555.8,
+    "segment": 133,
+    "key": "b8e55c05-edfe-4481-84f0-b225e48aee8c"
+  },
+  {
+    "word": "imatak",
+    "start": 555.89,
+    "end": 556.33,
+    "segment": 133,
+    "key": "255f232a-5914-45d9-b340-8981690319b7"
+  },
+  {
+    "word": "ninki.",
+    "start": 556.55,
+    "end": 557.17,
+    "segment": 133,
+    "key": "ce6a872c-242c-47ce-9246-b8a179f9d523"
+  },
+  {
+    "word": "Chay",
+    "start": 557.39,
+    "end": 557.75,
+    "segment": 134,
+    "key": "e1bbe3b6-4fb9-40fb-aa1b-0fd1ef075968"
+  },
+  {
+    "word": "tonterastaka",
+    "start": 557.89,
+    "end": 558.58,
+    "segment": 134,
+    "key": "ae4236d1-f83e-4056-b61d-5c4c9ac4ba85"
+  },
+  {
+    "word": "maymantatak",
+    "start": 558.9,
+    "end": 559.58,
+    "segment": 134,
+    "key": "009d6d5d-333e-4533-aef3-09c5dbcb8f3b"
+  },
+  {
+    "word": "llukchirkanki?",
+    "start": 559.66,
+    "end": 560.61,
+    "segment": 134,
+    "key": "b613da13-91bb-4afe-a511-22da5881c8cd"
+  },
+  {
+    "word": "Ama",
+    "start": 560.63,
+    "end": 560.91,
+    "segment": 135,
+    "key": "7e9e6de5-8ed4-46fb-adf7-8c8aec0fda78"
+  },
+  {
+    "word": "piñarishpa,",
+    "start": 561.05,
+    "end": 562.5,
+    "segment": 135,
+    "key": "f1e177ab-f0bc-4f6a-9884-609d22dc73d6"
+  },
+  {
+    "word": "kikinpash",
+    "start": 562.58,
+    "end": 562.98,
+    "segment": 135,
+    "key": "4356fd79-00dc-48fa-ba75-935690a2605e"
+  },
+  {
+    "word": "nachu",
+    "start": 563.06,
+    "end": 563.24,
+    "segment": 135,
+    "key": "a1b5c27b-d19d-43c5-bfe6-1d86ef4a44e3"
+  },
+  {
+    "word": "chay",
+    "start": 563.34,
+    "end": 563.44,
+    "segment": 135,
+    "key": "4fbd5b7f-0ae1-4e39-93d7-0523e8ab92c2"
+  },
+  {
+    "word": "señalkunata",
+    "start": 563.54,
+    "end": 564.07,
+    "segment": 135,
+    "key": "5b97eaa2-fa73-4f68-9845-34877ada3ecb"
+  },
+  {
+    "word": "charinki.",
+    "start": 564.17,
+    "end": 564.79,
+    "segment": 135,
+    "key": "01e4c230-4aef-4d4b-8ad7-085079653045"
+  },
+  {
+    "word": "Ima",
+    "start": 564.81,
+    "end": 565.23,
+    "segment": 136,
+    "key": "d95a326e-189e-4204-a463-1de8af3ee5dd"
+  },
+  {
+    "word": "marca,",
+    "start": 565.45,
+    "end": 565.8,
+    "segment": 136,
+    "key": "0cf1b0cd-cb78-4963-bee6-23ce785c5021"
+  },
+  {
+    "word": "ima",
+    "start": 565.86,
+    "end": 565.98,
+    "segment": 136,
+    "key": "4a0285f2-8fa7-47f5-814d-cb37bfc6994f"
+  },
+  {
+    "word": "señalkunata,",
+    "start": 566.14,
+    "end": 567.5,
+    "segment": 136,
+    "key": "30008a2a-6c51-4060-b089-91ca4457ff06"
+  },
+  {
+    "word": "yachay",
+    "start": 567.58,
+    "end": 567.81,
+    "segment": 136,
+    "key": "28f372ef-e43d-4f43-9631-960bcc890eab"
+  },
+  {
+    "word": "ushanichu?",
+    "start": 567.87,
+    "end": 568.59,
+    "segment": 136,
+    "key": "070586bd-a513-4b8b-8348-4b6dde5c66e4"
+  },
+  {
+    "word": "Seis",
+    "start": 568.69,
+    "end": 569.37,
+    "segment": 137,
+    "key": "3e88b24b-3079-4681-badd-ad8329a06d0a"
+  },
+  {
+    "word": "seis",
+    "start": 569.57,
+    "end": 569.93,
+    "segment": 137,
+    "key": "2403294f-e924-4bbb-95e3-80a3e22985e8"
+  },
+  {
+    "word": "seis",
+    "start": 570.14,
+    "end": 570.48,
+    "segment": 137,
+    "key": "ffc0e9ef-f267-4661-9ada-397d53269a6e"
+  },
+  {
+    "word": "nishka,",
+    "start": 570.62,
+    "end": 571.82,
+    "segment": 137,
+    "key": "b63b0ca4-8f43-423a-b651-504091c7e865"
+  },
+  {
+    "word": "millay",
+    "start": 571.92,
+    "end": 572.3,
+    "segment": 137,
+    "key": "70dfc690-7cc7-42ee-8dbe-968116d73348"
+  },
+  {
+    "word": "ayapak",
+    "start": 572.4,
+    "end": 572.99,
+    "segment": 137,
+    "key": "81dc1051-ad24-4c57-a9b7-db5a5aa9aa9e"
+  },
+  {
+    "word": "señal.",
+    "start": 573.11,
+    "end": 573.95,
+    "segment": 137,
+    "key": "cd3be1a1-c30d-4d5a-81e3-c1b40f783346"
+  },
+  {
+    "word": "Ama",
+    "start": 574.52,
+    "end": 574.72,
+    "segment": 138,
+    "key": "979e1fb0-0a00-4bc9-9887-a2e2c4fe4db8"
+  },
+  {
+    "word": "yankamanta",
+    "start": 574.86,
+    "end": 575.52,
+    "segment": 138,
+    "key": "56a78e07-b233-403b-ab4a-d26acb9bdb3c"
+  },
+  {
+    "word": "manchariychu.",
+    "start": 575.87,
+    "end": 576.93,
+    "segment": 138,
+    "key": "f761557c-4e6a-4d67-9b72-9b02645e6f36"
+  },
+  {
+    "word": "Chaytaka",
+    "start": 576.95,
+    "end": 577.63,
+    "segment": 139,
+    "key": "09bcf6a5-80b4-47df-833a-7a6855e990d2"
+  },
+  {
+    "word": "maymantatak",
+    "start": 578.11,
+    "end": 578.99,
+    "segment": 139,
+    "key": "a002a645-733e-45f2-ae9e-054e0b7a9641"
+  },
+  {
+    "word": "chay",
+    "start": 579.13,
+    "end": 579.29,
+    "segment": 139,
+    "key": "f7dd0443-540f-4269-976e-ed6591dc7e67"
+  },
+  {
+    "word": "yanka",
+    "start": 579.52,
+    "end": 579.84,
+    "segment": 139,
+    "key": "a0c9d2d9-44b2-4874-9e40-3413ac4ef2b8"
+  },
+  {
+    "word": "willaykunata",
+    "start": 579.94,
+    "end": 580.56,
+    "segment": 139,
+    "key": "3b5dd44e-2de8-452c-b68e-73e59bc414ae"
+  },
+  {
+    "word": "surkurkankichik?",
+    "start": 580.72,
+    "end": 581.72,
+    "segment": 139,
+    "key": "33e8b11a-a56e-4ed6-ac40-3f7805c2c4c6"
+  },
+  {
+    "word": "Nima",
+    "start": 581.77,
+    "end": 582.41,
+    "segment": 140,
+    "key": "1d30529a-e515-4740-86a7-8c90e3958a4e"
+  },
+  {
+    "word": "yanka",
+    "start": 582.61,
+    "end": 582.9,
+    "segment": 140,
+    "key": "1ed92a75-72ab-4fec-9149-a76461d2304b"
+  },
+  {
+    "word": "willay.",
+    "start": 583.08,
+    "end": 583.72,
+    "segment": 140,
+    "key": "86fbd24a-129a-4296-a6f8-73bf18e7825f"
+  },
+  {
+    "word": "Shuk",
+    "start": 583.8,
+    "end": 584.3,
+    "segment": 141,
+    "key": "3e4cc48f-b36d-42f1-a932-2f39f35d249f"
+  },
+  {
+    "word": "monjami",
+    "start": 584.48,
+    "end": 584.96,
+    "segment": 141,
+    "key": "88fc34e0-185d-475f-b76f-33e50ad862e6"
+  },
+  {
+    "word": "celularpi",
+    "start": 585.12,
+    "end": 585.73,
+    "segment": 141,
+    "key": "dca935f9-115c-4a39-9fd4-8c2410d8f9bb"
+  },
+  {
+    "word": "rimakurka.",
+    "start": 585.85,
+    "end": 586.67,
+    "segment": 141,
+    "key": "f251ee37-9785-4295-8b95-f8cd1dbb08a2"
+  },
+  {
+    "word": "Willachikurka",
+    "start": 586.93,
+    "end": 588.19,
+    "segment": 142,
+    "key": "34cc6326-4efa-44c9-99b0-513c55ee5a44"
+  },
+  {
+    "word": "mana",
+    "start": 588.67,
+    "end": 588.95,
+    "segment": 142,
+    "key": "bbfe33b1-7079-4b38-86e3-c96d5f5455d6"
+  },
+  {
+    "word": "pandemiachu",
+    "start": 589.13,
+    "end": 589.87,
+    "segment": 142,
+    "key": "7249c1a6-9c9c-4509-85da-98f9897b5d02"
+  },
+  {
+    "word": "nishpa,",
+    "start": 590.09,
+    "end": 590.92,
+    "segment": 142,
+    "key": "f926e2c8-363e-4ee2-9c8f-7e98ae883e93"
+  },
+  {
+    "word": "ashtawankarin",
+    "start": 591.0,
+    "end": 592.08,
+    "segment": 142,
+    "key": "271566d2-3050-45d4-9711-55ec44b2af9f"
+  },
+  {
+    "word": "plandemia.",
+    "start": 592.28,
+    "end": 593.68,
+    "segment": 142,
+    "key": "6b95f192-807b-4b50-a9fb-88360109b4da"
+  },
+  {
+    "word": "Shuk",
+    "start": 593.72,
+    "end": 594.2,
+    "segment": 143,
+    "key": "478bcb97-7341-4240-b4f8-2262f5ee1e03"
+  },
+  {
+    "word": "plan",
+    "start": 594.38,
+    "end": 594.68,
+    "segment": 143,
+    "key": "8f32d774-a2e2-40f8-9df8-f7af28da9310"
+  },
+  {
+    "word": "tiyan",
+    "start": 594.86,
+    "end": 595.23,
+    "segment": 143,
+    "key": "6aa994e7-9c36-4df6-945c-20c52a51132e"
+  },
+  {
+    "word": "nin,",
+    "start": 595.43,
+    "end": 596.11,
+    "segment": 143,
+    "key": "b1d72a07-c2e0-4bf9-9580-037b9a297087"
+  },
+  {
+    "word": "tukuykunata",
+    "start": 596.21,
+    "end": 597.15,
+    "segment": 143,
+    "key": "e9c704ac-02f8-4709-a9f9-c2776e30451e"
+  },
+  {
+    "word": "tukuchinkapak.",
+    "start": 597.35,
+    "end": 598.82,
+    "segment": 143,
+    "key": "d921d7dc-1c2a-4899-b5f7-8b29b3b669d4"
+  },
+  {
+    "word": "Maytapash",
+    "start": 599.77,
+    "end": 600.69,
+    "segment": 144,
+    "key": "73a1f3a3-abee-4830-a044-1588466d8e43"
+  },
+  {
+    "word": "asinayta",
+    "start": 601.03,
+    "end": 601.58,
+    "segment": 144,
+    "key": "abce5276-cd20-4d57-9ccc-e16d325477a2"
+  },
+  {
+    "word": "ninkika.",
+    "start": 601.7,
+    "end": 602.36,
+    "segment": 144,
+    "key": "ce4cdc6a-aa93-4921-82aa-493af1d0ee05"
+  },
+  {
+    "word": "Ashtawan",
+    "start": 602.4,
+    "end": 603.13,
+    "segment": 145,
+    "key": "7d2a9780-45e9-45fc-9984-1b2d75a863fb"
+  },
+  {
+    "word": "serio",
+    "start": 603.31,
+    "end": 603.69,
+    "segment": 145,
+    "key": "7db7d12c-e143-4bce-96cc-23647fb0fe8c"
+  },
+  {
+    "word": "rimawanki.",
+    "start": 603.81,
+    "end": 604.6,
+    "segment": 145,
+    "key": "64c44178-2001-4160-a8f8-78b26b31ffd4"
+  },
+  {
+    "word": "Nachu",
+    "start": 604.71,
+    "end": 605.13,
+    "segment": 146,
+    "key": "79cd6447-7dc4-4712-aa8b-0da24c409dd7"
+  },
+  {
+    "word": "yachanki,",
+    "start": 605.25,
+    "end": 606.31,
+    "segment": 146,
+    "key": "bac962d9-8c88-424a-abca-57a5de66dfe8"
+  },
+  {
+    "word": "chay",
+    "start": 606.41,
+    "end": 606.55,
+    "segment": 146,
+    "key": "cf8f848d-2d25-4bce-bd47-fbabd5127d2a"
+  },
+  {
+    "word": "vacunakunaka",
+    "start": 606.65,
+    "end": 607.46,
+    "segment": 146,
+    "key": "d369767a-2d23-414e-9f7b-504148483f26"
+  },
+  {
+    "word": "tukuy",
+    "start": 607.76,
+    "end": 608.06,
+    "segment": 146,
+    "key": "85978471-9c79-4c6b-bc3b-48c207062869"
+  },
+  {
+    "word": "kay",
+    "start": 608.2,
+    "end": 608.28,
+    "segment": 146,
+    "key": "40922501-e7da-4f0b-8429-17cfa9e17393"
+  },
+  {
+    "word": "pachapi",
+    "start": 608.42,
+    "end": 608.8,
+    "segment": 146,
+    "key": "37753e11-c1bf-43bc-8eb1-09744df636b4"
+  },
+  {
+    "word": "tiyakta",
+    "start": 608.98,
+    "end": 609.3,
+    "segment": 146,
+    "key": "1543de1e-3e63-4c99-b6b3-2753deee01ea"
+  },
+  {
+    "word": "tukuchinkapakmi,",
+    "start": 609.52,
+    "end": 611.42,
+    "segment": 146,
+    "key": "8a63398a-4e8c-44af-ab98-021cdb3c615a"
+  },
+  {
+    "word": "chay",
+    "start": 611.54,
+    "end": 611.68,
+    "segment": 146,
+    "key": "a9f9f2be-6a6d-409c-874d-306b08c673c0"
+  },
+  {
+    "word": "vacunakunaka",
+    "start": 611.8,
+    "end": 612.57,
+    "segment": 146,
+    "key": "b5d3517d-e12a-468a-bcfb-1eacd9baf94f"
+  },
+  {
+    "word": "wañuchinkapakmi.",
+    "start": 612.73,
+    "end": 614.63,
+    "segment": 146,
+    "key": "732fad79-1a73-484d-b36c-b9b2e599b135"
+  },
+  {
+    "word": "Ñukanchik",
+    "start": 614.73,
+    "end": 615.47,
+    "segment": 147,
+    "key": "400130df-5198-496f-a087-9ca20669701a"
+  },
+  {
+    "word": "yawarpimi",
+    "start": 615.55,
+    "end": 616.13,
+    "segment": 147,
+    "key": "16dc9a2a-9a8e-4ae4-8d08-22de476aa316"
+  },
+  {
+    "word": "churan",
+    "start": 616.3,
+    "end": 616.58,
+    "segment": 147,
+    "key": "19c76c89-612e-4029-ba8b-d795e65f8cdd"
+  },
+  {
+    "word": "tukuy",
+    "start": 616.7,
+    "end": 616.96,
+    "segment": 147,
+    "key": "94993750-899f-4c14-bdc7-9b0355777c25"
+  },
+  {
+    "word": "ukunmanta,",
+    "start": 617.08,
+    "end": 618.2,
+    "segment": 147,
+    "key": "8d6dcd32-d18e-41bc-b029-5afd36d1050d"
+  },
+  {
+    "word": "ADN",
+    "start": 618.26,
+    "end": 618.76,
+    "segment": 147,
+    "key": "447990bf-1a68-467d-9b6e-d3adae188484"
+  },
+  {
+    "word": "nishka",
+    "start": 618.98,
+    "end": 619.27,
+    "segment": 147,
+    "key": "adbaa403-68dc-4ad1-bb7c-5f55e909172a"
+  },
+  {
+    "word": "chakchurichun.",
+    "start": 619.45,
+    "end": 620.71,
+    "segment": 147,
+    "key": "be88416f-3a4a-4aa4-994a-92d5abe5d750"
+  },
+  {
+    "word": "ADNka",
+    "start": 620.73,
+    "end": 621.48,
+    "segment": 148,
+    "key": "ec87ddeb-3a59-4c54-8cde-fa14ff295508"
+  },
+  {
+    "word": "ima",
+    "start": 622.0,
+    "end": 622.18,
+    "segment": 148,
+    "key": "89e5c2ff-16f5-4ef1-9424-59a9961b0833"
+  },
+  {
+    "word": "nishkatak",
+    "start": 622.3,
+    "end": 622.67,
+    "segment": 148,
+    "key": "386976ae-0032-40f2-b5fd-834468a5d20c"
+  },
+  {
+    "word": "kan?",
+    "start": 622.77,
+    "end": 623.01,
+    "segment": 148,
+    "key": "ca15673b-12be-4faf-9bd8-77b1fdb174a3"
+  },
+  {
+    "word": "Chaytaka",
+    "start": 623.05,
+    "end": 623.63,
+    "segment": 149,
+    "key": "7d55f65c-fa0e-4d59-9931-5f2979bdfcf0"
+  },
+  {
+    "word": "mana",
+    "start": 623.75,
+    "end": 623.93,
+    "segment": 149,
+    "key": "5738abba-cacb-4617-bacc-e25d8884382c"
+  },
+  {
+    "word": "yachanichu,",
+    "start": 624.03,
+    "end": 625.28,
+    "segment": 149,
+    "key": "e6e7ddf6-797c-4570-92be-54cdf8400ad6"
+  },
+  {
+    "word": "shinapash",
+    "start": 625.36,
+    "end": 625.82,
+    "segment": 149,
+    "key": "8039b3b9-2252-44e2-b52f-725915b0854e"
+  },
+  {
+    "word": "shuk",
+    "start": 625.92,
+    "end": 626.06,
+    "segment": 149,
+    "key": "dbac0b58-9f38-48fa-9503-ca56f1d1b9ea"
+  },
+  {
+    "word": "layataka",
+    "start": 626.16,
+    "end": 626.71,
+    "segment": 149,
+    "key": "adefd0e6-2fa7-4af5-b54c-b48db401fbb9"
+  },
+  {
+    "word": "rurakmi.",
+    "start": 626.85,
+    "end": 627.57,
+    "segment": 149,
+    "key": "f02476ef-36e3-440a-9112-ea5a049596c3"
+  },
+  {
+    "word": "Ñukaka",
+    "start": 627.82,
+    "end": 628.52,
+    "segment": 150,
+    "key": "d9a7b820-e6da-4c36-9410-9b6754ea4ca0"
+  },
+  {
+    "word": "mana",
+    "start": 628.81,
+    "end": 629.05,
+    "segment": 150,
+    "key": "79ee221a-c054-4364-ae70-d7738c5c2ea0"
+  },
+  {
+    "word": "laboratoriomanta",
+    "start": 629.19,
+    "end": 630.07,
+    "segment": 150,
+    "key": "2beef532-0d5d-45ce-9e84-aed371531b7a"
+  },
+  {
+    "word": "ukucha",
+    "start": 630.15,
+    "end": 630.41,
+    "segment": 150,
+    "key": "f2753485-4ec1-4503-bf92-66786d077948"
+  },
+  {
+    "word": "kankapak",
+    "start": 630.53,
+    "end": 630.94,
+    "segment": 150,
+    "key": "525f854f-bbf4-48e1-9152-e39ca443c8cd"
+  },
+  {
+    "word": "munanichu.",
+    "start": 631.02,
+    "end": 631.7,
+    "segment": 150,
+    "key": "fcbde4d7-d993-499e-abb4-365eb27e0f1f"
+  },
+  {
+    "word": "Killkashka",
+    "start": 631.76,
+    "end": 632.58,
+    "segment": 151,
+    "key": "8399c583-4f41-459a-979d-ecea2217f057"
+  },
+  {
+    "word": "pankakunapi,",
+    "start": 632.7,
+    "end": 634.4,
+    "segment": 151,
+    "key": "2981f47f-c1cf-4bda-9cc8-55f7850fdadb"
+  },
+  {
+    "word": "Apocalipsis",
+    "start": 634.44,
+    "end": 635.39,
+    "segment": 151,
+    "key": "6961ec65-e6f8-4b38-a116-7041b4db04af"
+  },
+  {
+    "word": "nishka",
+    "start": 635.49,
+    "end": 635.75,
+    "segment": 151,
+    "key": "0ee22382-c555-4ae8-9d4a-9a3ecc22a490"
+  },
+  {
+    "word": "kamupi,",
+    "start": 635.87,
+    "end": 636.63,
+    "segment": 151,
+    "key": "e198d517-e424-4a65-a6fc-8f4abea2ba8b"
+  },
+  {
+    "word": "shina",
+    "start": 636.73,
+    "end": 636.95,
+    "segment": 151,
+    "key": "389ebd20-c9df-4780-906e-ae9b11cb3f8b"
+  },
+  {
+    "word": "nin.",
+    "start": 637.05,
+    "end": 637.69,
+    "segment": 151,
+    "key": "2780a7f1-5bd3-4bb4-ac18-48d35908f241"
+  },
+  {
+    "word": "Tukuykuna",
+    "start": 637.99,
+    "end": 638.83,
+    "segment": 152,
+    "key": "1d802cc0-37af-4f94-a2a1-8894e4862f17"
+  },
+  {
+    "word": "anticristopak",
+    "start": 639.03,
+    "end": 640.21,
+    "segment": 152,
+    "key": "058a8787-ed04-446f-83ed-f8378a3a82a3"
+  },
+  {
+    "word": "ñawpakpi",
+    "start": 640.31,
+    "end": 640.8,
+    "segment": 152,
+    "key": "b3426fd7-d31d-41da-a20f-862e9567f80f"
+  },
+  {
+    "word": "kanchik,",
+    "start": 640.92,
+    "end": 642.12,
+    "segment": 152,
+    "key": "49329a10-0db0-486b-ae33-8ecd028433de"
+  },
+  {
+    "word": "chay",
+    "start": 642.22,
+    "end": 642.32,
+    "segment": 152,
+    "key": "6fa36800-879e-47a6-b1db-c1c8ddc028cb"
+  },
+  {
+    "word": "venenota",
+    "start": 642.4,
+    "end": 642.84,
+    "segment": 152,
+    "key": "3bcb89a5-6f7b-4c6e-9038-c05e77668295"
+  },
+  {
+    "word": "yawarpi",
+    "start": 643.0,
+    "end": 643.6,
+    "segment": 152,
+    "key": "59f0865e-83b3-4668-b528-75054d3bf0ad"
+  },
+  {
+    "word": "churakpika",
+    "start": 643.84,
+    "end": 644.48,
+    "segment": 152,
+    "key": "aebf8035-7f5a-4f47-9d9b-69fd4fa6781d"
+  },
+  {
+    "word": "tukuylla",
+    "start": 645.12,
+    "end": 645.89,
+    "segment": 152,
+    "key": "b9bf952d-1823-4c1b-a3da-465b0b544e62"
+  },
+  {
+    "word": "tukurinka.",
+    "start": 646.63,
+    "end": 647.55,
+    "segment": 152,
+    "key": "e377b975-2128-481c-9c93-183552210760"
+  },
+  {
+    "word": "Ari,",
+    "start": 647.77,
+    "end": 648.25,
+    "segment": 153,
+    "key": "cf62542f-573d-4990-97ad-c1a764b3df58"
+  },
+  {
+    "word": "ari,",
+    "start": 648.35,
+    "end": 649.0,
+    "segment": 153,
+    "key": "6b39a359-463d-4ba6-ab99-f384e9e73395"
+  },
+  {
+    "word": "ama",
+    "start": 649.08,
+    "end": 649.3,
+    "segment": 153,
+    "key": "c109342f-ca32-4e1e-aa6f-a3488e8acfd9"
+  },
+  {
+    "word": "ashtawan",
+    "start": 649.44,
+    "end": 649.94,
+    "segment": 153,
+    "key": "da46b6be-f64a-4a21-8062-32eff6faf1db"
+  },
+  {
+    "word": "yanka",
+    "start": 650.08,
+    "end": 650.28,
+    "segment": 153,
+    "key": "8671f0f1-52e3-4d7b-b153-9275ad986a8b"
+  },
+  {
+    "word": "rimakuyllachu.",
+    "start": 650.39,
+    "end": 651.13,
+    "segment": 153,
+    "key": "7455de57-5d1b-4930-b597-1a62548c27e3"
+  },
+  {
+    "word": "Kunanlltak",
+    "start": 651.68,
+    "end": 652.56,
+    "segment": 154,
+    "key": "61fd2770-74e3-4f7e-984a-28ad07afa57e"
+  },
+  {
+    "word": "ña",
+    "start": 652.82,
+    "end": 652.86,
+    "segment": 154,
+    "key": "ae54a09a-a089-4f08-b97a-3056c9227698"
+  },
+  {
+    "word": "kutin",
+    "start": 653.12,
+    "end": 653.39,
+    "segment": 154,
+    "key": "6865c0a6-d4eb-4f42-bd9a-b82faa8aa391"
+  },
+  {
+    "word": "nikriwankichik,",
+    "start": 653.49,
+    "end": 654.59,
+    "segment": 154,
+    "key": "430387e2-041e-4fb8-bd0b-fa6f940e3f14"
+  },
+  {
+    "word": "allpa",
+    "start": 654.65,
+    "end": 654.97,
+    "segment": 154,
+    "key": "a37385b0-bfd1-4651-b42a-06ed7561d84c"
+  },
+  {
+    "word": "illakrin,",
+    "start": 655.09,
+    "end": 655.89,
+    "segment": 154,
+    "key": "5e63f3d1-0ec2-46b5-91bd-1de614101a97"
+  },
+  {
+    "word": "mana",
+    "start": 655.97,
+    "end": 656.19,
+    "segment": 154,
+    "key": "3ac1fd4b-fb93-483f-8c73-d7057b79de60"
+  },
+  {
+    "word": "rumpachu,",
+    "start": 656.37,
+    "end": 657.2,
+    "segment": 154,
+    "key": "3b92d185-2f29-4917-8de4-bb1d94f964dd"
+  },
+  {
+    "word": "planoyashkami.",
+    "start": 657.28,
+    "end": 658.36,
+    "segment": 154,
+    "key": "fbf034db-7a7a-4e41-ba7f-1883646c032e"
+  },
+  {
+    "word": "Kankuna",
+    "start": 659.69,
+    "end": 660.37,
+    "segment": 155,
+    "key": "cf43860a-1a51-4d5f-bde4-dd01516cf3f6"
+  },
+  {
+    "word": "yapa",
+    "start": 660.55,
+    "end": 660.83,
+    "segment": 155,
+    "key": "4c66edbc-3e55-4b8d-b9dc-6a2d093f4d5f"
+  },
+  {
+    "word": "zombis,",
+    "start": 661.13,
+    "end": 661.67,
+    "segment": 155,
+    "key": "3220ab20-727b-449f-a70c-da969774027b"
+  },
+  {
+    "word": "alienígenas",
+    "start": 661.73,
+    "end": 662.66,
+    "segment": 155,
+    "key": "150cc685-9271-4171-86ec-03e72a9edf28"
+  },
+  {
+    "word": "películakunata",
+    "start": 662.78,
+    "end": 663.86,
+    "segment": 155,
+    "key": "00769346-bc71-4dd5-a7bd-d7fd8a75c79d"
+  },
+  {
+    "word": "rikushkankichik,",
+    "start": 664.02,
+    "end": 664.94,
+    "segment": 155,
+    "key": "87aff9a6-4a8f-4c53-a3e3-068314e70fd6"
+  },
+  {
+    "word": "nachu.",
+    "start": 665.02,
+    "end": 665.5,
+    "segment": 155,
+    "key": "15b26b85-c1fb-4cfa-837a-dfb3e8e6aa60"
+  },
+  {
+    "word": "Rikupay,",
+    "start": 666.6,
+    "end": 667.32,
+    "segment": 156,
+    "key": "51084229-e440-4e8e-a25d-01877f8a30d6"
+  },
+  {
+    "word": "pushak",
+    "start": 667.42,
+    "end": 667.69,
+    "segment": 156,
+    "key": "e6e693f7-fe6a-48b8-8571-cd1f29ec336e"
+  },
+  {
+    "word": "alcaldesa.",
+    "start": 667.75,
+    "end": 668.51,
+    "segment": 156,
+    "key": "2d8976a5-ad67-4bda-a24e-adc19021235e"
+  },
+  {
+    "word": "Ñuka",
+    "start": 668.67,
+    "end": 669.11,
+    "segment": 157,
+    "key": "e5158676-98a1-46bc-91e6-91386e8c32c3"
+  },
+  {
+    "word": "mana",
+    "start": 669.27,
+    "end": 669.49,
+    "segment": 157,
+    "key": "ba742516-c8f9-43a3-96fc-332a1c30e3ea"
+  },
+  {
+    "word": "chay",
+    "start": 669.61,
+    "end": 669.71,
+    "segment": 157,
+    "key": "f8bf6714-583c-48ef-a4ca-0a1a3d3fe07b"
+  },
+  {
+    "word": "fantasíakunapi",
+    "start": 669.79,
+    "end": 670.62,
+    "segment": 157,
+    "key": "b4258b17-f91b-45dd-8fa7-ffb058887c19"
+  },
+  {
+    "word": "krinichu.",
+    "start": 670.72,
+    "end": 671.32,
+    "segment": 157,
+    "key": "24bca997-c33f-45ea-90ca-acbbe649678a"
+  },
+  {
+    "word": "Shinapash",
+    "start": 671.39,
+    "end": 672.13,
+    "segment": 158,
+    "key": "60fbdd98-7650-4dd7-9c6a-e212094b6fa4"
+  },
+  {
+    "word": "ñuka",
+    "start": 672.27,
+    "end": 672.51,
+    "segment": 158,
+    "key": "ed1a3c85-901c-4c2c-95cb-09d55768ccba"
+  },
+  {
+    "word": "rimaypika",
+    "start": 672.61,
+    "end": 673.17,
+    "segment": 158,
+    "key": "2cc9357e-4772-488a-a9e6-bc86af8ee2f1"
+  },
+  {
+    "word": "pandemiaka",
+    "start": 673.59,
+    "end": 674.26,
+    "segment": 158,
+    "key": "807e64a6-fc92-4f83-ad3d-14128fc6ad23"
+  },
+  {
+    "word": "mana",
+    "start": 674.6,
+    "end": 674.94,
+    "segment": 158,
+    "key": "3d42e2da-3e0f-4d53-a90f-fffc8a59e4a9"
+  },
+  {
+    "word": "shukkuna",
+    "start": 675.14,
+    "end": 675.56,
+    "segment": 158,
+    "key": "877ee0cb-8bac-4e86-ac70-35fe4a75889c"
+  },
+  {
+    "word": "nin",
+    "start": 675.72,
+    "end": 675.84,
+    "segment": 158,
+    "key": "65b73d56-5c43-49a1-b603-3490f37afc0e"
+  },
+  {
+    "word": "shinachu.",
+    "start": 675.96,
+    "end": 676.56,
+    "segment": 158,
+    "key": "1d8a0586-b0ec-4a97-8fff-9f83e6d1c40c"
+  },
+  {
+    "word": "Canela",
+    "start": 676.7,
+    "end": 677.34,
+    "segment": 159,
+    "key": "89a0da6e-fb8f-4737-9f92-e65055e7e103"
+  },
+  {
+    "word": "yakuta",
+    "start": 677.48,
+    "end": 677.88,
+    "segment": 159,
+    "key": "f1fa80a2-a404-4eb8-9d51-52f93f16ac08"
+  },
+  {
+    "word": "punchapi",
+    "start": 678.64,
+    "end": 679.2,
+    "segment": 159,
+    "key": "9d09f703-da02-4ab5-8736-fa1ab67a206c"
+  },
+  {
+    "word": "kimsa",
+    "start": 679.36,
+    "end": 679.68,
+    "segment": 159,
+    "key": "8b48b63a-bb81-410f-8095-af556331fb2f"
+  },
+  {
+    "word": "kutin",
+    "start": 679.84,
+    "end": 680.11,
+    "segment": 159,
+    "key": "9783e38b-fef2-4d2c-a3f2-7e588fc17616"
+  },
+  {
+    "word": "upyachikpi",
+    "start": 680.19,
+    "end": 680.75,
+    "segment": 159,
+    "key": "c3376a94-1bcc-4ded-92c4-12f9278a0bea"
+  },
+  {
+    "word": "chay",
+    "start": 681.27,
+    "end": 681.47,
+    "segment": 159,
+    "key": "38489b01-e423-4e95-9b56-fcec2185f9e2"
+  },
+  {
+    "word": "kuru",
+    "start": 681.75,
+    "end": 682.13,
+    "segment": 159,
+    "key": "e9c78d35-8358-4e7c-9797-c529ead4d97a"
+  },
+  {
+    "word": "tukurinllami.",
+    "start": 682.27,
+    "end": 683.25,
+    "segment": 159,
+    "key": "b21e1742-f97e-419a-832c-288fdea6ae9b"
+  },
+  {
+    "word": "Chaytami",
+    "start": 683.3,
+    "end": 683.98,
+    "segment": 160,
+    "key": "e4da1115-9e77-4bc8-8e25-bfb652628a3d"
+  },
+  {
+    "word": "ñuka",
+    "start": 684.16,
+    "end": 684.36,
+    "segment": 160,
+    "key": "7aeca23b-fc8f-4f75-97ea-060d6a718a04"
+  },
+  {
+    "word": "sobrino",
+    "start": 684.52,
+    "end": 685.0,
+    "segment": 160,
+    "key": "4cd399b1-34a2-4537-ba95-1971d874954e"
+  },
+  {
+    "word": "unkushka",
+    "start": 685.25,
+    "end": 685.59,
+    "segment": 160,
+    "key": "162cd204-ccf6-4198-9dff-7cbd00842709"
+  },
+  {
+    "word": "kakpika",
+    "start": 685.71,
+    "end": 686.11,
+    "segment": 160,
+    "key": "6a25a625-964f-4550-8c23-ce27dc78f340"
+  },
+  {
+    "word": "kararkani.",
+    "start": 686.23,
+    "end": 686.87,
+    "segment": 160,
+    "key": "cd5d7fd3-97e5-4370-9c3f-761351f5e44c"
+  },
+  {
+    "word": "Nima",
+    "start": 686.89,
+    "end": 687.5,
+    "segment": 161,
+    "key": "9a7137ac-1f14-4a7d-87e2-fec94384e9cd"
+  },
+  {
+    "word": "canela",
+    "start": 687.68,
+    "end": 688.0,
+    "segment": 161,
+    "key": "16cfafd2-f44d-4c1e-a8df-07498b0d1022"
+  },
+  {
+    "word": "yaku.",
+    "start": 688.14,
+    "end": 688.79,
+    "segment": 161,
+    "key": "765b9270-fa18-4977-a3ba-ac26da81c029"
+  },
+  {
+    "word": "Mana",
+    "start": 688.99,
+    "end": 689.41,
+    "segment": 162,
+    "key": "50b82a72-b992-4279-9fb0-9f933ba4039a"
+  },
+  {
+    "word": "mikushpa",
+    "start": 689.51,
+    "end": 689.95,
+    "segment": 162,
+    "key": "bf2eaef2-bb33-4d9e-a359-57508ed56c65"
+  },
+  {
+    "word": "mañana.",
+    "start": 690.09,
+    "end": 691.2,
+    "segment": 162,
+    "key": "445462c6-4a1a-4cce-bb87-73780f52cb6c"
+  },
+  {
+    "word": "Pachakamakllami",
+    "start": 691.29,
+    "end": 692.28,
+    "segment": 163,
+    "key": "f7c40f0d-8ede-4bee-9dbf-4d03fa3c08f7"
+  },
+  {
+    "word": "allichin.",
+    "start": 692.44,
+    "end": 693.18,
+    "segment": 163,
+    "key": "f158e824-4793-4aa1-8af0-75f96d2d857e"
+  },
+  {
+    "word": "Hatun",
+    "start": 693.34,
+    "end": 694.0,
+    "segment": 164,
+    "key": "8fc1be9c-9d68-47ef-8f2a-16d31d8adaa5"
+  },
+  {
+    "word": "espiritual",
+    "start": 694.08,
+    "end": 694.74,
+    "segment": 164,
+    "key": "e8afe92b-8158-4454-8f8d-0ac2d38a8665"
+  },
+  {
+    "word": "makanakuypimi",
+    "start": 694.84,
+    "end": 695.56,
+    "segment": 164,
+    "key": "779d7ddc-8415-4e2c-9bf8-4500414bc7ae"
+  },
+  {
+    "word": "kanchik,",
+    "start": 695.7,
+    "end": 696.73,
+    "segment": 164,
+    "key": "3076211f-fe69-4424-abf2-82b0e08cdeea"
+  },
+  {
+    "word": "chaytaka",
+    "start": 696.79,
+    "end": 697.25,
+    "segment": 164,
+    "key": "f3b24a15-0396-45e5-9a1a-b559c338e117"
+  },
+  {
+    "word": "mishayta",
+    "start": 697.75,
+    "end": 698.31,
+    "segment": 164,
+    "key": "b7ee3257-2872-4cb8-9eae-58c37d4dfc8f"
+  },
+  {
+    "word": "ushashun.",
+    "start": 698.43,
+    "end": 699.35,
+    "segment": 164,
+    "key": "8eb08572-b87f-4e7f-9f36-bd8c904902b9"
+  },
+  {
+    "word": "Mana",
+    "start": 699.54,
+    "end": 700.12,
+    "segment": 165,
+    "key": "21b90ad8-037b-4457-aaf9-1adff88e59ed"
+  },
+  {
+    "word": "mikushpa",
+    "start": 700.4,
+    "end": 701.07,
+    "segment": 165,
+    "key": "d7733e55-6fa7-4e7e-ac14-cf8051a557aa"
+  },
+  {
+    "word": "mañaykunawan.",
+    "start": 701.47,
+    "end": 702.53,
+    "segment": 165,
+    "key": "79dace3d-4f2a-4b34-88fd-1dbe7095e16f"
+  },
+  {
+    "word": "Mana",
+    "start": 703.61,
+    "end": 704.03,
+    "segment": 166,
+    "key": "0e744446-3f67-47d2-9db7-e56671ea79ee"
+  },
+  {
+    "word": "mañaylla",
+    "start": 704.17,
+    "end": 704.61,
+    "segment": 166,
+    "key": "5e7d0433-364d-4abf-b57f-7ec82811256d"
+  },
+  {
+    "word": "allichu,",
+    "start": 704.68,
+    "end": 705.06,
+    "segment": 166,
+    "key": "c644fda7-9b12-400c-ac2f-27964636521d"
+  },
+  {
+    "word": "pastor.",
+    "start": 705.14,
+    "end": 705.64,
+    "segment": 166,
+    "key": "da026921-b5ce-438a-aa32-910231ca6aea"
+  },
+  {
+    "word": "Yachankichu,",
+    "start": 705.78,
+    "end": 707.06,
+    "segment": 167,
+    "key": "67109e51-f833-4cdd-9a5b-b81b70b9bac6"
+  },
+  {
+    "word": "mikunakuna",
+    "start": 707.32,
+    "end": 708.04,
+    "segment": 167,
+    "key": "f65974ac-f10a-4a14-8175-6b346bba986d"
+  },
+  {
+    "word": "ashalla",
+    "start": 708.34,
+    "end": 708.71,
+    "segment": 167,
+    "key": "5f54676c-c45d-4a7b-8d2c-7b7bfd5109c2"
+  },
+  {
+    "word": "kakpika",
+    "start": 708.83,
+    "end": 709.23,
+    "segment": 167,
+    "key": "38bab519-3596-437e-b34e-147904c371e0"
+  },
+  {
+    "word": "imatak",
+    "start": 709.33,
+    "end": 709.77,
+    "segment": 167,
+    "key": "30ae5ce1-efa3-42c6-9ba3-391b03d81925"
+  },
+  {
+    "word": "nin",
+    "start": 709.89,
+    "end": 709.99,
+    "segment": 167,
+    "key": "e05ff0e0-a918-4790-b2b6-1ea25978ee96"
+  },
+  {
+    "word": "ñawpa",
+    "start": 710.11,
+    "end": 710.31,
+    "segment": 167,
+    "key": "cbde83a2-2093-4a16-a8dd-b14de77a88e6"
+  },
+  {
+    "word": "taytakunaka?",
+    "start": 710.43,
+    "end": 711.23,
+    "segment": 167,
+    "key": "a4ae0085-bfe5-44ed-a256-1ed139bd6aba"
+  },
+  {
+    "word": "Virgen",
+    "start": 711.34,
+    "end": 712.02,
+    "segment": 168,
+    "key": "5ec24f8a-f217-4dbd-a0a7-48e7a981c4f5"
+  },
+  {
+    "word": "mamata",
+    "start": 712.1,
+    "end": 712.49,
+    "segment": 168,
+    "key": "3db0236e-dc95-429c-b151-e21f729bde15"
+  },
+  {
+    "word": "mañashpanti",
+    "start": 712.65,
+    "end": 713.37,
+    "segment": 168,
+    "key": "415260be-0933-4728-b496-d2d104c647b8"
+  },
+  {
+    "word": "tarpushpanti.",
+    "start": 713.61,
+    "end": 714.86,
+    "segment": 168,
+    "key": "608a108c-94a7-457a-b304-26db67e928f0"
+  },
+  {
+    "word": "Yanapariy",
+    "start": 714.88,
+    "end": 715.95,
+    "segment": 169,
+    "key": "cfd963e6-06d7-49eb-ac11-f3be68a5d0e4"
+  },
+  {
+    "word": "Pachakamak",
+    "start": 716.07,
+    "end": 716.75,
+    "segment": 169,
+    "key": "a1532bbd-b3ba-4c7e-87dd-2f4fe049b4b4"
+  },
+  {
+    "word": "yanapachun.",
+    "start": 716.83,
+    "end": 717.6,
+    "segment": 169,
+    "key": "c41734e7-02d6-4879-9d23-1312625000ab"
+  },
+  {
+    "word": "Vacuna",
+    "start": 717.86,
+    "end": 718.52,
+    "segment": 170,
+    "key": "340941f4-70cc-4b77-9f04-393eca216096"
+  },
+  {
+    "word": "nishkaka",
+    "start": 718.63,
+    "end": 719.01,
+    "segment": 170,
+    "key": "04893918-24a6-4104-9fe2-40400c61889e"
+  },
+  {
+    "word": "hatun",
+    "start": 719.29,
+    "end": 719.75,
+    "segment": 170,
+    "key": "ff8adafe-01f4-4ac2-8290-f4dd80416800"
+  },
+  {
+    "word": "yanapaymi.",
+    "start": 719.83,
+    "end": 720.74,
+    "segment": 170,
+    "key": "ff6c42a0-bcc8-4ed3-8d49-f78ba0154b4a"
+  },
+  {
+    "word": "Yachankichu?",
+    "start": 720.96,
+    "end": 722.05,
+    "segment": 171,
+    "key": "4a407e88-2250-4de9-b6e4-4ec975e0b201"
+  },
+  {
+    "word": "Na,",
+    "start": 722.1,
+    "end": 723.0,
+    "segment": 172,
+    "key": "302a5781-adea-4148-a182-b470737f05e4"
+  },
+  {
+    "word": "ama",
+    "start": 723.08,
+    "end": 723.36,
+    "segment": 172,
+    "key": "5d30731e-100a-4f42-b424-302a3f4cb9ff"
+  },
+  {
+    "word": "monjakunaka",
+    "start": 723.52,
+    "end": 724.39,
+    "segment": 172,
+    "key": "b70addd7-45ca-4427-b70a-423c3228e5ba"
+  },
+  {
+    "word": "supaykuna",
+    "start": 724.73,
+    "end": 725.49,
+    "segment": 172,
+    "key": "fd12166b-a394-4fa4-bd09-730855648a12"
+  },
+  {
+    "word": "umachichun.",
+    "start": 725.59,
+    "end": 726.63,
+    "segment": 172,
+    "key": "0af82012-d4f7-4569-8cec-15d1e01839a5"
+  },
+  {
+    "word": "Ñukarak",
+    "start": 727.03,
+    "end": 728.78,
+    "segment": 173,
+    "key": "4720ad72-6591-415a-9ae3-d35f9544524b"
+  },
+  {
+    "word": "vacunarikrini.",
+    "start": 728.88,
+    "end": 729.96,
+    "segment": 173,
+    "key": "8409db03-7169-401d-a222-fac60fa731fc"
+  },
+  {
+    "word": "Ari,",
+    "start": 730.13,
+    "end": 731.13,
+    "segment": 174,
+    "key": "9fccfd6a-ccf5-4cb9-972f-898d5bd02909"
+  },
+  {
+    "word": "kunanllatak",
+    "start": 731.26,
+    "end": 732.08,
+    "segment": 174,
+    "key": "5ac9e340-5f12-4c9b-9d3e-5e10f51af468"
+  },
+  {
+    "word": "kankunapa",
+    "start": 732.46,
+    "end": 733.16,
+    "segment": 174,
+    "key": "bb84fe37-913e-4f28-8684-3df073af4574"
+  },
+  {
+    "word": "ñawpapi",
+    "start": 733.34,
+    "end": 733.67,
+    "segment": 174,
+    "key": "b7464a4c-975a-4ed0-8b8d-b25ffcc96096"
+  },
+  {
+    "word": "vacunarikrini.",
+    "start": 733.77,
+    "end": 734.55,
+    "segment": 174,
+    "key": "ef43a86c-3d57-4cc1-809d-9fc87b9c95f2"
+  },
+  {
+    "word": "Ama",
+    "start": 734.57,
+    "end": 734.85,
+    "segment": 175,
+    "key": "715ade38-53de-4740-b5ce-2148c81ed8b5"
+  },
+  {
+    "word": "ruraychu,",
+    "start": 734.99,
+    "end": 735.53,
+    "segment": 175,
+    "key": "42d9bd35-7ced-4c6d-a965-0282fb9e807c"
+  },
+  {
+    "word": "alcaldesa,",
+    "start": 735.59,
+    "end": 736.5,
+    "segment": 175,
+    "key": "1507cb3b-fd57-400d-860c-a1220d5af731"
+  },
+  {
+    "word": "ama",
+    "start": 736.58,
+    "end": 736.76,
+    "segment": 175,
+    "key": "a8dfa69d-3a8f-4c1f-a62b-d5205b355433"
+  },
+  {
+    "word": "wañuychu!",
+    "start": 736.92,
+    "end": 738.0,
+    "segment": 175,
+    "key": "937a69fa-1fcf-44b6-ba0d-bdb112fe0834"
+  },
+  {
+    "word": "Killkak,",
+    "start": 738.41,
+    "end": 739.35,
+    "segment": 176,
+    "key": "1aed8168-22a6-4093-a505-cf33bf171245"
+  },
+  {
+    "word": "hampikta",
+    "start": 739.45,
+    "end": 739.99,
+    "segment": 176,
+    "key": "a72fc27e-ebc4-4571-b18b-822af014ca6f"
+  },
+  {
+    "word": "kayachimuy",
+    "start": 740.11,
+    "end": 740.68,
+    "segment": 176,
+    "key": "f7b73b6c-1768-4ce6-bdd4-b6c47e9df283"
+  },
+  {
+    "word": "tuksita",
+    "start": 741.04,
+    "end": 741.48,
+    "segment": 176,
+    "key": "27f3d4c2-6969-41ca-8514-b0078e318a7e"
+  },
+  {
+    "word": "apamuchun.",
+    "start": 741.56,
+    "end": 742.12,
+    "segment": 176,
+    "key": "c50c7f29-cd4b-4406-8bec-7c7293f58ce4"
+  },
+  {
+    "word": "Na",
+    "start": 742.15,
+    "end": 742.25,
+    "segment": 177,
+    "key": "a422cc4b-e6a9-467e-be63-91e00716f0bb"
+  },
+  {
+    "word": "na",
+    "start": 742.41,
+    "end": 742.45,
+    "segment": 177,
+    "key": "010ed6a5-eed1-45fe-b3b8-2a603ef69d5d"
+  },
+  {
+    "word": "na",
+    "start": 742.59,
+    "end": 742.61,
+    "segment": 177,
+    "key": "055a49f0-f732-4561-8257-90c10e295dc9"
+  },
+  {
+    "word": "na,",
+    "start": 742.79,
+    "end": 743.17,
+    "segment": 177,
+    "key": "1370d769-1c1a-49c6-a67e-edeeb26d97e4"
+  },
+  {
+    "word": "na",
+    "start": 743.23,
+    "end": 743.27,
+    "segment": 177,
+    "key": "69467985-ddc3-4195-8617-da22d51cd174"
+  },
+  {
+    "word": "ruraychu,",
+    "start": 743.4,
+    "end": 743.8,
+    "segment": 177,
+    "key": "436ed097-656e-47f7-91f8-9a3675b57a0e"
+  },
+  {
+    "word": "ama",
+    "start": 743.86,
+    "end": 743.96,
+    "segment": 177,
+    "key": "55ecaaf4-290e-4f72-ad40-0e6919384689"
+  },
+  {
+    "word": "ruraychu.",
+    "start": 744.08,
+    "end": 744.48,
+    "segment": 177,
+    "key": "2a5c614e-0be0-445c-869a-d768de13844b"
+  },
+  {
+    "word": "Shinallami",
+    "start": 745.74,
+    "end": 746.68,
+    "segment": 178,
+    "key": "7f9233e6-2534-47ca-92b9-469264bd335b"
+  },
+  {
+    "word": "alcaldesa",
+    "start": 746.78,
+    "end": 747.38,
+    "segment": 178,
+    "key": "f791f781-e845-48a0-92e6-ed7ca2d59f7e"
+  },
+  {
+    "word": "pushakka,",
+    "start": 747.52,
+    "end": 748.91,
+    "segment": 178,
+    "key": "91deaba1-dba1-49b2-bf25-039ce5885d73"
+  },
+  {
+    "word": "tukuypa",
+    "start": 748.99,
+    "end": 749.43,
+    "segment": 178,
+    "key": "a38037aa-951c-4aa3-ad8d-9c9abc56d3ae"
+  },
+  {
+    "word": "ñawpapi",
+    "start": 749.59,
+    "end": 750.05,
+    "segment": 178,
+    "key": "173c5bee-5498-4530-831c-5ec134d85c8b"
+  },
+  {
+    "word": "vacunarirka.",
+    "start": 750.21,
+    "end": 751.21,
+    "segment": 178,
+    "key": "9f68bb88-c875-4695-801a-e24337df64d1"
+  },
+  {
+    "word": "Payka",
+    "start": 753.04,
+    "end": 753.66,
+    "segment": 179,
+    "key": "c1aae4ae-a5b2-494c-a4de-b8c46505a0d4"
+  },
+  {
+    "word": "mana",
+    "start": 753.88,
+    "end": 754.12,
+    "segment": 179,
+    "key": "3c998cb4-be66-421c-a606-54079477c42b"
+  },
+  {
+    "word": "yacharkachu",
+    "start": 754.24,
+    "end": 754.8,
+    "segment": 179,
+    "key": "0987c51d-d96e-4185-a79e-082e10ff6f10"
+  },
+  {
+    "word": "kayapa",
+    "start": 754.97,
+    "end": 755.37,
+    "segment": 179,
+    "key": "2109f883-5e19-4000-a5c1-499b4dac1c68"
+  },
+  {
+    "word": "imalla",
+    "start": 755.63,
+    "end": 756.11,
+    "segment": 179,
+    "key": "7b02651a-db08-4662-bfe0-ffc8ff291145"
+  },
+  {
+    "word": "tiyanata.",
+    "start": 756.23,
+    "end": 756.85,
+    "segment": 179,
+    "key": "71e06ed5-7e28-4654-93e8-84fe57efec90"
+  },
+  {
+    "word": "Alcaldesa",
+    "start": 757.45,
+    "end": 758.22,
+    "segment": 180,
+    "key": "b67af244-8719-4e14-9802-e12c031863b2"
+  },
+  {
+    "word": "Magdalena",
+    "start": 758.32,
+    "end": 758.71,
+    "segment": 180,
+    "key": "df0d535e-905b-4792-85bc-bcf9a2bd0c9b"
+  },
+  {
+    "word": "Ayala.",
+    "start": 758.77,
+    "end": 759.01,
+    "segment": 180,
+    "key": "0a37be56-801a-4c65-9413-e0d934706694"
+  },
+  {
+    "word": "Kaypimi",
+    "start": 759.33,
+    "end": 759.62,
+    "segment": 181,
+    "key": "35c50702-f4b8-49a6-9d65-41db2b141b70"
+  },
+  {
+    "word": "kani.",
+    "start": 759.74,
+    "end": 760.1,
+    "segment": 181,
+    "key": "0ba38d8f-871e-4a6d-8cad-37d7b2702fd8"
+  },
+  {
+    "word": "Kikinta",
+    "start": 760.29,
+    "end": 760.84,
+    "segment": 182,
+    "key": "8ffdc78b-3813-4ddf-9441-c9acab87ef84"
+  },
+  {
+    "word": "huchachishkawan",
+    "start": 760.98,
+    "end": 761.6,
+    "segment": 182,
+    "key": "60c0a5de-aeb8-4c63-b374-c1a75b48b1be"
+  },
+  {
+    "word": "shamunchik.",
+    "start": 761.7,
+    "end": 762.17,
+    "segment": 182,
+    "key": "7223956b-1308-4471-9e56-c9a0858901cd"
+  },
+  {
+    "word": "Ñukata?",
+    "start": 762.19,
+    "end": 763.13,
+    "segment": 183,
+    "key": "0ed09738-9dd4-48a6-a6a1-9ca8418c1e7f"
+  },
+  {
+    "word": "Imatak",
+    "start": 763.15,
+    "end": 763.74,
+    "segment": 184,
+    "key": "b12633d3-5437-4aba-967e-4e199c04f695"
+  },
+  {
+    "word": "nin?",
+    "start": 763.84,
+    "end": 764.07,
+    "segment": 184,
+    "key": "ee78c242-d925-419f-bfb0-a5367dab1497"
+  },
+  {
+    "word": "Mana",
+    "start": 764.1,
+    "end": 764.48,
+    "segment": 185,
+    "key": "427d0511-8de5-4d21-8df8-03fabda40d2a"
+  },
+  {
+    "word": "allita",
+    "start": 764.6,
+    "end": 764.9,
+    "segment": 185,
+    "key": "71c43568-b8cd-4de1-b103-010588cc8fac"
+  },
+  {
+    "word": "rurashka",
+    "start": 765.0,
+    "end": 765.34,
+    "segment": 185,
+    "key": "ae00e8b8-4e1a-4bb0-ac81-c2d16454e23c"
+  },
+  {
+    "word": "nishpa",
+    "start": 765.47,
+    "end": 765.67,
+    "segment": 185,
+    "key": "19d9828e-761c-4356-951d-c0cb90823831"
+  },
+  {
+    "word": "huchachinakun.",
+    "start": 765.79,
+    "end": 766.61,
+    "segment": 185,
+    "key": "2b7345ef-43fb-4f8e-bb99-06bc9c558293"
+  },
+  {
+    "word": "Kikin",
+    "start": 766.63,
+    "end": 766.99,
+    "segment": 186,
+    "key": "340bc94c-8d1d-4ceb-adec-6972ad2c4a77"
+  },
+  {
+    "word": "pushak",
+    "start": 767.11,
+    "end": 767.37,
+    "segment": 186,
+    "key": "ef59b92d-dc11-4fb9-837f-18d7c5c61ed2"
+  },
+  {
+    "word": "kanki",
+    "start": 767.47,
+    "end": 767.65,
+    "segment": 186,
+    "key": "246521c8-fbd9-47ef-8f76-1d5826bbb7d3"
+  },
+  {
+    "word": "nishpalla,",
+    "start": 767.75,
+    "end": 768.18,
+    "segment": 186,
+    "key": "24fa56d7-d576-4fcf-9ded-961067ec96cb"
+  },
+  {
+    "word": "tukuykunata",
+    "start": 768.26,
+    "end": 768.88,
+    "segment": 186,
+    "key": "1fbb4b72-ef25-4411-97ab-3f172ba594a4"
+  },
+  {
+    "word": "kashkata",
+    "start": 769.44,
+    "end": 769.82,
+    "segment": 186,
+    "key": "7e0d2063-5f74-4743-a1be-728f7634f1cf"
+  },
+  {
+    "word": "kikinpak",
+    "start": 769.92,
+    "end": 770.32,
+    "segment": 186,
+    "key": "7163f723-a7a1-4781-a1fd-04bbc3d69e68"
+  },
+  {
+    "word": "hapishkanki",
+    "start": 770.4,
+    "end": 770.91,
+    "segment": 186,
+    "key": "3dc7f117-5557-40e5-8088-b3607826651d"
+  },
+  {
+    "word": "ninakun.",
+    "start": 771.01,
+    "end": 771.75,
+    "segment": 186,
+    "key": "436fab68-66a5-41ec-9ab2-7095f59a6fcb"
+  },
+  {
+    "word": "Imatak",
+    "start": 771.84,
+    "end": 772.67,
+    "segment": 187,
+    "key": "9d29a25a-12fe-4273-897b-b43e7cceef2d"
+  },
+  {
+    "word": "ninki?",
+    "start": 772.79,
+    "end": 773.34,
+    "segment": 187,
+    "key": "af27a83b-861e-405c-bdb3-fde9934d0231"
+  },
+  {
+    "word": "Kikin",
+    "start": 773.38,
+    "end": 773.84,
+    "segment": 188,
+    "key": "ee098c61-037c-4573-8eca-b251eadf1022"
+  },
+  {
+    "word": "manarak",
+    "start": 773.94,
+    "end": 774.3,
+    "segment": 188,
+    "key": "59d03b10-d406-4db0-8c29-03ad839c563a"
+  },
+  {
+    "word": "vacunarinachu",
+    "start": 774.38,
+    "end": 775.05,
+    "segment": 188,
+    "key": "28ed7238-ab12-4afa-adb0-9fc3770d975d"
+  },
+  {
+    "word": "karkanki.",
+    "start": 775.15,
+    "end": 775.83,
+    "segment": 188,
+    "key": "1984e78c-f5b7-49ff-bb9c-4b9aa4199e35"
+  },
+  {
+    "word": "Kikin manarak vacunarinachu karkanki. Ripashun.",
+    "start": 1551.7,
+    "end": 1552.55,
+    "segment": 189,
+    "key": "e1895ff9-3301-4e1e-8679-d46b2385299b"
+  },
+  {
+    "word": "Na",
+    "start": 776.76,
+    "end": 776.9,
+    "segment": 190,
+    "key": "40c71852-3eca-4fb7-b535-6967cad0f614"
+  },
+  {
+    "word": "na",
+    "start": 777.0,
+    "end": 777.02,
+    "segment": 190,
+    "key": "8d0d57c0-9d78-43ed-8cd1-bcb549f35218"
+  },
+  {
+    "word": "na,",
+    "start": 777.14,
+    "end": 777.41,
+    "segment": 190,
+    "key": "571c3834-1cab-4134-9e1e-ee8d1a9eefec"
+  },
+  {
+    "word": "mana",
+    "start": 777.49,
+    "end": 777.63,
+    "segment": 190,
+    "key": "8c90f93a-24ec-44fb-8929-a14785ba32d9"
+  },
+  {
+    "word": "kankachu.",
+    "start": 777.75,
+    "end": 778.4,
+    "segment": 190,
+    "key": "2aef7df4-5163-4471-b928-b6a51a516747"
+  },
+  {
+    "word": "Rikuy,",
+    "start": 781.29,
+    "end": 781.91,
+    "segment": 191,
+    "key": "240c2b5a-9a53-4061-b804-5bdac539dbb6"
+  },
+  {
+    "word": "kitita",
+    "start": 782.01,
+    "end": 782.41,
+    "segment": 191,
+    "key": "5a98bc3d-60e9-4e49-a5c2-edc2f9e9f06e"
+  },
+  {
+    "word": "pushak,",
+    "start": 782.55,
+    "end": 783.03,
+    "segment": 191,
+    "key": "e4e6bf52-cf9d-4772-aaa9-a5f955e35e0c"
+  },
+  {
+    "word": "kay",
+    "start": 783.13,
+    "end": 783.27,
+    "segment": 191,
+    "key": "7e6fb8b3-fafc-49f1-ab88-05a20256e5ce"
+  },
+  {
+    "word": "ayllullaktapika",
+    "start": 783.41,
+    "end": 784.36,
+    "segment": 191,
+    "key": "103abaa5-9c66-4813-afd5-1bd9b8f62282"
+  },
+  {
+    "word": "mana",
+    "start": 784.72,
+    "end": 784.94,
+    "segment": 191,
+    "key": "810589d1-2c68-4a83-a802-08fe0a9818ec"
+  },
+  {
+    "word": "urmashpapi",
+    "start": 785.04,
+    "end": 785.62,
+    "segment": 191,
+    "key": "91318262-ba33-480e-b05f-73062438e058"
+  },
+  {
+    "word": "lluchkarinmi.",
+    "start": 785.84,
+    "end": 786.84,
+    "segment": 191,
+    "key": "7a057c75-c63b-4381-bc86-0ac1860c7857"
+  },
+  {
+    "word": "Jaboneropak",
+    "start": 790.33,
+    "end": 791.5,
+    "segment": 192,
+    "key": "c59fedfc-0770-49b3-a732-71866a4e9460"
+  },
+  {
+    "word": "ayllullaktapi",
+    "start": 791.64,
+    "end": 792.55,
+    "segment": 192,
+    "key": "a086d763-b828-44a5-bf65-9230c3c02b27"
+  },
+  {
+    "word": "Pandemiamanta",
+    "start": 792.82,
+    "end": 793.9,
+    "segment": 193,
+    "key": "00cf5d25-9a12-498f-9434-440cecec3cc5"
+  },
+  {
+    "word": "rimaykuna",
+    "start": 794.39,
+    "end": 794.99,
+    "segment": 193,
+    "key": "5f4149e7-f834-4a9a-8892-24a28e55ceac"
+  }
+]

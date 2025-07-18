@@ -1,5 +1,98 @@
 import { Audio } from "expo-av";
 
+class AudioTimingService {
+  constructor() {
+    this.startTime = 0;
+    this.pauseTime = 0;
+    this.isPlaying = false;
+    this.observers = new Set();
+    this.animationFrameId = null;
+    this.lastUpdateTime = 0;
+  }
+
+  // Start playback
+  start(currentTime = 0) {
+    this.startTime = performance.now() - currentTime;
+    this.isPlaying = true;
+    this.lastUpdateTime = performance.now();
+    this.scheduleNextUpdate();
+  }
+
+  // Pause playback
+  pause() {
+    this.isPlaying = false;
+    this.pauseTime = this.getCurrentTime();
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId);
+      this.animationFrameId = null;
+    }
+  }
+
+  // Stop playback
+  stop() {
+    this.isPlaying = false;
+    this.startTime = 0;
+    this.pauseTime = 0;
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId);
+      this.animationFrameId = null;
+    }
+    this.notifyObservers(0);
+  }
+
+  // Seek to specific time
+  seek(time) {
+    if (this.isPlaying) {
+      this.startTime = performance.now() - time;
+    } else {
+      this.pauseTime = time;
+    }
+    this.notifyObservers(time);
+  }
+
+  // Get current playback time
+  getCurrentTime() {
+    if (!this.isPlaying) {
+      return this.pauseTime;
+    }
+    return performance.now() - this.startTime;
+  }
+
+  // Schedule next update using requestAnimationFrame
+  scheduleNextUpdate() {
+    if (!this.isPlaying) return;
+
+    const now = performance.now();
+    const deltaTime = now - this.lastUpdateTime;
+    this.lastUpdateTime = now;
+
+    // Update observers with current time
+    this.notifyObservers(this.getCurrentTime());
+
+    // Schedule next update
+    this.animationFrameId = requestAnimationFrame(() =>
+      this.scheduleNextUpdate()
+    );
+  }
+
+  // Add observer for time updates
+  addObserver(observer) {
+    this.observers.add(observer);
+  }
+
+  // Remove observer
+  removeObserver(observer) {
+    this.observers.delete(observer);
+  }
+
+  // Notify all observers of time update
+  notifyObservers(time) {
+    this.observers.forEach((observer) => observer(time));
+  }
+}
+
+export const audioTimingService = new AudioTimingService();
+
 function AudioService() {
   let sound = null;
   let isPlaying = false;

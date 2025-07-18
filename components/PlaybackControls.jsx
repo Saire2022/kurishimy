@@ -168,3 +168,4 @@ const styles = StyleSheet.create({
 });
 
 export default PlaybackControls;
+export { formatTime };

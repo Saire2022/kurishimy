@@ -7,157 +7,153 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-//import lessonData from "./../lessons/Chapter1.json";
-//import processWordTimings from "./../scripts/wordProcessor";
-import audioService from "./../scripts/audioService";
+import { audioTimingService } from "../scripts/audioService";
 import PlaybackControls from "../components/PlaybackControls";
 import { LayoutAnimationConfig } from "react-native-reanimated";
-import LanguageText from "../components/LanguageText";
+import LanguageTextWord from "../components/LanguageTextWord";
+import { Audio } from "expo-av";
 
-export default function AudioTextSync() {
+export default function ForcedAlignment() {
   // State management
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [viewMode, setViewMode] = useState("dual"); // "kichwa", "spanish", or "dual"
   const [autoScroll, setAutoScroll] = useState(true);
+  const [sound, setSound] = useState(null);
+  const [duration, setDuration] = useState(0);
+  const [kichwaWords, setKichwaWords] = useState([]);
 
   // References
-  //const intervalRef = useRef(null);
-  //const scrollViewRef = useRef(null);
-  //const activeWordRef = useRef(null);
   const kichwaScrollViewRef = useRef(null);
   const spanishScrollViewRef = useRef(null);
   const activeKichwaWordRef = useRef(null);
   const activeSpanishWordRef = useRef(null);
 
-  // Word timings for both languages
-  //const [kichwaWordTimings, setKichwaWordTimings] = useState([]);
-  //const [spanishWordTimings, setSpanishWordTimings] = useState([]);
-  const [kichwaWords, setKichwaWords] = useState([]);
-
-  // Audio path
-  const audioPath = require("../assets/audio/cap1.mp3");
-
-  // Process word timings from the lesson data
+  // Initialize audio and load data
   useEffect(() => {
-    //const kichwaWords = processWordTimings(lessonData, "kichwa");
-    const kichwaWords = require("../lessons/alignment_output.json");
-    //const spanishWords = processWordTimings(lessonData, "spanish");
-    //setKichwaWordTimings(kichwaWords);
-    //setSpanishWordTimings(spanishWords);
-    //console.log("kichwaWords: ", kichwaWords);
-  }, []);
+    const initialize = async () => {
+      try {
+        // Load word timings
+        const kichwaWords = require("../lessons/alignment_output.json");
+        setKichwaWords(kichwaWords);
 
-  // Load audio when component mounts
-  useEffect(() => {
-    const kichwaWords = require("../lessons/alignment_output.json");
-    setKichwaWords(kichwaWords);
-    async function setupAudio() {
-      const success = await audioService.loadAudio(audioPath);
-      setIsLoading(!success);
-    }
+        // Configure audio
+        await Audio.setAudioModeAsync({
+          allowsRecordingIOS: false,
+          playsInSilentModeIOS: true,
+          shouldDuckAndroid: true,
+          staysActiveInBackground: true,
+          playThroughEarpieceAndroid: false,
+        });
 
-    setupAudio();
+        // Load audio
+        const { sound: newSound } = await Audio.Sound.createAsync(
+          require("../assets/audio/cap1.mp3"),
+          { shouldPlay: false }
+        );
+        setSound(newSound);
 
-    // Cleanup on unmountjumpToWord
+        // Get duration
+        const status = await newSound.getStatusAsync();
+        if (status.isLoaded) {
+          setDuration(status.durationMillis);
+        }
+
+        setIsLoading(false);
+      } catch (error) {
+        console.error("Error initializing:", error);
+        setIsLoading(false);
+      }
+    };
+
+    initialize();
+
     return () => {
-      audioService.cleanup();
+      if (sound) {
+        sound.unloadAsync();
+      }
     };
   }, []);
 
-  // Audio control functions
-  async function handlePlayPause() {
-    if (isPlaying) {
-      const success = await audioService.pause();
-      if (success) setIsPlaying(false);
-    } else {
-      const success = await audioService.play(setCurrentTime);
-      if (success) setIsPlaying(true);
+  // Handle play/pause
+  const handlePlayPause = async () => {
+    if (!sound) return;
+
+    try {
+      if (isPlaying) {
+        await sound.pauseAsync();
+        audioTimingService.pause();
+      } else {
+        await sound.playAsync();
+        audioTimingService.start(currentTime);
+      }
+      setIsPlaying(!isPlaying);
+    } catch (error) {
+      console.error("Error in play/pause:", error);
     }
-  }
+  };
 
-  async function handleStop() {
-    const success = await audioService.stop(setCurrentTime);
-    if (success) setIsPlaying(false);
-  }
+  // Handle stop
+  const handleStop = async () => {
+    if (!sound) return;
 
-  async function jumpToWord(wordObj) {
-    // Jump to slightly before the word starts for context
-    const jumpTime = Math.max(0, wordObj.start - 100);
-
-    const success = await audioService.seekTo(jumpTime, setCurrentTime);
-
-    if (success && !isPlaying) {
-      const playSuccess = await audioService.play(setCurrentTime);
-      if (playSuccess) setIsPlaying(true);
+    try {
+      await sound.stopAsync();
+      await sound.setPositionAsync(0);
+      audioTimingService.stop();
+      setCurrentTime(0);
+      setIsPlaying(false);
+    } catch (error) {
+      console.error("Error stopping:", error);
     }
-  }
+  };
+
+  // Handle seek
+  const handleSeek = async (time) => {
+    if (!sound) return;
+
+    try {
+      await sound.setPositionAsync(time);
+      audioTimingService.seek(time);
+      setCurrentTime(time);
+    } catch (error) {
+      console.error("Error seeking:", error);
+    }
+  };
 
   // Toggle view mode
-  function cycleViewMode() {
+  const cycleViewMode = () => {
     setViewMode((prev) => {
       if (prev === "kichwa") return "spanish";
       if (prev === "spanish") return "dual";
       return "kichwa";
     });
-  }
+  };
 
   // Auto-scroll to the active word
   useEffect(() => {
-    if (!autoScroll) return;
+    if (!autoScroll || !kichwaWords.length) return;
 
-    // Handle Kichwa scrolling
-    if (
-      (viewMode === "kichwa" || viewMode === "dual") &&
-      activeKichwaWordRef.current &&
-      kichwaScrollViewRef.current
-    ) {
+    if (activeKichwaWordRef.current && kichwaScrollViewRef.current) {
       try {
         activeKichwaWordRef.current.measureLayout(
           kichwaScrollViewRef.current,
           (x, y, width, height) => {
             kichwaScrollViewRef.current.scrollTo({
-              y: y - 100, // Scroll vertically
+              y: y - 100,
               x: 0,
               animated: true,
             });
           },
-          (error) => console.error("Kichwa layout measurement failed:", error)
+          (error) => console.error("Layout measurement failed:", error)
         );
       } catch (error) {
-        console.error("Kichwa auto-scroll error:", error);
+        console.error("Auto-scroll error:", error);
       }
     }
+  }, [currentTime, viewMode, kichwaWords]);
 
-    // Handle Spanish scrolling
-    if (
-      (viewMode === "spanish" || viewMode === "dual") &&
-      activeSpanishWordRef.current &&
-      spanishScrollViewRef.current
-    ) {
-      try {
-        activeSpanishWordRef.current.measureLayout(
-          spanishScrollViewRef.current,
-          (x, y, width, height) => {
-            spanishScrollViewRef.current.scrollTo({
-              y: y - 100, // Scroll vertically
-              x: 0,
-              animated: true,
-            });
-          },
-          (error) => console.error("Spanish layout measurement failed:", error)
-        );
-      } catch (error) {
-        console.error("Spanish auto-scroll error:", error);
-      }
-    }
-  }, [currentTime, viewMode]);
-
-  async function handleSeek(time) {
-    // Create a function that sets the current time and also seeks in the audio
-    await audioService.seekTo(time, setCurrentTime);
-  }
   // Loading indicator
   if (isLoading) {
     return (
@@ -167,6 +163,12 @@ export default function AudioTextSync() {
       </View>
     );
   }
+
+  sound.setOnPlaybackStatusUpdate((status) => {
+    if (status.isLoaded) {
+      setCurrentTime(status.positionMillis);
+    }
+  });
 
   return (
     <View style={styles.container}>
@@ -190,10 +192,10 @@ export default function AudioTextSync() {
         </TouchableOpacity>
       </View>
       <View style={styles.contentContainer}>
-        <LanguageText
+        <LanguageTextWord
           wordTimings={kichwaWords}
           currentTime={currentTime}
-          onWordPress={jumpToWord}
+          onWordPress={handleSeek}
           activeWordRef={activeKichwaWordRef}
         />
       </View>
@@ -203,117 +205,17 @@ export default function AudioTextSync() {
           isPlaying={isPlaying}
           onPlayPause={handlePlayPause}
           onStop={handleStop}
-          onSeek={handleSeek} // Add this line
+          onSeek={handleSeek}
           autoScroll={autoScroll}
           onToggleAutoScroll={() => setAutoScroll(!autoScroll)}
           currentTime={currentTime}
-          duration={audioService.duration}
+          duration={duration}
         />
       </View>
     </View>
   );
 }
 
-//   container: {
-//     flex: 1,
-//     padding: 16,
-//     backgroundColor: "#FFFFFF",
-//   },
-//   centerContainer: {
-//     flex: 1,
-//     justifyContent: "center",
-//     alignItems: "center",
-//   },
-//   loadingText: {
-//     marginTop: 16,
-//     fontSize: 16,
-//     color: "#757575",
-//   },
-//   header: {
-//     flexDirection: "row",
-//     justifyContent: "space-between",
-//     alignItems: "center",
-//     marginBottom: 16,
-//   },
-//   title: {
-//     fontSize: 24,
-//     fontWeight: "bold",
-//     color: "#333333",
-//   },
-//   languageButton: {
-//     backgroundColor: "#E3F2FD",
-//     paddingVertical: 8,
-//     paddingHorizontal: 16,
-//     borderRadius: 8,
-//   },
-//   languageButtonText: {
-//     color: "#2196F3",
-//     fontWeight: "bold",
-//   },
-//   scrollContainer: {
-//     flex: 1,
-//     backgroundColor: "#F5F5F5",
-//     borderRadius: 8,
-//   },
-//   contentContainer: {
-//     padding: 16,
-//   },
-//   textContainer: {
-//     flexDirection: "row",
-//     flexWrap: "wrap",
-//     alignItems: "flex-start",
-//   },
-//   wordContainer: {
-//     marginRight: 8,
-//     marginBottom: 8,
-//     borderRadius: 4,
-//   },
-//   activeWordContainer: {
-//     backgroundColor: "#E3F2FD",
-//   },
-//   word: {
-//     fontSize: 20,
-//     color: "#333333",
-//     lineHeight: 32,
-//   },
-//   highlightedWord: {
-//     color: "#2196F3",
-//     fontWeight: "bold",
-//   },
-//   lineBreak: {
-//     width: "100%",
-//     height: 8,
-//   },
-//   controlsContainer: {
-//     flexDirection: "row",
-//     justifyContent: "center",
-//     alignItems: "center",
-//     marginTop: 16,
-//     marginBottom: 8,
-//   },
-//   controlButton: {
-//     margin: 8,
-//     alignItems: "center",
-//     justifyContent: "center",
-//   },
-//   playButton: {
-//     marginHorizontal: 24,
-//   },
-//   activeButton: {
-//     opacity: 1,
-//   },
-//   inactiveButton: {
-//     opacity: 0.6,
-//   },
-//   progressContainer: {
-//     alignItems: "center",
-//     marginBottom: 16,
-//   },
-//   timeText: {
-//     fontSize: 16,
-//     color: "#757575",
-//   },
-// });
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -376,5 +278,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     color: "#2196F3",
+  },
+  controlsContainer: {
+    marginTop: 16,
   },
 });

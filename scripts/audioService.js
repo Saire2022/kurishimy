@@ -1,4 +1,4 @@
-import { Audio } from "expo-av";
+import { Audio } from "expo-audio";
 
 class AudioTimingService {
   constructor() {

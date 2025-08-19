@@ -1,4 +1,4 @@
-import { Audio } from "expo-av";
+import { Audio } from "expo-audio";
 
 const audiopath = require("../assets/audio/cap1.mp3");
 // Load Audio

@@ -9,7 +9,6 @@ import {
 import { Ionicons } from "@expo/vector-icons";
 import { audioTimingService } from "../scripts/audioService";
 import PlaybackControls from "../components/PlaybackControls";
-import { LayoutAnimationConfig } from "react-native-reanimated";
 import LanguageTextWord from "../components/LanguageTextWord";
 import { Audio } from "expo-av";
 
@@ -154,6 +153,20 @@ export default function ForcedAlignment() {
     }
   }, [currentTime, viewMode, kichwaWords]);
 
+  // Update current time from playback status when sound is available
+  useEffect(() => {
+    if (!sound) return;
+    const subscription = (status) => {
+      if (status.isLoaded) {
+        setCurrentTime(status.positionMillis);
+      }
+    };
+    sound.setOnPlaybackStatusUpdate(subscription);
+    return () => {
+      sound.setOnPlaybackStatusUpdate(null);
+    };
+  }, [sound]);
+
   // Loading indicator
   if (isLoading) {
     return (
@@ -163,12 +176,6 @@ export default function ForcedAlignment() {
       </View>
     );
   }
-
-  sound.setOnPlaybackStatusUpdate((status) => {
-    if (status.isLoaded) {
-      setCurrentTime(status.positionMillis);
-    }
-  });
 
   return (
     <View style={styles.container}>

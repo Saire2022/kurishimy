@@ -11,6 +11,7 @@ import { audioTimingService } from "../scripts/audioService";
 import PlaybackControls from "../components/PlaybackControls";
 import LanguageTextWord from "../components/LanguageTextWord";
 import { Audio } from "expo-av";
+import Separator from "../components/Separator";
 
 export default function ForcedAlignment() {
   // State management
@@ -22,7 +23,7 @@ export default function ForcedAlignment() {
   const [sound, setSound] = useState(null);
   const [duration, setDuration] = useState(0);
   const [kichwaWords, setKichwaWords] = useState([]);
-
+  const [SpanishWords, setSpanishWords] = useState([]);
   // References
   const kichwaScrollViewRef = useRef(null);
   const spanishScrollViewRef = useRef(null);
@@ -35,8 +36,9 @@ export default function ForcedAlignment() {
       try {
         // Load word timings
         const kichwaWords = require("../lessons/alignment_output.json");
+        const SpanishWords = require("../lessons/alignment_output.json");
         setKichwaWords(kichwaWords);
-
+        setSpanishWords(SpanishWords);
         // Configure audio
         await Audio.setAudioModeAsync({
           allowsRecordingIOS: false,
@@ -204,6 +206,15 @@ export default function ForcedAlignment() {
           currentTime={currentTime}
           onWordPress={handleSeek}
           activeWordRef={activeKichwaWordRef}
+        />
+      </View>
+      <Separator />
+      <View style={styles.contentContainer}>
+        <LanguageTextWord
+          wordTimings={SpanishWords}
+          currentTime={currentTime}
+          onWordPress={handleSeek}
+          activeWordRef={activeSpanishWordRef}
         />
       </View>
 

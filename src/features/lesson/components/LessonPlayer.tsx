@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import {
   View,
   TouchableOpacity,
@@ -21,9 +21,6 @@ interface LessonPlayerProps {
 
 export default function LessonPlayer({ chapter }: LessonPlayerProps) {
   const { viewMode, cycleViewMode, viewModeLabel, switchLabel } = useViewMode();
-  const [autoScroll, setAutoScroll] = React.useState(true);
-  const activeKichwaWordRef = useRef<View>(null);
-  const activeSpanishWordRef = useRef<View>(null);
 
   const { isPlaying, currentTime, duration, isLoading, error, playPause, stop, seek } =
     useAudioPlayer(chapter.audio);
@@ -66,7 +63,6 @@ export default function LessonPlayer({ chapter }: LessonPlayerProps) {
                 wordTimings={chapter.kichwaWords}
                 currentTime={currentTime}
                 onWordPress={seek}
-                activeWordRef={activeKichwaWordRef}
               />
             </View>
           </View>
@@ -80,7 +76,6 @@ export default function LessonPlayer({ chapter }: LessonPlayerProps) {
                 wordTimings={chapter.spanishWords}
                 currentTime={currentTime}
                 onWordPress={seek}
-                activeWordRef={activeSpanishWordRef}
               />
             </View>
           </View>
@@ -95,11 +90,6 @@ export default function LessonPlayer({ chapter }: LessonPlayerProps) {
             }
             currentTime={currentTime}
             onWordPress={seek}
-            activeWordRef={
-              viewMode === "kichwa"
-                ? activeKichwaWordRef
-                : activeSpanishWordRef
-            }
           />
         </View>
       )}
@@ -110,8 +100,6 @@ export default function LessonPlayer({ chapter }: LessonPlayerProps) {
           onPlayPause={playPause}
           onStop={stop}
           onSeek={seek}
-          autoScroll={autoScroll}
-          onToggleAutoScroll={() => setAutoScroll((prev) => !prev)}
           currentTime={currentTime}
           duration={duration}
         />
@@ -170,7 +158,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   dualContentContainer: {
-    flex: 0.5,
+    flex: 1,
   },
   languageSection: {
     flex: 1,

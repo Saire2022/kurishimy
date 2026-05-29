@@ -21,6 +21,13 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    setSound(null);
+    setIsLoading(true);
+    setIsPlaying(false);
+    setCurrentTime(0);
+    setDuration(0);
+    setError(null);
+
     let mounted = true;
     let soundInstance: Audio.Sound | null = null;
 
@@ -76,9 +83,7 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
     const onStatusUpdate = (status: AVPlaybackStatus) => {
       if (!status.isLoaded) return;
       setCurrentTime(status.positionMillis);
-      if (status.didJustFinish) {
-        setIsPlaying(false);
-      }
+      setIsPlaying(status.isPlaying);
     };
 
     sound.setOnPlaybackStatusUpdate(onStatusUpdate);

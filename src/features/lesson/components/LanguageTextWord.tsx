@@ -15,14 +15,12 @@ interface LanguageTextWordProps {
   wordTimings: WordTiming[];
   currentTime: number;
   onWordPress?: (timeMs: number) => void;
-  activeWordRef?: React.RefObject<View | null>;
 }
 
 export default function LanguageTextWord({
   wordTimings,
   currentTime,
   onWordPress,
-  activeWordRef,
 }: LanguageTextWordProps) {
   const currentTimeInSeconds = currentTime / 1000;
   const chunks = useMemo(
@@ -39,20 +37,20 @@ export default function LanguageTextWord({
     );
 
     if (newChunkIndex !== -1 && newChunkIndex !== currentChunkIndex) {
-      Animated.sequence([
-        Animated.timing(fadeAnim, {
-          toValue: 0,
-          duration: 150,
-          useNativeDriver: true,
-        }),
-        Animated.timing(fadeAnim, {
-          toValue: 1,
-          duration: 150,
-          useNativeDriver: true,
-        }),
-      ]).start();
-
-      setCurrentChunkIndex(newChunkIndex);
+      Animated.timing(fadeAnim, {
+        toValue: 0,
+        duration: 150,
+        useNativeDriver: true,
+      }).start(({ finished }) => {
+        if (finished) {
+          setCurrentChunkIndex(newChunkIndex);
+          Animated.timing(fadeAnim, {
+            toValue: 1,
+            duration: 150,
+            useNativeDriver: true,
+          }).start();
+        }
+      });
     }
   }, [currentTimeInSeconds, chunks, currentChunkIndex, fadeAnim]);
 
@@ -86,7 +84,6 @@ export default function LanguageTextWord({
             return (
               <TouchableOpacity
                 key={key}
-                ref={isActive ? activeWordRef : undefined}
                 onPress={() => onWordPress(word.start * 1000)}
                 activeOpacity={0.7}
               >
@@ -95,11 +92,7 @@ export default function LanguageTextWord({
             );
           }
 
-          return (
-            <View key={key} ref={isActive ? activeWordRef : undefined}>
-              {wordElement}
-            </View>
-          );
+          return <View key={key}>{wordElement}</View>;
         })}
       </View>
     </Animated.View>

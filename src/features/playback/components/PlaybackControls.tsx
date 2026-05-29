@@ -10,8 +10,6 @@ interface PlaybackControlsProps {
   onPlayPause: () => void;
   onStop: () => void;
   onSeek: (timeMs: number) => void;
-  autoScroll: boolean;
-  onToggleAutoScroll: () => void;
   currentTime: number;
   duration: number;
 }
@@ -21,8 +19,6 @@ export default function PlaybackControls({
   onPlayPause,
   onStop,
   onSeek,
-  autoScroll,
-  onToggleAutoScroll,
   currentTime,
   duration,
 }: PlaybackControlsProps) {
@@ -78,25 +74,6 @@ export default function PlaybackControls({
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={onToggleAutoScroll}
-          style={[
-            styles.controlButton,
-            autoScroll ? styles.activeButton : styles.inactiveButton,
-          ]}
-        >
-          <Ionicons
-            name="text"
-            size={30}
-            color={autoScroll ? colors.primary : colors.textMuted}
-          />
-          <Ionicons
-            name={autoScroll ? "eye" : "eye-off"}
-            size={20}
-            color={autoScroll ? colors.primary : colors.textMuted}
-          />
-        </TouchableOpacity>
-
-        <TouchableOpacity
           onPress={() => skipTime(5)}
           style={styles.controlButton}
         >
@@ -131,12 +108,6 @@ const styles = StyleSheet.create({
   },
   playButton: {
     marginHorizontal: 16,
-  },
-  activeButton: {
-    opacity: 1,
-  },
-  inactiveButton: {
-    opacity: 0.6,
   },
   progressContainer: {
     alignItems: "center",

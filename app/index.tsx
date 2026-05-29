@@ -9,7 +9,7 @@ export default function Index() {
   const router = useRouter();
 
   const handlePress = () => {
-    router.push("./forcedAlignment");
+    router.push("/lesson/1");
   };
 
   return (

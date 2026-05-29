@@ -1,6 +1,6 @@
-import { View, Text, StyleSheet } from "react-native";
-import React from "react";
+import { View, StyleSheet } from "react-native";
 import Octicons from "@expo/vector-icons/Octicons";
+
 export default function Separator() {
   return (
     <View style={styles.container}>
@@ -15,9 +15,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     alignSelf: "stretch",
-  },
-  text: {
-    fontSize: 16,
-    color: "#333",
   },
 });

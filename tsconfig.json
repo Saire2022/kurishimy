@@ -4,9 +4,10 @@
     "strict": true,
     "paths": {
       "@/*": [
-        "./*"
+        "./src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true
   },
   "include": [
     "**/*.ts",

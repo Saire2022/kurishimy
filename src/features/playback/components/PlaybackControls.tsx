@@ -8,7 +8,8 @@ import { colors } from "@/theme/colors";
 interface PlaybackControlsProps {
   isPlaying: boolean;
   onPlayPause: () => void;
-  onStop: () => void;
+  onPrevious: () => void;
+  onNext: () => void;
   onSeek: (timeMs: number) => void;
   currentTime: number;
   duration: number;
@@ -17,68 +18,54 @@ interface PlaybackControlsProps {
 export default function PlaybackControls({
   isPlaying,
   onPlayPause,
-  onStop,
+  onPrevious,
+  onNext,
   onSeek,
   currentTime,
   duration,
 }: PlaybackControlsProps) {
-  const skipTime = (seconds: number) => {
-    const newTime = Math.max(
-      0,
-      Math.min(duration, currentTime + seconds * 1000)
-    );
-    onSeek(newTime);
-  };
-
   return (
     <View style={styles.container}>
-      <Slider
-        style={styles.slider}
-        minimumValue={0}
-        maximumValue={duration || 1}
-        value={currentTime}
-        onSlidingComplete={onSeek}
-        minimumTrackTintColor={colors.primary}
-        maximumTrackTintColor={colors.sliderTrack}
-        thumbTintColor={colors.primary}
-      />
-
-      <View style={styles.progressContainer}>
+      <View style={styles.sliderRow}>
+        <Slider
+          style={styles.slider}
+          minimumValue={0}
+          maximumValue={duration || 1}
+          value={currentTime}
+          onSlidingComplete={onSeek}
+          minimumTrackTintColor={colors.primary}
+          maximumTrackTintColor={colors.sliderTrack}
+          thumbTintColor={colors.primary}
+        />
         <Text style={styles.timeText}>
           {formatTime(currentTime)} / {formatTime(duration)}
         </Text>
       </View>
 
-      <View style={styles.controlsContainer}>
-        <TouchableOpacity
-          onPress={() => skipTime(-5)}
-          style={styles.controlButton}
-        >
-          <Ionicons name="play-back" size={30} color={colors.textMuted} />
-          <Text style={styles.buttonLabel}>5s</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress={onStop} style={styles.controlButton}>
-          <Ionicons name="stop-circle" size={50} color={colors.stop} />
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          onPress={onPlayPause}
-          style={[styles.controlButton, styles.playButton]}
-        >
+      <View style={styles.controlsRow}>
+        <TouchableOpacity onPress={onPrevious} style={styles.skipButton}>
           <Ionicons
-            name={isPlaying ? "pause-circle" : "play-circle"}
-            size={70}
-            color={colors.primary}
+            name="play-skip-back"
+            size={26}
+            color={colors.textPrimary}
           />
         </TouchableOpacity>
 
-        <TouchableOpacity
-          onPress={() => skipTime(5)}
-          style={styles.controlButton}
-        >
-          <Ionicons name="play-forward" size={30} color={colors.textMuted} />
-          <Text style={styles.buttonLabel}>5s</Text>
+        <TouchableOpacity onPress={onPlayPause} style={styles.playButton}>
+          <Ionicons
+            name={isPlaying ? "pause" : "play"}
+            size={30}
+            color={colors.background}
+            style={isPlaying ? undefined : styles.playIcon}
+          />
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={onNext} style={styles.skipButton}>
+          <Ionicons
+            name="play-skip-forward"
+            size={26}
+            color={colors.textPrimary}
+          />
         </TouchableOpacity>
       </View>
     </View>
@@ -87,39 +74,53 @@ export default function PlaybackControls({
 
 const styles = StyleSheet.create({
   container: {
-    width: "100%",
-    paddingHorizontal: 8,
+    backgroundColor: colors.background,
+    borderRadius: 20,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    shadowColor: colors.shadow,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 10,
+    elevation: 6,
+  },
+  sliderRow: {
+    flexDirection: "row",
+    alignItems: "center",
   },
   slider: {
-    width: "100%",
-    height: 40,
+    flex: 1,
+    height: 32,
   },
-  controlsContainer: {
+  timeText: {
+    fontSize: 13,
+    color: colors.textMuted,
+    marginLeft: 8,
+    fontVariant: ["tabular-nums"],
+  },
+  controlsRow: {
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 8,
-    marginBottom: 8,
+    marginTop: 4,
   },
-  controlButton: {
-    margin: 8,
+  skipButton: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    alignItems: "center",
+    justifyContent: "center",
+    marginHorizontal: 20,
+  },
+  playButton: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    backgroundColor: colors.primary,
     alignItems: "center",
     justifyContent: "center",
   },
-  playButton: {
-    marginHorizontal: 16,
-  },
-  progressContainer: {
-    alignItems: "center",
-    marginBottom: 8,
-  },
-  timeText: {
-    fontSize: 16,
-    color: colors.textMuted,
-  },
-  buttonLabel: {
-    fontSize: 12,
-    color: colors.textMuted,
-    marginTop: 2,
+  playIcon: {
+    marginLeft: 3,
   },
 });

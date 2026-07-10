@@ -1,29 +1,60 @@
 import React from "react";
-import {
-  View,
-  TouchableOpacity,
-  Text,
-  StyleSheet,
-  ActivityIndicator,
-} from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import type { ChapterContent } from "@/types/lesson";
+import { View, Text, StyleSheet, ActivityIndicator } from "react-native";
+import type { ChapterContent, ViewMode } from "@/types/lesson";
 import { useAudioPlayer } from "@/hooks/useAudioPlayer";
-import { useViewMode } from "@/features/lesson/hooks/useViewMode";
 import LanguageTextWord from "@/features/lesson/components/LanguageTextWord";
 import PlaybackControls from "@/features/playback/components/PlaybackControls";
 import Separator from "@/components/ui/Separator";
 import { colors } from "@/theme/colors";
 
+/** Pressing "previous" this long into a sentence restarts it instead. */
+const RESTART_THRESHOLD_SECONDS = 2;
+
 interface LessonPlayerProps {
   chapter: ChapterContent;
+  viewMode: ViewMode;
 }
 
-export default function LessonPlayer({ chapter }: LessonPlayerProps) {
-  const { viewMode, cycleViewMode, viewModeLabel, switchLabel } = useViewMode();
+export default function LessonPlayer({ chapter, viewMode }: LessonPlayerProps) {
+  const {
+    isPlaying,
+    currentTime,
+    duration,
+    isLoading,
+    error,
+    playPause,
+    seek,
+  } = useAudioPlayer(chapter.audio);
 
-  const { isPlaying, currentTime, duration, isLoading, error, playPause, stop, seek } =
-    useAudioPlayer(chapter.audio);
+  // Both language tracks share the same sentence boundaries.
+  const sentences = chapter.spanishWords;
+
+  const getCurrentSentenceIndex = () => {
+    const t = currentTime / 1000;
+    const idx = sentences.findIndex((s) => t >= s.start && t < s.end);
+    if (idx !== -1) return idx;
+    for (let i = sentences.length - 1; i >= 0; i--) {
+      if (t >= sentences[i].start) return i;
+    }
+    return 0;
+  };
+
+  const handlePrevious = () => {
+    const t = currentTime / 1000;
+    const idx = getCurrentSentenceIndex();
+    const target =
+      idx > 0 && t - sentences[idx].start < RESTART_THRESHOLD_SECONDS
+        ? idx - 1
+        : idx;
+    seek(sentences[target].start * 1000);
+  };
+
+  const handleNext = () => {
+    const idx = getCurrentSentenceIndex();
+    if (idx < sentences.length - 1) {
+      seek(sentences[idx + 1].start * 1000);
+    }
+  };
 
   if (isLoading) {
     return (
@@ -44,49 +75,29 @@ export default function LessonPlayer({ chapter }: LessonPlayerProps) {
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.title}>{viewModeLabel}</Text>
-        <TouchableOpacity onPress={cycleViewMode} style={styles.languageButton}>
-          <Ionicons name="swap-horizontal" size={20} color={colors.primary} />
-          <Text style={styles.languageButtonText}>{switchLabel}</Text>
-        </TouchableOpacity>
-      </View>
-
       {viewMode === "dual" ? (
         <>
           <View style={styles.languageSection}>
-            <View style={styles.languageHeader}>
-              <Text style={styles.languageTitle}>Kichwa</Text>
-            </View>
-            <View style={styles.dualContentContainer}>
-              <LanguageTextWord
-                wordTimings={chapter.kichwaWords}
-                currentTime={currentTime}
-                onWordPress={seek}
-              />
-            </View>
+            <LanguageTextWord
+              wordTimings={chapter.kichwaWords}
+              currentTime={currentTime}
+              onWordPress={seek}
+            />
           </View>
           <Separator />
           <View style={styles.languageSection}>
-            <View style={styles.languageHeader}>
-              <Text style={styles.languageTitle}>Spanish</Text>
-            </View>
-            <View style={styles.dualContentContainer}>
-              <LanguageTextWord
-                wordTimings={chapter.spanishWords}
-                currentTime={currentTime}
-                onWordPress={seek}
-              />
-            </View>
+            <LanguageTextWord
+              wordTimings={chapter.spanishWords}
+              currentTime={currentTime}
+              onWordPress={seek}
+            />
           </View>
         </>
       ) : (
         <View style={styles.contentContainer}>
           <LanguageTextWord
             wordTimings={
-              viewMode === "kichwa"
-                ? chapter.kichwaWords
-                : chapter.spanishWords
+              viewMode === "kichwa" ? chapter.kichwaWords : chapter.spanishWords
             }
             currentTime={currentTime}
             onWordPress={seek}
@@ -98,7 +109,8 @@ export default function LessonPlayer({ chapter }: LessonPlayerProps) {
         <PlaybackControls
           isPlaying={isPlaying}
           onPlayPause={playPause}
-          onStop={stop}
+          onPrevious={handlePrevious}
+          onNext={handleNext}
           onSeek={seek}
           currentTime={currentTime}
           duration={duration}
@@ -112,12 +124,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    paddingTop: 8,
     backgroundColor: colors.background,
   },
   centerContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: colors.background,
   },
   loadingText: {
     marginTop: 16,
@@ -130,54 +144,13 @@ const styles = StyleSheet.create({
     textAlign: "center",
     paddingHorizontal: 24,
   },
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginBottom: 16,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    color: colors.textPrimary,
-  },
-  languageButton: {
-    backgroundColor: colors.primaryLight,
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderRadius: 8,
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  languageButtonText: {
-    color: colors.primary,
-    fontWeight: "bold",
-    marginLeft: 8,
-  },
   contentContainer: {
-    flex: 1,
-  },
-  dualContentContainer: {
     flex: 1,
   },
   languageSection: {
     flex: 1,
-    marginBottom: 12,
-    borderRadius: 8,
-    overflow: "hidden",
-  },
-  languageHeader: {
-    padding: 8,
-    backgroundColor: colors.primaryLight,
-    borderTopLeftRadius: 8,
-    borderTopRightRadius: 8,
-  },
-  languageTitle: {
-    fontSize: 16,
-    fontWeight: "bold",
-    color: colors.primary,
   },
   controlsContainer: {
-    marginTop: 16,
+    marginTop: 12,
   },
 });

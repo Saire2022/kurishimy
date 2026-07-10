@@ -1,19 +1,14 @@
-import * as React from "react"
-import Svg, { Path, LinearGradient, Stop } from "react-native-svg"
-/* SVGR has dropped some elements not supported by react-native-svg: style */
+import * as React from "react";
+import Svg, {
+  Path,
+  LinearGradient,
+  Stop,
+  type SvgProps,
+} from "react-native-svg";
 
-export function Logo(props) {
+export function Logo(props: SvgProps) {
   return (
-    <Svg
-      id="Capa_1"
-      xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      viewBox="0 0 595.3 750.4"
-      xmlSpace="preserve"
-      enableBackground="new 0 0 595.3 750.4"
-      {...props}
-    >
+    <Svg viewBox="0 0 595.3 750.4" {...props}>
       <Path
         d="M248.2 266.5L297.6 97.2 361.5 266.5 430.2 207.5 430.5 303.7 506.7 303.7 448.9 371.3 588.1 420.9 449.3 491.4 494 558.7 423 558.7 421.7 636.4 361.5 585.3 297.6 744.7 248.2 587 182.7 639.3 182.7 551.6 94.9 549.9 157.2 479 7.1 420.9 146.8 371.3 95.5 299.4 172.3 298.5 172.9 206.8z"
         fill="#f9b233"
@@ -99,5 +94,5 @@ export function Logo(props) {
         fill="url(#SVGID_00000140733064342977095260000003522465306956255152_)"
       />
     </Svg>
-  )
+  );
 }

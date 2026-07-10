@@ -21,9 +21,3 @@ export interface ChapterContent {
   spanishWords: WordTiming[];
   audio: number;
 }
-
-export interface WordChunk {
-  words: (WordTiming & { wordIndex: number; displayText: string })[];
-  start: number;
-  end: number;
-}

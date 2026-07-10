@@ -21,15 +21,15 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    let mounted = true;
+    let soundInstance: Audio.Sound | null = null;
+
     setSound(null);
     setIsLoading(true);
     setIsPlaying(false);
     setCurrentTime(0);
     setDuration(0);
     setError(null);
-
-    let mounted = true;
-    let soundInstance: Audio.Sound | null = null;
 
     async function initialize() {
       try {
@@ -43,7 +43,9 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
 
         const { sound: loadedSound } = await Audio.Sound.createAsync(
           audioSource,
-          { shouldPlay: false }
+          // 100ms status updates: kichwa words are ~300-600ms long, so the
+          // default 500ms interval skips right past their highlight window.
+          { shouldPlay: false, progressUpdateIntervalMillis: 100 },
         );
 
         soundInstance = loadedSound;
@@ -53,14 +55,22 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
           return;
         }
 
+        loadedSound.setOnPlaybackStatusUpdate((status: AVPlaybackStatus) => {
+          if (!status.isLoaded || !mounted) return;
+          setCurrentTime(status.positionMillis);
+          setIsPlaying(status.isPlaying);
+        });
+
         setSound(loadedSound);
 
         const status = await loadedSound.getStatusAsync();
-        if (status.isLoaded) {
+        if (status.isLoaded && mounted) {
           setDuration(status.durationMillis ?? 0);
         }
 
-        setIsLoading(false);
+        if (mounted) {
+          setIsLoading(false);
+        }
       } catch (err) {
         if (mounted) {
           setError(err instanceof Error ? err.message : "Failed to load audio");
@@ -73,24 +83,14 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
 
     return () => {
       mounted = false;
-      soundInstance?.unloadAsync();
+      if (soundInstance) {
+        soundInstance.setOnPlaybackStatusUpdate(null);
+        soundInstance.unloadAsync().catch((err) => {
+          console.error("Error unloading sound:", err);
+        });
+      }
     };
   }, [audioSource]);
-
-  useEffect(() => {
-    if (!sound) return;
-
-    const onStatusUpdate = (status: AVPlaybackStatus) => {
-      if (!status.isLoaded) return;
-      setCurrentTime(status.positionMillis);
-      setIsPlaying(status.isPlaying);
-    };
-
-    sound.setOnPlaybackStatusUpdate(onStatusUpdate);
-    return () => {
-      sound.setOnPlaybackStatusUpdate(null);
-    };
-  }, [sound]);
 
   const playPause = useCallback(async () => {
     if (!sound) return;
@@ -132,7 +132,7 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
         console.error("Error seeking:", err);
       }
     },
-    [sound]
+    [sound],
   );
 
   return {

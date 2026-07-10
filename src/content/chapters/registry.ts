@@ -1,15 +1,14 @@
 import type { ChapterContent } from "@/types/lesson";
 import { normalizeTimings } from "@/utils/normalizeTimings";
 
-import chapter1Data from "../../../lessons/Chapter1.json";
-import kichwaAlignment from "../../../lessons/alignment_output.json";
-
-const chapter1Audio = require("../../../assets/audio/cap1.mp3");
+import chapter1Data from "./Chapter1.json";
+const chapter1Audio = require("../../../assets/audio/cap1.mp3") as number;
 
 function loadChapter1(): ChapterContent {
   const data = chapter1Data as {
     title: string;
     metadata: { chapter: number; duration: number };
+    kichwa: { words: { word: string; start: number; end: number }[] };
     spanish: { words: { word: string; start: number; end: number }[] };
   };
 
@@ -20,7 +19,9 @@ function loadChapter1(): ChapterContent {
       chapterNumber: data.metadata.chapter,
       durationMs: data.metadata.duration,
     },
-    kichwaWords: normalizeTimings(kichwaAlignment),
+    // Both tracks are sentence-level with identical timing boundaries, so the
+    // two panels stay in sync and behave the same way.
+    kichwaWords: normalizeTimings(data.kichwa.words),
     spanishWords: normalizeTimings(data.spanish.words),
     audio: chapter1Audio,
   };
@@ -36,5 +37,11 @@ export function getChapterIds(): string[] {
 
 export function loadChapter(chapterId: string): ChapterContent | null {
   const loader = chapters[chapterId];
-  return loader ? loader() : null;
+  if (!loader) return null;
+  try {
+    return loader();
+  } catch (err) {
+    console.error(`Failed to load chapter "${chapterId}":`, err);
+    return null;
+  }
 }

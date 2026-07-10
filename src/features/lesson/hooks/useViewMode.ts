@@ -3,6 +3,12 @@ import type { ViewMode } from "@/types/lesson";
 
 const VIEW_MODE_CYCLE: ViewMode[] = ["kichwa", "spanish", "dual"];
 
+const MODE_LABELS: Record<ViewMode, string> = {
+  kichwa: "Kichwa",
+  spanish: "Español",
+  dual: "Dual",
+};
+
 export function useViewMode(initial: ViewMode = "dual") {
   const [viewMode, setViewMode] = useState<ViewMode>(initial);
 
@@ -13,19 +19,15 @@ export function useViewMode(initial: ViewMode = "dual") {
     });
   }, []);
 
-  const viewModeLabel =
-    viewMode === "kichwa"
-      ? "Kichwa"
-      : viewMode === "spanish"
-        ? "Spanish"
-        : "Kichwa / Spanish";
+  const nextMode =
+    VIEW_MODE_CYCLE[
+      (VIEW_MODE_CYCLE.indexOf(viewMode) + 1) % VIEW_MODE_CYCLE.length
+    ];
 
-  const switchLabel =
-    viewMode === "kichwa"
-      ? "Switch to Spanish"
-      : viewMode === "spanish"
-        ? "Switch to Dual View"
-        : "Switch to Kichwa";
-
-  return { viewMode, cycleViewMode, viewModeLabel, switchLabel };
+  return {
+    viewMode,
+    cycleViewMode,
+    /** Label of the mode the switch button will change to. */
+    nextModeLabel: MODE_LABELS[nextMode],
+  };
 }

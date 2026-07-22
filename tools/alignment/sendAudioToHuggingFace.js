@@ -10,7 +10,7 @@ const convertAudioToBase64 = async (sound) => {
       throw new Error("No sound object provided");
     }
 
-    const asset = Asset.fromModule(require("../assets/audio/1.mp3"));
+    const asset = Asset.fromModule(require("../../assets/audio/1.mp3"));
     await asset.downloadAsync();
 
     const fileInfo = await FileSystem.getInfoAsync(asset.localUri);

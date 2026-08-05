@@ -81,6 +81,7 @@ export default function LessonPlayer({ chapter, viewMode }: LessonPlayerProps) {
             <LanguageTextWord
               wordTimings={chapter.kichwaWords}
               currentTime={currentTime}
+              isPlaying={isPlaying}
               onWordPress={seek}
             />
           </View>
@@ -89,6 +90,7 @@ export default function LessonPlayer({ chapter, viewMode }: LessonPlayerProps) {
             <LanguageTextWord
               wordTimings={chapter.spanishWords}
               currentTime={currentTime}
+              isPlaying={isPlaying}
               onWordPress={seek}
             />
           </View>
@@ -100,6 +102,7 @@ export default function LessonPlayer({ chapter, viewMode }: LessonPlayerProps) {
               viewMode === "kichwa" ? chapter.kichwaWords : chapter.spanishWords
             }
             currentTime={currentTime}
+            isPlaying={isPlaying}
             onWordPress={seek}
           />
         </View>

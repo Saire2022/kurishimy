@@ -1,17 +1,19 @@
 {
   "expo": {
-    "name": "kurishimy",
+    "name": "Kury Shimy",
     "slug": "kurishimy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "kurishimy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saire.kurishimy"
     },
     "android": {
+      "package": "com.saire.kurishimy",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -36,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "573696fe-c1e7-4599-ba2c-1f4b845858c6"
+      }
+    },
+    "owner": "saire2025"
   }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Stack, useLocalSearchParams } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
@@ -10,7 +10,13 @@ import { colors } from "@/theme/colors";
 export default function LessonScreen() {
   const { chapterId } = useLocalSearchParams<{ chapterId: string }>();
   const resolvedChapterId = chapterId ?? "1";
-  const chapter = loadChapter(resolvedChapterId);
+  // Keep the same wordTimings array references across re-renders (e.g. when
+  // toggling view mode), otherwise LanguageTextWord treats it as new content
+  // and resets its scroll position/measurements every time.
+  const chapter = useMemo(
+    () => loadChapter(resolvedChapterId),
+    [resolvedChapterId],
+  );
   const { viewMode, cycleViewMode, nextModeLabel } = useViewMode();
 
   const screenOptions = {

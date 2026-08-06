@@ -6,23 +6,33 @@ import { colors } from "@/theme/colors";
 /** How long auto-scroll stays paused after the user scrolls manually. */
 const USER_SCROLL_PAUSE_MS = 2000;
 
+interface SentenceLine {
+  y: number;
+  text: string;
+}
+
 interface LanguageTextWordProps {
   wordTimings: WordTiming[];
   currentTime: number;
+  isPlaying: boolean;
   onWordPress?: (timeMs: number) => void;
 }
 
 export default function LanguageTextWord({
   wordTimings,
   currentTime,
+  isPlaying,
   onWordPress,
 }: LanguageTextWordProps) {
   const currentTimeInSeconds = currentTime / 1000;
   const scrollRef = useRef<ScrollView>(null);
   const offsetsRef = useRef<Record<number, number>>({});
+  // Per-sentence line boxes from onTextLayout, used to scroll as the reveal
+  // progresses through a long sentence, not just once at its start.
+  const linesRef = useRef<Record<number, SentenceLine[]>>({});
   const viewportHeightRef = useRef(0);
   const lastUserScrollAtRef = useRef(0);
-  const lastAutoScrolledIndexRef = useRef(-1);
+  const lastAutoScrolledKeyRef = useRef("");
 
   // Sentence being spoken now; during silences keep the last one started.
   let activeIndex = wordTimings.findIndex(
@@ -37,27 +47,83 @@ export default function LanguageTextWord({
     }
   }
 
-  // Auto-scroll the active sentence into view (upper third of the panel),
-  // unless the user scrolled manually a moment ago.
-  useEffect(() => {
-    if (activeIndex < 0 || activeIndex === lastAutoScrolledIndexRef.current)
-      return;
+  // There's no real per-word audio alignment (each entry spans a whole
+  // sentence), so the reveal position is approximated by interpolating
+  // character position against elapsed time within the sentence's window.
+  const activeSentence = activeIndex >= 0 ? wordTimings[activeIndex] : null;
+  let revealCount = 0;
+  if (activeSentence) {
+    const sentenceDuration = activeSentence.end - activeSentence.start;
+    const fraction =
+      sentenceDuration > 0
+        ? Math.min(
+            1,
+            Math.max(
+              0,
+              (currentTimeInSeconds - activeSentence.start) / sentenceDuration,
+            ),
+          )
+        : 1;
+    revealCount = Math.round(fraction * activeSentence.word.length);
+    // Carry the cursor to the end of the word it landed in, so a word is
+    // never drawn half-read and half-unread.
+    const text = activeSentence.word;
+    while (revealCount < text.length && !/\s/.test(text[revealCount])) {
+      revealCount++;
+    }
+  }
+
+  // Which visual line of a sentence a given reveal position falls on.
+  // Reads the ref at call time so layout callbacks — which fire after this
+  // render computed its own value — use the lines they just wrote.
+  const lineIndexFor = (index: number, count: number) => {
+    const lines = linesRef.current[index];
+    if (!lines || lines.length === 0) return 0;
+    let consumed = 0;
+    for (let i = 0; i < lines.length; i++) {
+      consumed += lines[i].text.length;
+      if (count <= consumed) return i;
+    }
+    return lines.length - 1;
+  };
+
+  const activeLineIndex =
+    activeIndex >= 0 ? lineIndexFor(activeIndex, revealCount) : 0;
+
+  // Auto-scroll to keep the reveal position in the upper third of the
+  // panel, unless the user scrolled manually a moment ago.
+  const scrollToTarget = (index: number, lineIndex: number) => {
+    if (index < 0) return;
+    const key = `${index}:${lineIndex}`;
+    if (key === lastAutoScrolledKeyRef.current) return;
     if (Date.now() - lastUserScrollAtRef.current < USER_SCROLL_PAUSE_MS) return;
-    const y = offsetsRef.current[activeIndex];
-    if (y === undefined) return;
-    lastAutoScrolledIndexRef.current = activeIndex;
+    const blockY = offsetsRef.current[index];
+    if (blockY === undefined) return;
+    const lineY = linesRef.current[index]?.[lineIndex]?.y ?? 0;
+    const viewportHeight = viewportHeightRef.current;
+    // Until the ScrollView has measured itself the target is only a guess,
+    // so scroll but leave the key unset — otherwise the corrected scroll
+    // that follows would be deduped away.
+    if (viewportHeight > 0) lastAutoScrolledKeyRef.current = key;
     scrollRef.current?.scrollTo({
-      y: Math.max(0, y - viewportHeightRef.current / 3),
+      y: Math.max(0, blockY + lineY - viewportHeight / 3),
       animated: true,
     });
-  }, [activeIndex]);
+  };
 
   // Reset measurements when the text changes (chapter/view-mode switch).
+  // Declared ahead of the scroll effect so a language toggle clears the old
+  // offsets before anything can scroll with them.
   useEffect(() => {
     offsetsRef.current = {};
-    lastAutoScrolledIndexRef.current = -1;
+    linesRef.current = {};
+    lastAutoScrolledKeyRef.current = "";
     scrollRef.current?.scrollTo({ y: 0, animated: false });
   }, [wordTimings]);
+
+  useEffect(() => {
+    scrollToTarget(activeIndex, activeLineIndex);
+  }, [activeIndex, activeLineIndex]);
 
   return (
     <ScrollView
@@ -74,12 +140,26 @@ export default function LanguageTextWord({
       {wordTimings.map((sentence, idx) => {
         const isActive = idx === activeIndex;
         const isCompleted = !isActive && currentTimeInSeconds >= sentence.end;
+        const showPauseHighlight = isActive && !isPlaying;
 
         return (
           <Text
             key={`sentence-${idx}`}
             onLayout={(e) => {
               offsetsRef.current[idx] = e.nativeEvent.layout.y;
+              // The active sentence's own layout can arrive after
+              // activeIndex already changed (e.g. under JS thread pressure
+              // from the frequent playback ticks) — retry now it's known.
+              if (idx === activeIndex)
+                scrollToTarget(idx, lineIndexFor(idx, revealCount));
+            }}
+            onTextLayout={(e) => {
+              linesRef.current[idx] = e.nativeEvent.lines.map((line) => ({
+                y: line.y,
+                text: line.text,
+              }));
+              if (idx === activeIndex)
+                scrollToTarget(idx, lineIndexFor(idx, revealCount));
             }}
             onPress={
               onWordPress ? () => onWordPress(sentence.start * 1000) : undefined
@@ -88,10 +168,21 @@ export default function LanguageTextWord({
             style={[
               styles.sentence,
               isCompleted && styles.completed,
-              isActive && styles.active,
+              showPauseHighlight && styles.pausedActive,
             ]}
           >
-            {sentence.word}
+            {isActive ? (
+              <>
+                <Text style={styles.read}>
+                  {sentence.word.slice(0, revealCount)}
+                </Text>
+                <Text style={styles.unread}>
+                  {sentence.word.slice(revealCount)}
+                </Text>
+              </>
+            ) : (
+              sentence.word
+            )}
           </Text>
         );
       })}
@@ -122,9 +213,17 @@ const styles = StyleSheet.create({
   completed: {
     color: colors.completedWord,
   },
-  active: {
-    backgroundColor: colors.activeWord,
-    color: colors.background,
-    fontWeight: "600",
+  // Background box shown on the active sentence only while paused, as a
+  // bookmark of where playback stopped.
+  pausedActive: {
+    backgroundColor: colors.activeWordBg,
+  },
+  // Colour alone marks the read portion: changing weight mid-sentence would
+  // widen the glyphs and reflow the paragraph on every playback tick.
+  read: {
+    color: colors.activeWord,
+  },
+  unread: {
+    color: colors.textPrimary,
   },
 });

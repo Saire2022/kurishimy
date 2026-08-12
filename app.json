@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#4A2C1A"
-      }
+      },
+      "package": "com.saire2025.kurishimy"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "573696fe-c1e7-4599-ba2c-1f4b845858c6"
+      }
     }
   }
 }

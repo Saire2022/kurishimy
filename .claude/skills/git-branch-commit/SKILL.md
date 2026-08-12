@@ -20,9 +20,9 @@ Helper for two related git actions: creating a properly-named branch, and writin
 - `perf` — performance improvement
 - `style` — formatting only, no logic change
 
-Pick `type` from the nature of the work about to happen (or already done), not from the user's phrasing. The description is 2-5 words, lowercase, hyphen-separated, no ticket numbers unless the user gives one (in which case prefix it: `fix/123-audio-crash`).
+First, if the Issue ID is present use it (e.g. issue--23). Pick `type` from the nature of the work about to happen (or already done), not from the user's phrasing. The description is 2-5 words, lowercase, hyphen-separated, no ticket numbers unless the user gives one (in which case prefix it: `issue--12-fix/audio-crash`).
 
-Examples: `feat/lesson-audio-controls`, `fix/expo-router-entry-crash`, `chore/expo-sdk-54-bump`.
+Examples: `issue--23-feat/lesson-audio-controls`, `issue--12-fix/expo-router-entry-crash`, `issue--56-chore/expo-sdk-54-bump`.
 
 ## Workflow
 

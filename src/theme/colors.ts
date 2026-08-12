@@ -7,6 +7,8 @@ export const colors = {
   textPrimary: "#3A3A3A",
   textSecondary: "#666666",
   textMuted: "#8A8A8A",
+  /** Launcher/splash backdrop the gold mark sits on. Mirrored in app.json. */
+  brandDeep: "#4A2C1A",
   background: "#FFFFFF",
   surface: "#FFFFFF",
   stop: "#FF5252",

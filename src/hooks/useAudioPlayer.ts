@@ -1,5 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
-import { Audio, AVPlaybackStatus } from "expo-av";
+import {
+  setAudioModeAsync,
+  useAudioPlayer as useExpoAudioPlayer,
+  useAudioPlayerStatus,
+} from "expo-audio";
 
 interface UseAudioPlayerResult {
   isPlaying: boolean;
@@ -12,134 +16,102 @@ interface UseAudioPlayerResult {
   seek: (timeMs: number) => Promise<void>;
 }
 
+// 100ms status updates: kichwa words are ~300-600ms long, so the
+// default 500ms interval skips right past their highlight window.
+const STATUS_UPDATE_INTERVAL_MS = 100;
+
+/** expo-audio reports seconds; the lesson UI works in milliseconds throughout. */
+const MS_PER_SECOND = 1000;
+
 export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
-  const [sound, setSound] = useState<Audio.Sound | null>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const player = useExpoAudioPlayer(audioSource, {
+    updateInterval: STATUS_UPDATE_INTERVAL_MS,
+  });
+  const status = useAudioPlayerStatus(player);
+
   const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
-  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let mounted = true;
-    let soundInstance: Audio.Sound | null = null;
 
-    setSound(null);
-    setIsLoading(true);
-    setIsPlaying(false);
-    setCurrentTime(0);
-    setDuration(0);
-    setError(null);
-
-    async function initialize() {
-      try {
-        await Audio.setAudioModeAsync({
-          allowsRecordingIOS: false,
-          playsInSilentModeIOS: true,
-          shouldDuckAndroid: true,
-          staysActiveInBackground: true,
-          playThroughEarpieceAndroid: false,
-        });
-
-        const { sound: loadedSound } = await Audio.Sound.createAsync(
-          audioSource,
-          // 100ms status updates: kichwa words are ~300-600ms long, so the
-          // default 500ms interval skips right past their highlight window.
-          { shouldPlay: false, progressUpdateIntervalMillis: 100 },
+    setAudioModeAsync({
+      allowsRecording: false,
+      playsInSilentMode: true,
+      shouldPlayInBackground: true,
+      shouldRouteThroughEarpiece: false,
+      interruptionMode: "duckOthers",
+    }).catch((err) => {
+      if (mounted) {
+        setError(
+          err instanceof Error ? err.message : "Failed to configure audio",
         );
-
-        soundInstance = loadedSound;
-
-        if (!mounted) {
-          await loadedSound.unloadAsync();
-          return;
-        }
-
-        loadedSound.setOnPlaybackStatusUpdate((status: AVPlaybackStatus) => {
-          if (!status.isLoaded || !mounted) return;
-          setCurrentTime(status.positionMillis);
-          setIsPlaying(status.isPlaying);
-        });
-
-        setSound(loadedSound);
-
-        const status = await loadedSound.getStatusAsync();
-        if (status.isLoaded && mounted) {
-          setDuration(status.durationMillis ?? 0);
-        }
-
-        if (mounted) {
-          setIsLoading(false);
-        }
-      } catch (err) {
-        if (mounted) {
-          setError(err instanceof Error ? err.message : "Failed to load audio");
-          setIsLoading(false);
-        }
       }
-    }
-
-    initialize();
+    });
 
     return () => {
       mounted = false;
-      if (soundInstance) {
-        soundInstance.setOnPlaybackStatusUpdate(null);
-        soundInstance.unloadAsync().catch((err) => {
-          console.error("Error unloading sound:", err);
-        });
-      }
     };
+  }, []);
+
+  // The player is keyed on the source, so a new chapter starts from zero.
+  useEffect(() => {
+    setCurrentTime(0);
   }, [audioSource]);
 
+  useEffect(() => {
+    if (status.isLoaded) {
+      setCurrentTime(status.currentTime * MS_PER_SECOND);
+    }
+  }, [status.isLoaded, status.currentTime]);
+
   const playPause = useCallback(async () => {
-    if (!sound) return;
+    if (!status.isLoaded) return;
 
     try {
-      if (isPlaying) {
-        await sound.pauseAsync();
-        setIsPlaying(false);
+      if (status.playing) {
+        player.pause();
       } else {
-        await sound.playAsync();
-        setIsPlaying(true);
+        player.play();
       }
     } catch (err) {
       console.error("Error in play/pause:", err);
     }
-  }, [sound, isPlaying]);
+  }, [player, status.isLoaded, status.playing]);
 
   const stop = useCallback(async () => {
-    if (!sound) return;
+    if (!status.isLoaded) return;
 
     try {
-      await sound.stopAsync();
-      await sound.setPositionAsync(0);
+      player.pause();
       setCurrentTime(0);
-      setIsPlaying(false);
+      await player.seekTo(0);
     } catch (err) {
       console.error("Error stopping:", err);
     }
-  }, [sound]);
+  }, [player, status.isLoaded]);
 
   const seek = useCallback(
     async (timeMs: number) => {
-      if (!sound) return;
+      if (!status.isLoaded) return;
 
       try {
-        await sound.setPositionAsync(timeMs);
+        // A seek while paused emits no status update, so move the highlight
+        // now rather than waiting for playback to resume.
         setCurrentTime(timeMs);
+        await player.seekTo(timeMs / MS_PER_SECOND);
       } catch (err) {
         console.error("Error seeking:", err);
       }
     },
-    [sound],
+    [player, status.isLoaded],
   );
 
   return {
-    isPlaying,
+    isPlaying: status.playing,
     currentTime,
-    duration,
-    isLoading,
+    duration: status.duration * MS_PER_SECOND,
+    isLoading: !status.isLoaded,
     error,
     playPause,
     stop,

@@ -25,6 +25,41 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+## Audio assets
+
+Chapter audio ships inside the binary, so the encode is the ceiling on how much content
+the app can hold. Every chapter is stored as **48 kbps mono AAC** in `assets/audio/`,
+which keeps a 13-minute chapter at roughly 4.8 MB — about 20 chapters before the Play
+Store's 200 MB AAB limit forces Play Asset Delivery.
+
+Encode every new chapter with exactly this command so all chapters match:
+
+```bash
+ffmpeg -i cap1.mp3 -c:a aac -b:a 48k -ac 1 -ar 44100 cap1.m4a
+```
+
+Mono because the narration is a single voice, and 48 kbps because speech has far less
+spectral content than music. Commit only the `.m4a`.
+
+### Masters
+
+Do **not** commit the high-bitrate masters — they are 5× the size of the shipped encode
+and only needed to re-encode. The 256 kbps stereo master for chapter 1 is archived
+outside the repo at:
+
+```
+~/Documents/react-native/kurishimy-audio-masters/cap1.mp3
+```
+
+That path is a working archive on one machine, not a backup — mirror it to cloud storage
+so a re-encode is possible from any checkout.
+
+### Timings
+
+Re-encoding does not change duration, so the word timings in
+`src/content/chapters/Chapter1.json` stay valid. If you replace an audio file, confirm the
+new file is sample-aligned with the old one before assuming the timings still hold.
+
 ## Get a fresh project
 
 When you're ready, run:

@@ -2,7 +2,7 @@ import type { ChapterContent } from "@/types/lesson";
 import { normalizeTimings } from "@/utils/normalizeTimings";
 
 import chapter1Data from "./Chapter1.json";
-const chapter1Audio = require("../../../assets/audio/cap1.mp3") as number;
+const chapter1Audio = require("../../../assets/audio/cap1.m4a") as number;
 
 function loadChapter1(): ChapterContent {
   const data = chapter1Data as {

@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { Text, StyleSheet, ScrollView } from "react-native";
 import type { WordTiming } from "@/types/lesson";
 import { colors } from "@/theme/colors";
+import { findActiveSentenceIndex } from "@/utils/findActiveSentenceIndex";
 
 /** How long auto-scroll stays paused after the user scrolls manually. */
 const USER_SCROLL_PAUSE_MS = 2000;
@@ -35,17 +36,10 @@ export default function LanguageTextWord({
   const lastAutoScrolledKeyRef = useRef("");
 
   // Sentence being spoken now; during silences keep the last one started.
-  let activeIndex = wordTimings.findIndex(
-    (s) => currentTimeInSeconds >= s.start && currentTimeInSeconds < s.end,
+  const activeIndex = findActiveSentenceIndex(
+    wordTimings,
+    currentTimeInSeconds,
   );
-  if (activeIndex === -1) {
-    for (let i = wordTimings.length - 1; i >= 0; i--) {
-      if (currentTimeInSeconds >= wordTimings[i].start) {
-        activeIndex = i;
-        break;
-      }
-    }
-  }
 
   // There's no real per-word audio alignment (each entry spans a whole
   // sentence), so the reveal position is approximated by interpolating

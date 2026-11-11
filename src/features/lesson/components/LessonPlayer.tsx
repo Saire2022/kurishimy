@@ -6,6 +6,7 @@ import LanguageTextWord from "@/features/lesson/components/LanguageTextWord";
 import PlaybackControls from "@/features/playback/components/PlaybackControls";
 import Separator from "@/components/ui/Separator";
 import { colors } from "@/theme/colors";
+import { findActiveSentenceIndex } from "@/utils/findActiveSentenceIndex";
 
 /** Pressing "previous" this long into a sentence restarts it instead. */
 const RESTART_THRESHOLD_SECONDS = 2;
@@ -29,15 +30,9 @@ export default function LessonPlayer({ chapter, viewMode }: LessonPlayerProps) {
   // Both language tracks share the same sentence boundaries.
   const sentences = chapter.spanishWords;
 
-  const getCurrentSentenceIndex = () => {
-    const t = currentTime / 1000;
-    const idx = sentences.findIndex((s) => t >= s.start && t < s.end);
-    if (idx !== -1) return idx;
-    for (let i = sentences.length - 1; i >= 0; i--) {
-      if (t >= sentences[i].start) return i;
-    }
-    return 0;
-  };
+  // Before the first sentence starts, navigation acts from sentence 0.
+  const getCurrentSentenceIndex = () =>
+    Math.max(0, findActiveSentenceIndex(sentences, currentTime / 1000));
 
   const handlePrevious = () => {
     const t = currentTime / 1000;

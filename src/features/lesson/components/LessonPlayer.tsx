@@ -6,6 +6,7 @@ import LanguageTextWord from "@/features/lesson/components/LanguageTextWord";
 import PlaybackControls from "@/features/playback/components/PlaybackControls";
 import Separator from "@/components/ui/Separator";
 import { colors } from "@/theme/colors";
+import { es } from "@/i18n/es";
 import { findActiveSentenceIndex } from "@/utils/findActiveSentenceIndex";
 
 /** Pressing "previous" this long into a sentence restarts it instead. */
@@ -55,7 +56,7 @@ export default function LessonPlayer({ chapter, viewMode }: LessonPlayerProps) {
     return (
       <View style={styles.centerContainer}>
         <ActivityIndicator size="large" color={colors.primary} />
-        <Text style={styles.loadingText}>Loading audio...</Text>
+        <Text style={styles.loadingText}>{es.lesson.loadingAudio}</Text>
       </View>
     );
   }

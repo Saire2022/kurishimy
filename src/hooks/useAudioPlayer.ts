@@ -4,6 +4,7 @@ import {
   useAudioPlayer as useExpoAudioPlayer,
   useAudioPlayerStatus,
 } from "expo-audio";
+import { es } from "@/i18n/es";
 
 interface UseAudioPlayerResult {
   isPlaying: boolean;
@@ -42,11 +43,9 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
       shouldRouteThroughEarpiece: false,
       interruptionMode: "duckOthers",
     }).catch((err) => {
-      if (mounted) {
-        setError(
-          err instanceof Error ? err.message : "Failed to configure audio",
-        );
-      }
+      // The native message is English and technical; log it, show Spanish.
+      console.error("Error configuring audio:", err);
+      if (mounted) setError(es.lesson.audioError);
     });
 
     return () => {

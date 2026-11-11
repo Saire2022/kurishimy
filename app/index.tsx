@@ -14,6 +14,7 @@ import type { ChapterContent } from "@/types/lesson";
 import { getChapterIds, loadChapter } from "@/content/chapters/registry";
 import { formatTime } from "@/utils/formatTime";
 import { colors } from "@/theme/colors";
+import { es } from "@/i18n/es";
 
 export default function Index() {
   const router = useRouter();
@@ -31,17 +32,12 @@ export default function Index() {
       <ScrollView contentContainerStyle={styles.content}>
         <View style={styles.hero}>
           <Logo width={150} height={150} />
-          <Text style={styles.title}>Kury Shimy</Text>
-          <Text style={styles.tagline}>
-            Aprende Kichwa leyendo y escuchando
-          </Text>
-          <Text style={styles.description}>
-            Historias bilingües con audio sincronizado. Sigue el texto en Kichwa
-            y Español mientras escuchas la narración.
-          </Text>
+          <Text style={styles.title}>{es.appName}</Text>
+          <Text style={styles.tagline}>{es.home.tagline}</Text>
+          <Text style={styles.description}>{es.home.description}</Text>
         </View>
 
-        <Text style={styles.sectionTitle}>Capítulos</Text>
+        <Text style={styles.sectionTitle}>{es.home.chaptersTitle}</Text>
 
         {chapters.map((chapter) => (
           <TouchableOpacity
@@ -55,7 +51,7 @@ export default function Index() {
             </View>
             <View style={styles.chapterInfo}>
               <Text style={styles.chapterNumber}>
-                Capítulo {chapter.meta.chapterNumber}
+                {es.lesson.chapterLabel(chapter.meta.chapterNumber)}
               </Text>
               <Text style={styles.chapterTitle} numberOfLines={2}>
                 {chapter.meta.title}

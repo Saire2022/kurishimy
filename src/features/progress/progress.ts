@@ -95,22 +95,3 @@ export function progressFraction(
   if (!progress || durationMs <= 0) return 0;
   return Math.min(1, Math.max(0, progress.positionMs / durationMs));
 }
-
-/**
- * The chapter to offer under "Continuar": the most recently opened one that
- * was left part-way through. Chapters not in `chapterIds` are ignored.
- */
-export function findContinueChapterId(
-  progress: ProgressMap,
-  chapterIds: readonly string[],
-): string | null {
-  let best: string | null = null;
-  for (const id of chapterIds) {
-    const entry = progress[id];
-    if (!entry || entry.positionMs <= 0) continue;
-    if (best === null || entry.lastOpenedAt > progress[best].lastOpenedAt) {
-      best = id;
-    }
-  }
-  return best;
-}

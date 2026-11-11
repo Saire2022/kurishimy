@@ -15,10 +15,7 @@ import { getChapterIds, loadChapter } from "@/content/chapters/registry";
 import { formatTime } from "@/utils/formatTime";
 import { colors } from "@/theme/colors";
 import { ProgressBar } from "@/components/ui/ProgressBar";
-import {
-  findContinueChapterId,
-  progressFraction,
-} from "@/features/progress/progress";
+import { progressFraction } from "@/features/progress/progress";
 import { useProgress } from "@/features/progress/progressStore";
 import { es } from "@/i18n/es";
 
@@ -30,12 +27,6 @@ export default function Index() {
     .filter((c): c is ChapterContent => c !== null);
 
   const { byChapter } = useProgress();
-  const continueId = findContinueChapterId(
-    byChapter,
-    chapters.map((c) => c.meta.id),
-  );
-  const continueChapter = chapters.find((c) => c.meta.id === continueId);
-
   const openChapter = (chapterId: string) => {
     router.push({ pathname: "/lesson/[chapterId]", params: { chapterId } });
   };
@@ -49,41 +40,6 @@ export default function Index() {
           <Text style={styles.tagline}>{es.home.tagline}</Text>
           <Text style={styles.description}>{es.home.description}</Text>
         </View>
-
-        {continueChapter && (
-          <>
-            <Text style={styles.sectionTitle}>{es.home.continueTitle}</Text>
-            <TouchableOpacity
-              style={styles.continueCard}
-              onPress={() => openChapter(continueChapter.meta.id)}
-              activeOpacity={0.85}
-            >
-              <View style={styles.continueHeader}>
-                <View style={styles.chapterInfo}>
-                  <Text style={styles.chapterNumber}>
-                    {es.lesson.chapterLabel(continueChapter.meta.chapterNumber)}
-                  </Text>
-                  <Text style={styles.chapterTitle} numberOfLines={2}>
-                    {continueChapter.meta.title}
-                  </Text>
-                </View>
-                <View style={styles.playBadge}>
-                  <Ionicons name="play" size={18} color={colors.background} />
-                </View>
-              </View>
-              <ProgressBar
-                fraction={progressFraction(
-                  byChapter[continueChapter.meta.id],
-                  continueChapter.meta.durationMs,
-                )}
-              />
-              <Text style={styles.continueTime}>
-                {formatTime(byChapter[continueChapter.meta.id].positionMs)} /{" "}
-                {formatTime(continueChapter.meta.durationMs)}
-              </Text>
-            </TouchableOpacity>
-          </>
-        )}
 
         <Text style={styles.sectionTitle}>{es.home.chaptersTitle}</Text>
 
@@ -114,6 +70,9 @@ export default function Index() {
                     color={colors.textMuted}
                   />
                   <Text style={styles.chapterDuration}>
+                    {saved && saved.positionMs > 0
+                      ? `${formatTime(saved.positionMs)} / `
+                      : ""}
                     {formatTime(chapter.meta.durationMs)}
                   </Text>
                   {saved?.completed && (
@@ -246,23 +205,6 @@ const styles = StyleSheet.create({
   },
   chapterProgress: {
     marginTop: 8,
-  },
-  continueCard: {
-    backgroundColor: colors.primaryLight,
-    borderRadius: 16,
-    padding: 16,
-    marginBottom: 28,
-  },
-  continueHeader: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 12,
-  },
-  continueTime: {
-    fontSize: 13,
-    color: colors.textMuted,
-    marginTop: 6,
-    fontVariant: ["tabular-nums"],
   },
   playBadge: {
     width: 40,

@@ -11,7 +11,6 @@ export const es = {
     description:
       "Historias bilingües con audio sincronizado. Sigue el texto en Kichwa y Español mientras escuchas la narración.",
     chaptersTitle: "Capítulos",
-    continueTitle: "Continuar",
     completed: "Completado",
   },
   lesson: {

@@ -12,6 +12,7 @@ export const colors = {
   background: "#FFFFFF",
   surface: "#FFFFFF",
   stop: "#FF5252",
+  success: "#2E9E5B",
   sliderTrack: "#EEEEEE",
   divider: "#E0E0E0",
   shadow: "#000000",

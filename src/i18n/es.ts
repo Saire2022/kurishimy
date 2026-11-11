@@ -11,6 +11,7 @@ export const es = {
     description:
       "Historias bilingües con audio sincronizado. Sigue el texto en Kichwa y Español mientras escuchas la narración.",
     chaptersTitle: "Capítulos",
+    completed: "Completado",
   },
   lesson: {
     chapterLabel: (chapterNumber: number | string) =>
@@ -19,6 +20,8 @@ export const es = {
       `No se encontró el capítulo "${chapterId}".`,
     loadingAudio: "Cargando audio...",
     audioError: "No se pudo preparar el audio.",
+    resumedFrom: (time: string) => `Continuando desde ${time}`,
+    startOver: "Empezar de nuevo",
   },
   viewModes: {
     kichwa: "Kichwa",

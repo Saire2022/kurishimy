@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import {
   setAudioModeAsync,
   useAudioPlayer as useExpoAudioPlayer,
@@ -11,6 +11,8 @@ interface UseAudioPlayerResult {
   currentTime: number;
   duration: number;
   isLoading: boolean;
+  /** True for the status update in which playback reached the end. */
+  didJustFinish: boolean;
   error: string | null;
   playPause: () => Promise<void>;
   stop: () => Promise<void>;
@@ -24,7 +26,14 @@ const STATUS_UPDATE_INTERVAL_MS = 100;
 /** expo-audio reports seconds; the lesson UI works in milliseconds throughout. */
 const MS_PER_SECOND = 1000;
 
-export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
+/**
+ * @param initialPositionMs Where to start, in ms. Read once, when the audio
+ *   first loads; `isLoading` stays true until the player has jumped there.
+ */
+export function useAudioPlayer(
+  audioSource: number,
+  initialPositionMs = 0,
+): UseAudioPlayerResult {
   const player = useExpoAudioPlayer(audioSource, {
     updateInterval: STATUS_UPDATE_INTERVAL_MS,
   });
@@ -32,6 +41,9 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
 
   const [currentTime, setCurrentTime] = useState(0);
   const [error, setError] = useState<string | null>(null);
+  const [hasResumed, setHasResumed] = useState(initialPositionMs <= 0);
+  const resumeTargetRef = useRef(initialPositionMs);
+  const resumeStartedRef = useRef(false);
 
   useEffect(() => {
     let mounted = true;
@@ -63,6 +75,19 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
       setCurrentTime(status.currentTime * MS_PER_SECOND);
     }
   }, [status.isLoaded, status.currentTime]);
+
+  // Declared after the status effect above so that, on the render where the
+  // audio becomes loaded, the resume position wins over the player's 0.
+  useEffect(() => {
+    if (!status.isLoaded || hasResumed || resumeStartedRef.current) return;
+    resumeStartedRef.current = true;
+    const target = resumeTargetRef.current;
+    setCurrentTime(target);
+    player
+      .seekTo(target / MS_PER_SECOND)
+      .catch((err) => console.error("Error resuming:", err))
+      .finally(() => setHasResumed(true));
+  }, [player, status.isLoaded, hasResumed]);
 
   const playPause = useCallback(async () => {
     if (!status.isLoaded) return;
@@ -110,7 +135,8 @@ export function useAudioPlayer(audioSource: number): UseAudioPlayerResult {
     isPlaying: status.playing,
     currentTime,
     duration: status.duration * MS_PER_SECOND,
-    isLoading: !status.isLoaded,
+    isLoading: !status.isLoaded || !hasResumed,
+    didJustFinish: status.didJustFinish,
     error,
     playPause,
     stop,

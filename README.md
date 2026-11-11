@@ -60,6 +60,22 @@ Re-encoding does not change duration, so the word timings in
 `src/content/chapters/Chapter1.json` stay valid. If you replace an audio file, confirm the
 new file is sample-aligned with the old one before assuming the timings still hold.
 
+## Importing chapters
+
+The chapters come from the [Killkan dataset](https://github.com/ctaguchi/killkan)
+(CC-BY 4.0; the radio drama is "Jaboneropak Ayllullaktapi" by Radialistas Apasionadas y
+Apasionados). To import or re-import from a local clone of that repo:
+
+```bash
+node tools/content/importKillkan.mjs /path/to/killkan 2-20
+```
+
+For each chapter this writes `src/content/chapters/ChapterN.json` from the ELAN file
+(Kichwa sentences, their time windows, and the Spanish translations) and encodes
+`assets/audio/capN.m4a` with the settings above. It warns about sentences whose Spanish
+is a `[MISSING]` placeholder in the dataset. Then add the chapter to
+`src/content/chapters/manifest.ts`.
+
 ## Get a fresh project
 
 When you're ready, run:

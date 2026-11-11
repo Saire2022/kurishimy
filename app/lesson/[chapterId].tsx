@@ -1,11 +1,18 @@
 import React, { useMemo } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
 import { Stack, useLocalSearchParams } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import LessonPlayer from "@/features/lesson/components/LessonPlayer";
 import { useViewMode } from "@/features/lesson/hooks/useViewMode";
 import { loadChapter } from "@/content/chapters/registry";
 import { colors } from "@/theme/colors";
+import { useProgress } from "@/features/progress/progressStore";
 import { es } from "@/i18n/es";
 
 export default function LessonScreen() {
@@ -19,6 +26,7 @@ export default function LessonScreen() {
     [resolvedChapterId],
   );
   const { viewMode, cycleViewMode, nextModeLabel } = useViewMode();
+  const progress = useProgress();
 
   const screenOptions = {
     title: es.lesson.chapterLabel(
@@ -49,10 +57,29 @@ export default function LessonScreen() {
     );
   }
 
+  // The player decides where to start when it mounts, so it has to wait for
+  // the saved position — otherwise a cold start straight into a chapter
+  // would begin at 0:00 and then overwrite the bookmark.
+  if (!progress.loaded) {
+    return (
+      <>
+        <Stack.Screen options={screenOptions} />
+        <View style={styles.centerContainer}>
+          <ActivityIndicator size="large" color={colors.primary} />
+        </View>
+      </>
+    );
+  }
+
   return (
     <>
       <Stack.Screen options={screenOptions} />
-      <LessonPlayer chapter={chapter} viewMode={viewMode} />
+      <LessonPlayer
+        key={chapter.meta.id}
+        chapter={chapter}
+        viewMode={viewMode}
+        savedProgress={progress.byChapter[chapter.meta.id]}
+      />
     </>
   );
 }
@@ -63,6 +90,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 24,
+    backgroundColor: colors.background,
   },
   errorText: {
     fontSize: 16,

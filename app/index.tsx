@@ -14,6 +14,12 @@ import type { ChapterContent } from "@/types/lesson";
 import { getChapterIds, loadChapter } from "@/content/chapters/registry";
 import { formatTime } from "@/utils/formatTime";
 import { colors } from "@/theme/colors";
+import { ProgressBar } from "@/components/ui/ProgressBar";
+import {
+  findContinueChapterId,
+  progressFraction,
+} from "@/features/progress/progress";
+import { useProgress } from "@/features/progress/progressStore";
 import { es } from "@/i18n/es";
 
 export default function Index() {
@@ -22,6 +28,13 @@ export default function Index() {
   const chapters = getChapterIds()
     .map((id) => loadChapter(id))
     .filter((c): c is ChapterContent => c !== null);
+
+  const { byChapter } = useProgress();
+  const continueId = findContinueChapterId(
+    byChapter,
+    chapters.map((c) => c.meta.id),
+  );
+  const continueChapter = chapters.find((c) => c.meta.id === continueId);
 
   const openChapter = (chapterId: string) => {
     router.push({ pathname: "/lesson/[chapterId]", params: { chapterId } });
@@ -37,41 +50,97 @@ export default function Index() {
           <Text style={styles.description}>{es.home.description}</Text>
         </View>
 
+        {continueChapter && (
+          <>
+            <Text style={styles.sectionTitle}>{es.home.continueTitle}</Text>
+            <TouchableOpacity
+              style={styles.continueCard}
+              onPress={() => openChapter(continueChapter.meta.id)}
+              activeOpacity={0.85}
+            >
+              <View style={styles.continueHeader}>
+                <View style={styles.chapterInfo}>
+                  <Text style={styles.chapterNumber}>
+                    {es.lesson.chapterLabel(continueChapter.meta.chapterNumber)}
+                  </Text>
+                  <Text style={styles.chapterTitle} numberOfLines={2}>
+                    {continueChapter.meta.title}
+                  </Text>
+                </View>
+                <View style={styles.playBadge}>
+                  <Ionicons name="play" size={18} color={colors.background} />
+                </View>
+              </View>
+              <ProgressBar
+                fraction={progressFraction(
+                  byChapter[continueChapter.meta.id],
+                  continueChapter.meta.durationMs,
+                )}
+              />
+              <Text style={styles.continueTime}>
+                {formatTime(byChapter[continueChapter.meta.id].positionMs)} /{" "}
+                {formatTime(continueChapter.meta.durationMs)}
+              </Text>
+            </TouchableOpacity>
+          </>
+        )}
+
         <Text style={styles.sectionTitle}>{es.home.chaptersTitle}</Text>
 
-        {chapters.map((chapter) => (
-          <TouchableOpacity
-            key={chapter.meta.id}
-            style={styles.chapterCard}
-            onPress={() => openChapter(chapter.meta.id)}
-            activeOpacity={0.85}
-          >
-            <View style={styles.chapterIcon}>
-              <Ionicons name="headset" size={26} color={colors.primary} />
-            </View>
-            <View style={styles.chapterInfo}>
-              <Text style={styles.chapterNumber}>
-                {es.lesson.chapterLabel(chapter.meta.chapterNumber)}
-              </Text>
-              <Text style={styles.chapterTitle} numberOfLines={2}>
-                {chapter.meta.title}
-              </Text>
-              <View style={styles.chapterMeta}>
-                <Ionicons
-                  name="time-outline"
-                  size={14}
-                  color={colors.textMuted}
-                />
-                <Text style={styles.chapterDuration}>
-                  {formatTime(chapter.meta.durationMs)}
-                </Text>
+        {chapters.map((chapter) => {
+          const saved = byChapter[chapter.meta.id];
+          const fraction = progressFraction(saved, chapter.meta.durationMs);
+          return (
+            <TouchableOpacity
+              key={chapter.meta.id}
+              style={styles.chapterCard}
+              onPress={() => openChapter(chapter.meta.id)}
+              activeOpacity={0.85}
+            >
+              <View style={styles.chapterIcon}>
+                <Ionicons name="headset" size={26} color={colors.primary} />
               </View>
-            </View>
-            <View style={styles.playBadge}>
-              <Ionicons name="play" size={18} color={colors.background} />
-            </View>
-          </TouchableOpacity>
-        ))}
+              <View style={styles.chapterInfo}>
+                <Text style={styles.chapterNumber}>
+                  {es.lesson.chapterLabel(chapter.meta.chapterNumber)}
+                </Text>
+                <Text style={styles.chapterTitle} numberOfLines={2}>
+                  {chapter.meta.title}
+                </Text>
+                <View style={styles.chapterMeta}>
+                  <Ionicons
+                    name="time-outline"
+                    size={14}
+                    color={colors.textMuted}
+                  />
+                  <Text style={styles.chapterDuration}>
+                    {formatTime(chapter.meta.durationMs)}
+                  </Text>
+                  {saved?.completed && (
+                    <View style={styles.completedBadge}>
+                      <Ionicons
+                        name="checkmark-circle"
+                        size={15}
+                        color={colors.success}
+                      />
+                      <Text style={styles.completedText}>
+                        {es.home.completed}
+                      </Text>
+                    </View>
+                  )}
+                </View>
+                {fraction > 0 && (
+                  <View style={styles.chapterProgress}>
+                    <ProgressBar fraction={fraction} />
+                  </View>
+                )}
+              </View>
+              <View style={styles.playBadge}>
+                <Ionicons name="play" size={18} color={colors.background} />
+              </View>
+            </TouchableOpacity>
+          );
+        })}
       </ScrollView>
     </SafeAreaView>
   );
@@ -164,6 +233,36 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: colors.textMuted,
     marginLeft: 4,
+  },
+  completedBadge: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginLeft: 12,
+  },
+  completedText: {
+    fontSize: 13,
+    color: colors.success,
+    marginLeft: 3,
+  },
+  chapterProgress: {
+    marginTop: 8,
+  },
+  continueCard: {
+    backgroundColor: colors.primaryLight,
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 28,
+  },
+  continueHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 12,
+  },
+  continueTime: {
+    fontSize: 13,
+    color: colors.textMuted,
+    marginTop: 6,
+    fontVariant: ["tabular-nums"],
   },
   playBadge: {
     width: 40,

@@ -41,7 +41,9 @@ async function sendAudioToHuggingFace(sound, setWords, maxRetries = 5) {
         return;
       }
 
-      const HUGGING_FACE_API_KEY = process.env.EXPO_PUBLIC_HUGGING_FACE_API_KEY;
+      // Deliberately not EXPO_PUBLIC_: that prefix inlines the value into the
+      // app's JS bundle. This key is for the offline pipeline only.
+      const HUGGING_FACE_API_KEY = process.env.HUGGING_FACE_API_KEY;
       const MODEL_URL =
         "https://api-inference.huggingface.co/models/ctaguchi/killkan_asr";
 
@@ -53,7 +55,7 @@ async function sendAudioToHuggingFace(sound, setWords, maxRetries = 5) {
       }
 
       console.log(
-        `Attempt ${retryCount + 1} of ${maxRetries}: Sending to HuggingFace API...`
+        `Attempt ${retryCount + 1} of ${maxRetries}: Sending to HuggingFace API...`,
       );
       const response = await axios.post(
         MODEL_URL,
@@ -63,7 +65,7 @@ async function sendAudioToHuggingFace(sound, setWords, maxRetries = 5) {
             Authorization: `Bearer ${HUGGING_FACE_API_KEY}`,
             "Content-Type": "application/json",
           },
-        }
+        },
       );
 
       // If response includes an "error" about the model loading, throw an error to trigger retry
@@ -107,7 +109,7 @@ async function sendAudioToHuggingFace(sound, setWords, maxRetries = 5) {
     } else {
       console.error("Error details:", error.message, error.response?.data);
       alert(
-        `Error processing audio after ${maxRetries} attempts: ${error.message}`
+        `Error processing audio after ${maxRetries} attempts: ${error.message}`,
       );
     }
   }

@@ -36,3 +36,6 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# Raw content-pipeline inputs/outputs (alignment dumps etc.) — never shipped
+content-sources/

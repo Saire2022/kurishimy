@@ -1,13 +1,10 @@
 import { useState, useCallback } from "react";
 import type { ViewMode } from "@/types/lesson";
+import { es } from "@/i18n/es";
 
 const VIEW_MODE_CYCLE: ViewMode[] = ["kichwa", "spanish", "dual"];
 
-const MODE_LABELS: Record<ViewMode, string> = {
-  kichwa: "Kichwa",
-  spanish: "Español",
-  dual: "Dual",
-};
+const MODE_LABELS: Record<ViewMode, string> = es.viewModes;
 
 export function useViewMode(initial: ViewMode = "dual") {
   const [viewMode, setViewMode] = useState<ViewMode>(initial);

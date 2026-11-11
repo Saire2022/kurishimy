@@ -6,6 +6,7 @@ import LessonPlayer from "@/features/lesson/components/LessonPlayer";
 import { useViewMode } from "@/features/lesson/hooks/useViewMode";
 import { loadChapter } from "@/content/chapters/registry";
 import { colors } from "@/theme/colors";
+import { es } from "@/i18n/es";
 
 export default function LessonScreen() {
   const { chapterId } = useLocalSearchParams<{ chapterId: string }>();
@@ -20,9 +21,9 @@ export default function LessonScreen() {
   const { viewMode, cycleViewMode, nextModeLabel } = useViewMode();
 
   const screenOptions = {
-    title: chapter
-      ? `Chapter ${chapter.meta.chapterNumber}`
-      : `Chapter ${resolvedChapterId}`,
+    title: es.lesson.chapterLabel(
+      chapter ? chapter.meta.chapterNumber : resolvedChapterId,
+    ),
     headerShadowVisible: false,
     headerTintColor: colors.primary,
     headerStyle: { backgroundColor: colors.background },
@@ -41,7 +42,7 @@ export default function LessonScreen() {
         <Stack.Screen options={screenOptions} />
         <View style={styles.centerContainer}>
           <Text style={styles.errorText}>
-            Chapter &quot;{resolvedChapterId}&quot; not found.
+            {es.lesson.chapterNotFound(resolvedChapterId)}
           </Text>
         </View>
       </>

@@ -1,47 +1,50 @@
-import type { ChapterContent } from "@/types/lesson";
-import { normalizeTimings } from "@/utils/normalizeTimings";
+import type { ChapterContent, ChapterManifestEntry } from "@/types/lesson";
+import { buildChapter } from "./buildChapter";
+import { MANIFEST } from "./manifest";
 
-import chapter1Data from "./Chapter1.json";
-const chapter1Audio = require("../../../assets/audio/cap1.m4a") as number;
-
-function loadChapter1(): ChapterContent {
-  const data = chapter1Data as {
-    title: string;
-    metadata: { chapter: number; duration: number };
-    kichwa: { words: { word: string; start: number; end: number }[] };
-    spanish: { words: { word: string; start: number; end: number }[] };
-  };
+/**
+ * Looks chapters up in a manifest and builds each one at most once, so
+ * callers get the same object (and the same timing arrays) on every call.
+ */
+export function createRegistry(manifest: readonly ChapterManifestEntry[]) {
+  const entries = new Map<string, ChapterManifestEntry>();
+  for (const entry of manifest) {
+    if (entries.has(entry.id)) {
+      throw new Error(`Duplicate chapter id "${entry.id}" in the manifest`);
+    }
+    entries.set(entry.id, entry);
+  }
+  const cache = new Map<string, ChapterContent | null>();
 
   return {
-    meta: {
-      id: "1",
-      title: data.title,
-      chapterNumber: data.metadata.chapter,
-      durationMs: data.metadata.duration,
+    /** Chapter ids in manifest order. */
+    getChapterIds(): string[] {
+      return manifest.map((entry) => entry.id);
     },
-    // Both tracks are sentence-level with identical timing boundaries, so the
-    // two panels stay in sync and behave the same way.
-    kichwaWords: normalizeTimings(data.kichwa.words),
-    spanishWords: normalizeTimings(data.spanish.words),
-    audio: chapter1Audio,
+
+    /**
+     * The chapter, or null if the id is not in the manifest. A chapter whose
+     * JSON is malformed throws in development; in a release build it is
+     * logged and treated as missing rather than crashing the app.
+     */
+    loadChapter(chapterId: string): ChapterContent | null {
+      const cached = cache.get(chapterId);
+      if (cached !== undefined) return cached;
+
+      const entry = entries.get(chapterId);
+      if (!entry) return null;
+
+      let chapter: ChapterContent | null = null;
+      try {
+        chapter = buildChapter(entry);
+      } catch (err) {
+        if (__DEV__) throw err;
+        console.error(err);
+      }
+      cache.set(chapterId, chapter);
+      return chapter;
+    },
   };
 }
 
-const chapters: Record<string, () => ChapterContent> = {
-  "1": loadChapter1,
-};
-
-export function getChapterIds(): string[] {
-  return Object.keys(chapters);
-}
-
-export function loadChapter(chapterId: string): ChapterContent | null {
-  const loader = chapters[chapterId];
-  if (!loader) return null;
-  try {
-    return loader();
-  } catch (err) {
-    console.error(`Failed to load chapter "${chapterId}":`, err);
-    return null;
-  }
-}
+export const { getChapterIds, loadChapter } = createRegistry(MANIFEST);

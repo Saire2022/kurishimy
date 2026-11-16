@@ -4,6 +4,11 @@ import { Ionicons } from "@expo/vector-icons";
 import Slider from "@react-native-community/slider";
 import { formatTime } from "@/utils/formatTime";
 import { colors } from "@/theme/colors";
+import { es } from "@/i18n/es";
+import {
+  formatPlaybackRate,
+  type PlaybackRate,
+} from "@/features/playback/playbackRate";
 
 interface PlaybackControlsProps {
   isPlaying: boolean;
@@ -13,6 +18,9 @@ interface PlaybackControlsProps {
   onSeek: (timeMs: number) => void;
   currentTime: number;
   duration: number;
+  playbackRate: PlaybackRate;
+  /** Moves to the next speed in the cycle. */
+  onCyclePlaybackRate: () => void;
 }
 
 export default function PlaybackControls({
@@ -23,6 +31,8 @@ export default function PlaybackControls({
   onSeek,
   currentTime,
   duration,
+  playbackRate,
+  onCyclePlaybackRate,
 }: PlaybackControlsProps) {
   return (
     <View style={styles.container}>
@@ -66,6 +76,29 @@ export default function PlaybackControls({
             size={26}
             color={colors.textPrimary}
           />
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={onCyclePlaybackRate}
+          style={[
+            styles.rateButton,
+            playbackRate !== 1 && styles.rateButtonActive,
+          ]}
+          hitSlop={8}
+          accessibilityRole="button"
+          accessibilityLabel={es.playback.speedLabel(
+            formatPlaybackRate(playbackRate),
+          )}
+          accessibilityHint={es.playback.speedHint}
+        >
+          <Text
+            style={[
+              styles.rateText,
+              playbackRate !== 1 && styles.rateTextActive,
+            ]}
+          >
+            {formatPlaybackRate(playbackRate)}
+          </Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -122,5 +155,31 @@ const styles = StyleSheet.create({
   },
   playIcon: {
     marginLeft: 3,
+  },
+  // Pinned to the right edge so the transport buttons stay centred. The
+  // fixed width fits "0.75×" and keeps the pill from resizing between speeds.
+  rateButton: {
+    position: "absolute",
+    right: 0,
+    width: 58,
+    height: 34,
+    borderRadius: 17,
+    borderWidth: 1,
+    borderColor: colors.divider,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  rateButtonActive: {
+    borderColor: colors.primary,
+    backgroundColor: colors.primaryLight,
+  },
+  rateText: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: colors.textSecondary,
+    fontVariant: ["tabular-nums"],
+  },
+  rateTextActive: {
+    color: colors.primary,
   },
 });

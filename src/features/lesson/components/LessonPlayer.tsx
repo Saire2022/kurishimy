@@ -17,6 +17,11 @@ import {
   type ChapterProgress,
 } from "@/features/progress/progress";
 import { useSaveProgress } from "@/features/progress/useSaveProgress";
+import { nextPlaybackRate } from "@/features/playback/playbackRate";
+import {
+  savePlaybackRate,
+  usePlaybackRate,
+} from "@/features/playback/playbackRateStore";
 import { formatTime } from "@/utils/formatTime";
 import { es } from "@/i18n/es";
 import { findActiveSentenceIndex } from "@/utils/findActiveSentenceIndex";
@@ -45,6 +50,8 @@ export default function LessonPlayer({
   );
   const [showResumeNotice, setShowResumeNotice] = useState(resumeFromMs > 0);
 
+  const playbackRate = usePlaybackRate();
+
   const {
     isPlaying,
     currentTime,
@@ -54,7 +61,7 @@ export default function LessonPlayer({
     error,
     playPause,
     seek,
-  } = useAudioPlayer(chapter.audio, resumeFromMs);
+  } = useAudioPlayer(chapter.audio, resumeFromMs, playbackRate);
 
   useSaveProgress({
     chapterId: chapter.meta.id,
@@ -176,6 +183,10 @@ export default function LessonPlayer({
           onSeek={seek}
           currentTime={currentTime}
           duration={duration}
+          playbackRate={playbackRate}
+          onCyclePlaybackRate={() =>
+            savePlaybackRate(nextPlaybackRate(playbackRate))
+          }
         />
       </View>
     </View>

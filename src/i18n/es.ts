@@ -23,6 +23,11 @@ export const es = {
     resumedFrom: (time: string) => `Continuando desde ${time}`,
     startOver: "Empezar de nuevo",
   },
+  playback: {
+    /** Read by screen readers; `rate` is already formatted, e.g. "1.25×". */
+    speedLabel: (rate: string) => `Velocidad de reproducción: ${rate}`,
+    speedHint: "Cambia a la siguiente velocidad",
+  },
   viewModes: {
     kichwa: "Kichwa",
     spanish: "Español",

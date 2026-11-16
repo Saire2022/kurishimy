@@ -1,0 +1,2245 @@
+{
+  "title": "La pelea es peleando / Makanakuyka makanakushpami",
+  "metadata": {
+    "chapter": 9,
+    "duration": 797820
+  },
+  "kichwa": {
+    "words": [
+      {
+        "word": "Ñuka kumari Martaka llaki llaki kawsakun.",
+        "start": 1870,
+        "end": 5530
+      },
+      {
+        "word": "Ñuka wawaka mana chichu katiyta ushanchu.",
+        "start": 5640,
+        "end": 8540
+      },
+      {
+        "word": "Ninan llakiyapashkami kanchik.",
+        "start": 9540,
+        "end": 12040
+      },
+      {
+        "word": "Shinapash imata rurasha.",
+        "start": 12410,
+        "end": 15230
+      },
+      {
+        "word": "Ñuka mana yachani imata ninata.",
+        "start": 15560,
+        "end": 18660
+      },
+      {
+        "word": "Paypa kusaka paypa wawatallatakmi violashpa chichuta sakirka.",
+        "start": 18760,
+        "end": 23900
+      },
+      {
+        "word": "Kay shinami ashtaka wawakuna pandemiapi llakiyaparkakuna.",
+        "start": 23930,
+        "end": 28430
+      },
+      {
+        "word": "Kunanka imata pay shinayta ushan?",
+        "start": 28480,
+        "end": 31160
+      },
+      {
+        "word": "Paypa riksik médico kay hampik mashipaman tapunkapak rirkami.",
+        "start": 31210,
+        "end": 36000
+      },
+      {
+        "word": "Jaboneropak aylliullaktapi",
+        "start": 37000,
+        "end": 39440
+      },
+      {
+        "word": "Pandemiamanta rimaykuna",
+        "start": 39480,
+        "end": 41850
+      },
+      {
+        "word": "Iskun capítulo",
+        "start": 41890,
+        "end": 43300
+      },
+      {
+        "word": "Makanakuyka makanakushpami.",
+        "start": 43380,
+        "end": 46060
+      },
+      {
+        "word": "Marta.",
+        "start": 51070,
+        "end": 51800
+      },
+      {
+        "word": "Niwaylla, hampik.",
+        "start": 51860,
+        "end": 53370
+      },
+      {
+        "word": "Yachanki ñuka kanta, kanpa ayllutapash kuyani.",
+        "start": 53380,
+        "end": 57470
+      },
+      {
+        "word": "Shinapash yapatami mañawanki.",
+        "start": 57620,
+        "end": 59820
+      },
+      {
+        "word": "Chayka shinapachami kan.",
+        "start": 60332,
+        "end": 62035
+      },
+      {
+        "word": "Kay llaktapika abortotaka mana shinay ushanachu.",
+        "start": 62047,
+        "end": 65761
+      },
+      {
+        "word": "Kanpa wawa chichuyashkata yachak chayashpaka, ishkantitami wichkashpa sakinka, Marta.",
+        "start": 66058,
+        "end": 71987
+      },
+      {
+        "word": "Shinapash, ima nishpa, ñuka ushika saltiyay tukushka, chaymantamari wawataka mana chariy ushanka.",
+        "start": 72011,
+        "end": 79832
+      },
+      {
+        "word": "Shinapacha, yapa llakimi kan.",
+        "start": 79844,
+        "end": 82428
+      },
+      {
+        "word": "Ashtawankarin religiónmantalla yuyashpa shina ninakun.",
+        "start": 82499,
+        "end": 86046
+      },
+      {
+        "word": "Saltiyayka hatun huchami kan.",
+        "start": 86165,
+        "end": 88665
+      },
+      {
+        "word": "Shinapash aborto huchawanka mana llakikunataka pichay ushanami kan.",
+        "start": 88713,
+        "end": 94011
+      },
+      {
+        "word": "Shinapash kikinka imata ninki, hampik.",
+        "start": 94023,
+        "end": 97190
+      },
+      {
+        "word": "Ima huchapash mana tiyanchu.",
+        "start": 97214,
+        "end": 99369
+      },
+      {
+        "word": "Llullanakunmi, kallari punchakunapika ima wawata manarak tiyanchu.",
+        "start": 99547,
+        "end": 104535
+      },
+      {
+        "word": "Shinaka imatak tiyanyari?",
+        "start": 104558,
+        "end": 106630
+      },
+      {
+        "word": "Muyushina kan.",
+        "start": 106654,
+        "end": 108357
+      },
+      {
+        "word": "Shinapash hatun kiru tukuytaka manarak ushanchu.",
+        "start": 108415,
+        "end": 112130
+      },
+      {
+        "word": "Imashina.",
+        "start": 112130,
+        "end": 113070
+      },
+      {
+        "word": "Shuk muyushina, kiru tukunkapakka ashtaka pachakuna yallinarakmi.",
+        "start": 113118,
+        "end": 118201
+      },
+      {
+        "word": "Shinapash, llullu wawachu?",
+        "start": 118201,
+        "end": 120499
+      },
+      {
+        "word": "Mana, Marta.",
+        "start": 120535,
+        "end": 121749
+      },
+      {
+        "word": "Embrión nishkami kan.",
+        "start": 121915,
+        "end": 123713
+      },
+      {
+        "word": "Llashak pachakuna mutsurin llullu wawa tukuchunka.",
+        "start": 123797,
+        "end": 127249
+      },
+      {
+        "word": "Chaytaka maykan científicopash yachan.",
+        "start": 127404,
+        "end": 130285
+      },
+      {
+        "word": "Shinaka kallari semanakunapi usharinmi wiksakuta shayachiyta, nima hucha mana tiyankachu.",
+        "start": 130380,
+        "end": 137475
+      },
+      {
+        "word": "Matildakuka mashna semanatak charin?",
+        "start": 137785,
+        "end": 140594
+      },
+      {
+        "word": "Killa chawpimi kanka, hampik.",
+        "start": 140618,
+        "end": 142868
+      },
+      {
+        "word": "Shinamiyarin, sukta semanakuna shina kanka.",
+        "start": 142892,
+        "end": 146511
+      },
+      {
+        "word": "Wiksayukta shayachiy pachapimi kan.",
+        "start": 146547,
+        "end": 148964
+      },
+      {
+        "word": "Hampik, kikinka yanapawankimanlla.",
+        "start": 148975,
+        "end": 152272
+      },
+      {
+        "word": "Shinashallami.",
+        "start": 152272,
+        "end": 153618
+      },
+      {
+        "word": "Shinapash ñukapacha shinashpa ama shuk mana yachakkuna takarishka kachun.",
+        "start": 153678,
+        "end": 159821
+      },
+      {
+        "word": "Shina mana yachakkunapaman rishpaka wañuytapash ushanllami kanpa wawaka.",
+        "start": 160273,
+        "end": 165880
+      },
+      {
+        "word": "Rikuy, Marta.",
+        "start": 166213,
+        "end": 167797
+      },
+      {
+        "word": "Kay tukuy mamallaktakunapi pichka chunka waranka warmikuna, wawa warmikunapash pakalla abortomanta wañunakun, hatun makanakuykunapi wañukpi shina.",
+        "start": 168118,
+        "end": 180154
+      },
+      {
+        "word": "Shinapash ñuka ayllullaktapika kawsayta munanchik nikkuna, provida nishkakuna shulluytaka mana uyanayachinka.",
+        "start": 180189,
+        "end": 188213
+      },
+      {
+        "word": "Shimisapakunamari.",
+        "start": 188214,
+        "end": 190118
+      },
+      {
+        "word": "Paykunaka kullkita chariymanta karu llaktakunaman rishpa paypa wawakunataka abortachikkuna kan.",
+        "start": 190296,
+        "end": 197344
+      },
+      {
+        "word": "Hampik, virgen mama alli kawsayta karapachun.",
+        "start": 197403,
+        "end": 201130
+      },
+      {
+        "word": "Yupaychani, Martita.",
+        "start": 201130,
+        "end": 202630
+      },
+      {
+        "word": "Ñuka churi Fredy uyachik antata pushakshinami kan.",
+        "start": 204772,
+        "end": 208618
+      },
+      {
+        "word": "Chaymanta chay ukumanka chayanillami.",
+        "start": 208654,
+        "end": 211761
+      },
+      {
+        "word": "Uyachik antaka Joaquín mashipakpimi sakirin.",
+        "start": 212106,
+        "end": 215440
+      },
+      {
+        "word": "Shina purikushpami shuk mana, ñuka mana riksishka, shuk mana riksishka runa chayamushkata yachak chayarkani.",
+        "start": 215951,
+        "end": 224189
+      },
+      {
+        "word": "Kikinchu kay sumak kawsay uyachik antata pushak kanki?",
+        "start": 226427,
+        "end": 230618
+      },
+      {
+        "word": "Shinami, coordinadormi kani.",
+        "start": 230725,
+        "end": 232915
+      },
+      {
+        "word": "Kaypika ayllushina igualpillatak tantanakushpa llamkanchik.",
+        "start": 232952,
+        "end": 236178
+      },
+      {
+        "word": "Niway, imapitak yanapayta ushani.",
+        "start": 236321,
+        "end": 238630
+      },
+      {
+        "word": "Ashtawankarin, ñukanchikmari yanapayta kunkapak shamunchik.",
+        "start": 238868,
+        "end": 243452
+      },
+      {
+        "word": "Kunan pandemiamanta tukuylla shinchi waktarishkami kanchik.",
+        "start": 243594,
+        "end": 248023
+      },
+      {
+        "word": "Uyachik antakunaka anunciokunata yallichishpami kawsan, nachu?",
+        "start": 248273,
+        "end": 252940
+      },
+      {
+        "word": "Shinapachami nin.",
+        "start": 252940,
+        "end": 254238
+      },
+      {
+        "word": "Ñukanchik empresaka, kankunaka ashtaka uyakkunata charik nishpami shuk hatun publicidad nishkata churankapak shamushkanchik.",
+        "start": 254273,
+        "end": 264333
+      },
+      {
+        "word": "Allipachami.",
+        "start": 264452,
+        "end": 265833
+      },
+      {
+        "word": "Niway, maykantak kikinpa empresaka?",
+        "start": 265892,
+        "end": 268546
+      },
+      {
+        "word": "Golden hands nishka.",
+        "start": 268607,
+        "end": 270511
+      },
+      {
+        "word": "Golden hands.",
+        "start": 270511,
+        "end": 271452
+      },
+      {
+        "word": "Kuri minería.",
+        "start": 271475,
+        "end": 272749
+      },
+      {
+        "word": "Ministerio de Energía y Recursos Naturales No Renovables nishkami ñukanchikman concesionarka.",
+        "start": 273511,
+        "end": 280321
+      },
+      {
+        "word": "Imalla allpapi tiyashkataka llukchichun.",
+        "start": 281094,
+        "end": 283808
+      },
+      {
+        "word": "Kayka, yaya hatun minami kakrin.",
+        "start": 284059,
+        "end": 287368
+      },
+      {
+        "word": "Chay hatun modernokunami.",
+        "start": 287464,
+        "end": 289725
+      },
+      {
+        "word": "Willachiway, kay minataka maypitak rurakrinkichik?",
+        "start": 289964,
+        "end": 292976
+      },
+      {
+        "word": "Kaykupillami kakrin.",
+        "start": 292976,
+        "end": 294607
+      },
+      {
+        "word": "Mayu umapi, kaymanka ashtaka llamkaytami kay ayllullaktamanta runakunaka charikrin.",
+        "start": 294690,
+        "end": 301761
+      },
+      {
+        "word": "Kay minaka tukuypak sumakmi kan.",
+        "start": 302213,
+        "end": 304832
+      },
+      {
+        "word": "Kashna sumaklla willaychiyka shinapachacha kanka?",
+        "start": 304832,
+        "end": 307677
+      },
+      {
+        "word": "Ari.",
+        "start": 307677,
+        "end": 308487
+      },
+      {
+        "word": "Kay hatun campañawanka kanpa uyachik antapash llashak kullkitami hapinka.",
+        "start": 308666,
+        "end": 314523
+      },
+      {
+        "word": "Shinapash tukuy kaypi kawsakkunaka licencia ambiental nishkata llukchinkapak yanapachunmi munanchik.",
+        "start": 314868,
+        "end": 321690
+      },
+      {
+        "word": "Mineríaka yanapankapakmi.",
+        "start": 321725,
+        "end": 323868
+      },
+      {
+        "word": "Mana yankata tukuchinkallachu.",
+        "start": 324309,
+        "end": 326725
+      },
+      {
+        "word": "Mana pachamamatapash llakichishpa llamkashunchu.",
+        "start": 326808,
+        "end": 330273
+      },
+      {
+        "word": "Mashna dólarmanta, mashna kullkimantatak parlanakunchik kay campañapaka?",
+        "start": 331106,
+        "end": 335356
+      },
+      {
+        "word": "Ashtaka waranka kullkikunata, chunka pichka, ishkay chunka.",
+        "start": 335511,
+        "end": 340487
+      },
+      {
+        "word": "Kikinpaka pushak kashkamanta ashtawan imakunata rikushunmi.",
+        "start": 341332,
+        "end": 345463
+      },
+      {
+        "word": "Kay yuyaymantaka imatak ninki?",
+        "start": 347213,
+        "end": 349618
+      },
+      {
+        "word": "Ñuka yuyani, yuyani nimatapash.",
+        "start": 350606,
+        "end": 353237
+      },
+      {
+        "word": "Ñuka cumpakunata tapunarak kani.",
+        "start": 353523,
+        "end": 355559
+      },
+      {
+        "word": "Tapuy, tapuy.",
+        "start": 355559,
+        "end": 356749
+      },
+      {
+        "word": "Shinapash pero ucha willawankiyari.",
+        "start": 356785,
+        "end": 359297
+      },
+      {
+        "word": "Ari, ari.",
+        "start": 359297,
+        "end": 360035
+      },
+      {
+        "word": "Rikunki, shuk municipiokunamanta uyachik antakunapash tapuriyanakunmi.",
+        "start": 360035,
+        "end": 364916
+      },
+      {
+        "word": "Nataka mana ninkichu yanimi.",
+        "start": 365523,
+        "end": 367940
+      },
+      {
+        "word": "Tiyashpallami tiyan.",
+        "start": 367999,
+        "end": 369297
+      },
+      {
+        "word": "Ishkay waranka dólar kullkikuna?",
+        "start": 373487,
+        "end": 376118
+      },
+      {
+        "word": "Taytaku mío, chayka ashtaka kullkimari kan!",
+        "start": 376285,
+        "end": 379845
+      },
+      {
+        "word": "Paykunaka ima, ninan karanchu kashkayari.",
+        "start": 379880,
+        "end": 382511
+      },
+      {
+        "word": "Limosna hatun kakpika santopash mana krinllachu.",
+        "start": 382761,
+        "end": 387071
+      },
+      {
+        "word": "Chay runakunaka mineríaka allimi ninmi.",
+        "start": 387808,
+        "end": 390606
+      },
+      {
+        "word": "Mana allpamamata wakllichinkachu ninakunmi.",
+        "start": 390844,
+        "end": 393523
+      },
+      {
+        "word": "Tukuy minami mapayachin, sachakunata, yakukunata llakichin.",
+        "start": 393523,
+        "end": 397749
+      },
+      {
+        "word": "Paykunakarin allipachami ninkallami.",
+        "start": 397927,
+        "end": 400499
+      },
+      {
+        "word": "Kipamanmi llakikuna chayamun.",
+        "start": 400595,
+        "end": 402427
+      },
+      {
+        "word": "Ima minatak kanyari?",
+        "start": 402427,
+        "end": 403987
+      },
+      {
+        "word": "Kurita llukchinkapak.",
+        "start": 403999,
+        "end": 405142
+      },
+      {
+        "word": "Kay minapika ushashka allpata llukchishpa hatun utuhukunatami ruranka.",
+        "start": 405452,
+        "end": 410034
+      },
+      {
+        "word": "Alalay, kuri, kuri mina.",
+        "start": 410034,
+        "end": 412487
+      },
+      {
+        "word": "Tukuy kurita apan, mana yari, mamallaktataka kutin utuhushpa sakin.",
+        "start": 412499,
+        "end": 418642
+      },
+      {
+        "word": "Tukuy kurita españolkuna apashpa rishka, chaymantaka ñukanchikmanka espejota shinalla sakishka mana yari.",
+        "start": 418713,
+        "end": 426761
+      },
+      {
+        "word": "Chay empresakunaka mana alli llamkakkunami kan.",
+        "start": 426761,
+        "end": 429750
+      },
+      {
+        "word": "Shinapash.",
+        "start": 429820,
+        "end": 431023
+      },
+      {
+        "word": "Chay runakunapa kullkiwanka radiota shinchiyachiyta ushanchik.",
+        "start": 431023,
+        "end": 435059
+      },
+      {
+        "word": "Pandemia tiyashka pachakunapika chay kullkiwan kawsayta ushanchikmari.",
+        "start": 435154,
+        "end": 439725
+      },
+      {
+        "word": "Mashikuna, imatatak ninkichik?",
+        "start": 439737,
+        "end": 441868
+      },
+      {
+        "word": "Lenteja platomanta, ñukanchikpa dignidadta sakishunchu?",
+        "start": 441999,
+        "end": 445344
+      },
+      {
+        "word": "Halakuna, ishkay waranka lentejakuna mari kan, yuyariychik.",
+        "start": 445344,
+        "end": 450153
+      },
+      {
+        "word": "Shinaka kikinkunaka imatak yuyankichik?",
+        "start": 450153,
+        "end": 452784
+      },
+      {
+        "word": "Ari nishunchu?",
+        "start": 453047,
+        "end": 454011
+      },
+      {
+        "word": "Allichu kanki, Matildaku.",
+        "start": 459118,
+        "end": 461142
+      },
+      {
+        "word": "Allimi kani, hampik.",
+        "start": 461153,
+        "end": 462951
+      },
+      {
+        "word": "Asha shaykushkalla.",
+        "start": 463023,
+        "end": 464594
+      },
+      {
+        "word": "Shinallatakmi, wawaku.",
+        "start": 464594,
+        "end": 466559
+      },
+      {
+        "word": "Ama manchaychu.",
+        "start": 466844,
+        "end": 468083
+      },
+      {
+        "word": "Kanpa mama kanwan kakrin.",
+        "start": 468154,
+        "end": 470190
+      },
+      {
+        "word": "Ari, wawa, kaypimi kani.",
+        "start": 470190,
+        "end": 472094
+      },
+      {
+        "word": "Kanka, Marta, ama krinkichu chay síndrome post aborto nishka rimaykunataka.",
+        "start": 472106,
+        "end": 476951
+      },
+      {
+        "word": "Chayka imatak kanyari, hampik?",
+        "start": 476963,
+        "end": 479059
+      },
+      {
+        "word": "Chay kawsayta kuyanchik nikkunaka kashnami nishkakuna.",
+        "start": 479082,
+        "end": 483558
+      },
+      {
+        "word": "Wiksayukta harkachishpa kipaka, warmikuna ñukami wawata wañuchishkani, pinkanayaywan, mana alli warmi kani yuyaykunatami hapin nikkunami tiyan.",
+        "start": 483987,
+        "end": 495035
+      },
+      {
+        "word": "Mana kashpaka, tayta Dios llakichinka kutinka ama wawata tariy ushachun.",
+        "start": 495392,
+        "end": 500939
+      },
+      {
+        "word": "Ama chaykunata krinkichu, Marta.",
+        "start": 501226,
+        "end": 503464
+      },
+      {
+        "word": "Hampik, allichu kakrini?",
+        "start": 503464,
+        "end": 505380
+      },
+      {
+        "word": "Allimi kanki, Matildaku.",
+        "start": 505380,
+        "end": 507261
+      },
+      {
+        "word": "Kunan, wasiman rishpaka kunuklla atallpa mikunata mikukriy.",
+        "start": 507559,
+        "end": 511844
+      },
+      {
+        "word": "Kikin, Martaka.",
+        "start": 512023,
+        "end": 513320
+      },
+      {
+        "word": "Ari, hampik?",
+        "start": 513320,
+        "end": 514332
+      },
+      {
+        "word": "Upallaku.",
+        "start": 514333,
+        "end": 515202
+      },
+      {
+        "word": "Ima punchaka ñukanchik mamallaktaman chayamunkami kashna ruraykuna ama manchaywan, pakalla rurakunkapak.",
+        "start": 515332,
+        "end": 522737
+      },
+      {
+        "word": "Pashi hampik, tayta Dios alli kawsayta karapachun.",
+        "start": 522856,
+        "end": 526701
+      },
+      {
+        "word": "Llashak llashak aparinata anchuchiwashkanki.",
+        "start": 526749,
+        "end": 530154
+      },
+      {
+        "word": "Matildaku yachana wasiman tikranka, kushilla kankapak.",
+        "start": 530154,
+        "end": 534142
+      },
+      {
+        "word": "Marta, kunkakunimi.",
+        "start": 534154,
+        "end": 535856
+      },
+      {
+        "word": "Imatak, hampik?",
+        "start": 535856,
+        "end": 537153
+      },
+      {
+        "word": "Wawataka, ura wiksa uchilla chukrichiyta rurarkani.",
+        "start": 537153,
+        "end": 540582
+      },
+      {
+        "word": "Rikuy, asha sirashka rikurikun.",
+        "start": 541201,
+        "end": 543808
+      },
+      {
+        "word": "Ah, rikunimari.",
+        "start": 543808,
+        "end": 545153
+      },
+      {
+        "word": "Ah, chayka imapatak kanka, hampik?",
+        "start": 545202,
+        "end": 547738
+      },
+      {
+        "word": "Ñawpashpa yachankapak, kay ayllullaktapika yapa shimisapakuna tiyanchik.",
+        "start": 547749,
+        "end": 553535
+      },
+      {
+        "word": "A ver, shinaka, mashi Fredy, sumak kawsay uyachik antata pushak.",
+        "start": 556165,
+        "end": 560559
+      },
+      {
+        "word": "Ñachu ari nirkankichik?",
+        "start": 560857,
+        "end": 562678
+      },
+      {
+        "word": "Ari, mashi, ñami nishka kan.",
+        "start": 562737,
+        "end": 565392
+      },
+      {
+        "word": "Mana kikinwanka llamkakrinchikchu.",
+        "start": 565428,
+        "end": 567749
+      },
+      {
+        "word": "Ñukanchikpa kullkitachu mana munankichik?",
+        "start": 567749,
+        "end": 570654
+      },
+      {
+        "word": "Yachayta ushanichu, imamanta mana munashkata?",
+        "start": 571475,
+        "end": 575202
+      },
+      {
+        "word": "Kikinpa empresaka ñukanchikpak mayukunata cianurowan nishka venenowan wakllichikrinmi.",
+        "start": 575511,
+        "end": 581118
+      },
+      {
+        "word": "Chay mayukunapika runa ayllullaktakunami ladolla kawsan.",
+        "start": 581666,
+        "end": 585392
+      },
+      {
+        "word": "Indiokuna.",
+        "start": 586475,
+        "end": 587296
+      },
+      {
+        "word": "Indiokuna?",
+        "start": 587308,
+        "end": 588142
+      },
+      {
+        "word": "Ari, kawsanamanta kawsanakun runakuna.",
+        "start": 588154,
+        "end": 591738
+      },
+      {
+        "word": "Millaykunapash.",
+        "start": 592189,
+        "end": 593547
+      },
+      {
+        "word": "Kishpichiway, ima ninki?",
+        "start": 593547,
+        "end": 595571
+      },
+      {
+        "word": "Shinapash kikinpash indiomi kanki.",
+        "start": 595773,
+        "end": 598582
+      },
+      {
+        "word": "Ima ninki?",
+        "start": 598606,
+        "end": 599523
+      },
+      {
+        "word": "Kay mamallaktapika mana inkata charishpaka yanata charin.",
+        "start": 599535,
+        "end": 604142
+      },
+      {
+        "word": "Mana kikinpak asinata hamuktanichu.",
+        "start": 604214,
+        "end": 606916
+      },
+      {
+        "word": "Uyawanki, mashi.",
+        "start": 606916,
+        "end": 608178
+      },
+      {
+        "word": "Kay mamallaktapika tukuylla, tukuylla pachami chapurishka kanchik.",
+        "start": 608380,
+        "end": 612987
+      },
+      {
+        "word": "Chapurishkakuna kanchik runamanta, yanamanta, yurakkunamantapash, chinokunamantapash.",
+        "start": 613047,
+        "end": 619249
+      },
+      {
+        "word": "Arrozta mangowan chapushkashina, fanesca mikunakunashina.",
+        "start": 619392,
+        "end": 623606
+      },
+      {
+        "word": "Pero chaytaka mana rimanakunchikchu.",
+        "start": 623618,
+        "end": 625927
+      },
+      {
+        "word": "Imasha nirkani, ñukanchik empresaka mana mapayachinchu.",
+        "start": 626320,
+        "end": 631201
+      },
+      {
+        "word": "Alli kanatami maskan.",
+        "start": 631225,
+        "end": 632928
+      },
+      {
+        "word": "Pachamamata rikuriyashpa llamkanchik.",
+        "start": 633428,
+        "end": 636678
+      },
+      {
+        "word": "Hamuktarinchikchu?",
+        "start": 636868,
+        "end": 638475
+      },
+      {
+        "word": "Mayta?",
+        "start": 638547,
+        "end": 639642
+      },
+      {
+        "word": "Chaytaka kikinpash mana krinkichu.",
+        "start": 639868,
+        "end": 642118
+      },
+      {
+        "word": "Mashi, shinapash, manarak kikinpa shutitaka yachanichu.",
+        "start": 642904,
+        "end": 646630
+      },
+      {
+        "word": "Wilson Gualachimi kani, pushak kani.",
+        "start": 646642,
+        "end": 649499
+      },
+      {
+        "word": "Runa apellido nachu?",
+        "start": 649499,
+        "end": 650856
+      },
+      {
+        "word": "Wampra manapinka, ña upallay ninimi.",
+        "start": 650856,
+        "end": 654094
+      },
+      {
+        "word": "Willay, willay, Fredy, ima nirkatakyari chay runaka?",
+        "start": 655416,
+        "end": 659511
+      },
+      {
+        "word": "Manapinka niwarka.",
+        "start": 659535,
+        "end": 661190
+      },
+      {
+        "word": "Shuk alli shimikukunatapash nirkami.",
+        "start": 661226,
+        "end": 663559
+      },
+      {
+        "word": "Kan mana nikpika imatak nirka?",
+        "start": 663904,
+        "end": 665963
+      },
+      {
+        "word": "Paykunaka mana wakllichishpa, pachamamataka kuyashpa llamkanchik nin.",
+        "start": 665963,
+        "end": 670118
+      },
+      {
+        "word": "Na kankachu, chayka na kankaka.",
+        "start": 670570,
+        "end": 672868
+      },
+      {
+        "word": "Chay runataka imatapash mana krinichu.",
+        "start": 673666,
+        "end": 677356
+      },
+      {
+        "word": "Ña rikurkanchik, Fredy.",
+        "start": 678296,
+        "end": 679499
+      },
+      {
+        "word": "Imata imatatak tarirkankichik?",
+        "start": 679499,
+        "end": 681034
+      },
+      {
+        "word": "Chashnapacha utuhushpa, waykuyachishpa llamkak minaka ashtaka llakipachamari.",
+        "start": 681034,
+        "end": 686963
+      },
+      {
+        "word": "Rikuychikyari.",
+        "start": 686963,
+        "end": 688451
+      },
+      {
+        "word": "Perú llaktapi imashina Cajamarca ayllullaktakuna kawsanakukka chaypi Yanakucha kuri empresa nishkaka mapayachishpamari, sakishka llakichishkamari.",
+        "start": 688582,
+        "end": 700689
+      },
+      {
+        "word": "Argentinapitapash yachak chayarkanchik, mina Alumbrera nishkamanta.",
+        "start": 700749,
+        "end": 705071
+      },
+      {
+        "word": "Shuk punchapilla ushashka yakutami tukuchin, ushashka yakutami.",
+        "start": 705189,
+        "end": 710392
+      },
+      {
+        "word": "Chaytaka tukuylla mamallaktapash upyanatapash yalli.",
+        "start": 710630,
+        "end": 714463
+      },
+      {
+        "word": "Ama niy chaytaka hatun llakimari, Quique.",
+        "start": 714475,
+        "end": 717475
+      },
+      {
+        "word": "Guajira Colombiapika shuk carbón mina tiyan nin.",
+        "start": 717523,
+        "end": 720642
+      },
+      {
+        "word": "Ninan hatunpachami, chaypika tukuy pachamamata, sachamamatapash tukuchiyta tukuchishka.",
+        "start": 720820,
+        "end": 727261
+      },
+      {
+        "word": "Shina rikuchishunllami, shukta shukta rikuchishunllami.",
+        "start": 727773,
+        "end": 731618
+      },
+      {
+        "word": "Shinapash rikunchikmari, ashtakatami kay minakuna nishkaka llakichishka, mamallaktakunata ninantami llakichishka wakllichishkamari.",
+        "start": 731677,
+        "end": 741927
+      },
+      {
+        "word": "Sumakpachami kan.",
+        "start": 741927,
+        "end": 743415
+      },
+      {
+        "word": "Empresakunamantallami ima kullkitapash apankuna.",
+        "start": 743416,
+        "end": 746904
+      },
+      {
+        "word": "Costa Rica llaktami yuyak llakta kashka.",
+        "start": 746916,
+        "end": 749880
+      },
+      {
+        "word": "Chay llaktapika mana kashna hatun minería nishkakunataka tiyanchu.",
+        "start": 750070,
+        "end": 754284
+      },
+      {
+        "word": "Chay mishukunaka ninan tamyatapash yalli llakichikkunami kan.",
+        "start": 754297,
+        "end": 757940
+      },
+      {
+        "word": "Tamya yakuka chinkarinmi.",
+        "start": 758321,
+        "end": 759869
+      },
+      {
+        "word": "Paykunapa mapayashka mana tukurinkachu.",
+        "start": 760023,
+        "end": 762618
+      },
+      {
+        "word": "Shinaka willaywan kallarikrinchikmi.",
+        "start": 762618,
+        "end": 765047
+      },
+      {
+        "word": "Shinapash kashna empresakunaka ama ñukanchikpa allpata, sachata, ñukanchiktapash llakichishpa sakichun.",
+        "start": 765226,
+        "end": 771714
+      },
+      {
+        "word": "Hatarishunchik.",
+        "start": 771784,
+        "end": 772975
+      },
+      {
+        "word": "Kay rimaykunawan, hakuyari!",
+        "start": 773011,
+        "end": 774927
+      },
+      {
+        "word": "Kay makanakuyka Davidwan Goliatwan shinami makanakuy kakrin.",
+        "start": 774952,
+        "end": 779690
+      },
+      {
+        "word": "Ari, llakichiy tukurinkacha.",
+        "start": 779690,
+        "end": 782511
+      },
+      {
+        "word": "Shinapash makanakuykunaka makanakushpami kan.",
+        "start": 782773,
+        "end": 786059
+      },
+      {
+        "word": "Nachu shinayari.",
+        "start": 786285,
+        "end": 787452
+      },
+      {
+        "word": "Shinapacha, hakuchik, hakuchik.",
+        "start": 787452,
+        "end": 789452
+      },
+      {
+        "word": "Jaboneropak ayllullaktapi",
+        "start": 793106,
+        "end": 795499
+      },
+      {
+        "word": "Pandemiamanta rimaykuna",
+        "start": 795535,
+        "end": 797820
+      }
+    ]
+  },
+  "spanish": {
+    "words": [
+      {
+        "word": "Pobre mi comadre Marta.",
+        "start": 1870,
+        "end": 5530
+      },
+      {
+        "word": "Mi niña no puede continuar con ese embarazo.",
+        "start": 5640,
+        "end": 8540
+      },
+      {
+        "word": "Está muy angustiada.",
+        "start": 9540,
+        "end": 12040
+      },
+      {
+        "word": "Pero ¿qué hago?",
+        "start": 12410,
+        "end": 15230
+      },
+      {
+        "word": "Yo no sé cómo aconsejarla.",
+        "start": 15560,
+        "end": 18660
+      },
+      {
+        "word": "El marido abusó de su hijita y la dejó embarazada.",
+        "start": 18760,
+        "end": 23900
+      },
+      {
+        "word": "Como a miles de mujeres y niñas durante la pandemia.",
+        "start": 23930,
+        "end": 28430
+      },
+      {
+        "word": "Ahora, ¿qué puede hacer ella?",
+        "start": 28480,
+        "end": 31160
+      },
+      {
+        "word": "Me contó que iba a consultarle a un médico de su confianza.",
+        "start": 31210,
+        "end": 36000
+      },
+      {
+        "word": "En el Barrio del Jabonero",
+        "start": 37000,
+        "end": 39440
+      },
+      {
+        "word": "Historias de la pandemia",
+        "start": 39480,
+        "end": 41850
+      },
+      {
+        "word": "Capítulo nueve",
+        "start": 41890,
+        "end": 43300
+      },
+      {
+        "word": "La pelea es peleando.",
+        "start": 43380,
+        "end": 46060
+      },
+      {
+        "word": "Marta.",
+        "start": 51070,
+        "end": 51800
+      },
+      {
+        "word": "Dime, médico.",
+        "start": 51860,
+        "end": 53370
+      },
+      {
+        "word": "tú sabes que yo te aprecio mucho y a tu familia.",
+        "start": 53380,
+        "end": 57470
+      },
+      {
+        "word": "Pero me estás pidiendo algo de mucho riesgo.",
+        "start": 57620,
+        "end": 59820
+      },
+      {
+        "word": "Así es.",
+        "start": 60332,
+        "end": 62035
+      },
+      {
+        "word": "En este país está prohibido el aborto.",
+        "start": 62047,
+        "end": 65761
+      },
+      {
+        "word": "Si interrumpimos el embarazo de tu hijita y se enteran, vamos presos tú y yo también.",
+        "start": 66058,
+        "end": 71987
+      },
+      {
+        "word": "Pero, ¿por qué?, Mi hija ha sido violada, eso es inhumano.",
+        "start": 72011,
+        "end": 79832
+      },
+      {
+        "word": "Es inhumano, dilo.",
+        "start": 79844,
+        "end": 82428
+      },
+      {
+        "word": "Y lo peor es que lo hacen por motivos religiosos.",
+        "start": 82499,
+        "end": 86046
+      },
+      {
+        "word": "La violación es un crimen.",
+        "start": 86165,
+        "end": 88665
+      },
+      {
+        "word": "Y no se borra con otro crimen, el aborto.",
+        "start": 88713,
+        "end": 94011
+      },
+      {
+        "word": "¿Y usted qué dice, doctor?",
+        "start": 94023,
+        "end": 97190
+      },
+      {
+        "word": "No hay ningún crimen.",
+        "start": 97214,
+        "end": 99369
+      },
+      {
+        "word": "Están mintiendo, porque en las primeras semanas no hay ningún bebé.",
+        "start": 99547,
+        "end": 104535
+      },
+      {
+        "word": "¿Y qué es lo que hay?",
+        "start": 104558,
+        "end": 106630
+      },
+      {
+        "word": "Es como una semilla.",
+        "start": 106654,
+        "end": 108357
+      },
+      {
+        "word": "Pero todavía le falta mucho para ser un árbol.",
+        "start": 108415,
+        "end": 112130
+      },
+      {
+        "word": "¿Cómo?",
+        "start": 112130,
+        "end": 113070
+      },
+      {
+        "word": "Como una semilla que le falta mucho para ser un árbol.",
+        "start": 113118,
+        "end": 118201
+      },
+      {
+        "word": "Pero, ¿ya es un bebé?",
+        "start": 118201,
+        "end": 120499
+      },
+      {
+        "word": "No, Marta.",
+        "start": 120535,
+        "end": 121749
+      },
+      {
+        "word": "Se trata de un embrión.",
+        "start": 121915,
+        "end": 123713
+      },
+      {
+        "word": "Y le falta mucho para llegar a ser un bebé.",
+        "start": 123797,
+        "end": 127249
+      },
+      {
+        "word": "Eso lo sabe cualquier científico.",
+        "start": 127404,
+        "end": 130285
+      },
+      {
+        "word": "Así que en las primeras semanas se puede interrumpir el embarazo sin ningún remordimiento de conciencia.",
+        "start": 130380,
+        "end": 137475
+      },
+      {
+        "word": "¿Cuántas semanas tiene Matildita?",
+        "start": 137785,
+        "end": 140594
+      },
+      {
+        "word": "Mes y medio, doctor.",
+        "start": 140618,
+        "end": 142868
+      },
+      {
+        "word": "Algo así, Unas seis semanas.",
+        "start": 142892,
+        "end": 146511
+      },
+      {
+        "word": "Están a tiempo.",
+        "start": 146547,
+        "end": 148964
+      },
+      {
+        "word": "¿Y usted me ayudaría, doctor?",
+        "start": 148975,
+        "end": 152272
+      },
+      {
+        "word": "Bueno.",
+        "start": 152272,
+        "end": 153618
+      },
+      {
+        "word": "Pero prefiero intervenir yo y no que vayas a uno de esos estafadores que no tienen ninguna preparación ni higiene.",
+        "start": 153678,
+        "end": 159821
+      },
+      {
+        "word": "Ahí se puede morir tu hijita.",
+        "start": 160273,
+        "end": 165880
+      },
+      {
+        "word": "Imagínate, Marta.",
+        "start": 166213,
+        "end": 167797
+      },
+      {
+        "word": "En el mundo se mueren al año por abortos clandestinos 50 mil mujeres y niñas, como en una guerra.",
+        "start": 168118,
+        "end": 180154
+      },
+      {
+        "word": "Pero en mi barrio salen unas personas que se llaman provida que están en contra.",
+        "start": 180189,
+        "end": 188213
+      },
+      {
+        "word": "Son hipócritas.",
+        "start": 188214,
+        "end": 190118
+      },
+      {
+        "word": "Esa gente tiene dinero para irse a un país lejano si una hijita se les embaraza.",
+        "start": 190296,
+        "end": 197344
+      },
+      {
+        "word": "¡Doctor, que la Virgen me lo bendiga!",
+        "start": 197403,
+        "end": 201130
+      },
+      {
+        "word": "Gracias, Martita.",
+        "start": 201130,
+        "end": 202630
+      },
+      {
+        "word": "Mi hijo Fredy es como el coordinador de la radio.",
+        "start": 204772,
+        "end": 208618
+      },
+      {
+        "word": "A cada rato me doy una vuelta por allá.",
+        "start": 208654,
+        "end": 211761
+      },
+      {
+        "word": "Es donde Joaquín, el de la imprenta, que les prestó el local y la azotea.",
+        "start": 212106,
+        "end": 215440
+      },
+      {
+        "word": "Y yo, por entrometido, me enteré de la visita de un extraño personaje…",
+        "start": 215951,
+        "end": 224189
+      },
+      {
+        "word": "¿Usted es el director de esta radio Buen Vivir?",
+        "start": 226427,
+        "end": 230618
+      },
+      {
+        "word": "Así es, soy coordinador.",
+        "start": 230725,
+        "end": 232915
+      },
+      {
+        "word": "Aquí trabajamos en equipo como una familia.",
+        "start": 232952,
+        "end": 236178
+      },
+      {
+        "word": "Dígame en qué puedo ayudarle.",
+        "start": 236321,
+        "end": 238630
+      },
+      {
+        "word": "Más bien, somos nosotros quienes venimos a ofrecerles ayuda.",
+        "start": 238868,
+        "end": 243452
+      },
+      {
+        "word": "Ahora la población está tan golpeada por la pandemia.",
+        "start": 243594,
+        "end": 248023
+      },
+      {
+        "word": "Un medio de comunicación vive de los anuncios, ¿no es cierto?",
+        "start": 248273,
+        "end": 252940
+      },
+      {
+        "word": "Así dicen.",
+        "start": 252940,
+        "end": 254238
+      },
+      {
+        "word": "Pues nuestra empresa, conociendo la buena audiencia de su emisora, viene a pautar un gran paquete publicitario con ustedes.",
+        "start": 254273,
+        "end": 264333
+      },
+      {
+        "word": "Estupendo.",
+        "start": 264452,
+        "end": 265833
+      },
+      {
+        "word": "Dígame, ¿cuál es su empresa?",
+        "start": 265892,
+        "end": 268546
+      },
+      {
+        "word": "La Golden Hands.",
+        "start": 268607,
+        "end": 270511
+      },
+      {
+        "word": "Golden Hands.",
+        "start": 270511,
+        "end": 271452
+      },
+      {
+        "word": "Minería de oro.",
+        "start": 271475,
+        "end": 272749
+      },
+      {
+        "word": "El Ministerio de Energía y Recursos Naturales No Renovables nos acaba de otorgar una concesión para minerales metálicos.",
+        "start": 273511,
+        "end": 280321
+      },
+      {
+        "word": "[MISSING]",
+        "start": 281094,
+        "end": 283808
+      },
+      {
+        "word": "Será una mina a cielo abierto.",
+        "start": 284059,
+        "end": 287368
+      },
+      {
+        "word": "Ésas de las grandes, modernas.",
+        "start": 287464,
+        "end": 289725
+      },
+      {
+        "word": "Dígame, ¿dónde se hará esa mina?",
+        "start": 289964,
+        "end": 292976
+      },
+      {
+        "word": "Será cerca de aquí.",
+        "start": 292976,
+        "end": 294607
+      },
+      {
+        "word": "En la cabecera del río, esto significa trabajo y muchos beneficios para este municipio y para sus comunidades.",
+        "start": 294690,
+        "end": 301761
+      },
+      {
+        "word": "Esta mina es buena para todos.",
+        "start": 302213,
+        "end": 304832
+      },
+      {
+        "word": "¿Será verdad tanta belleza?",
+        "start": 304832,
+        "end": 307677
+      },
+      {
+        "word": "Sí.",
+        "start": 307677,
+        "end": 308487
+      },
+      {
+        "word": "Y beneficio para su emisora porque queremos hacer una campaña grande.",
+        "start": 308666,
+        "end": 314523
+      },
+      {
+        "word": "Pero esperamos que toda la población nos apoye en la consecución de la licencia ambiental.",
+        "start": 314868,
+        "end": 321690
+      },
+      {
+        "word": "Minería es para ayudar.",
+        "start": 321725,
+        "end": 323868
+      },
+      {
+        "word": "[MISSING]",
+        "start": 324309,
+        "end": 326725
+      },
+      {
+        "word": "[MISSING]",
+        "start": 326808,
+        "end": 330273
+      },
+      {
+        "word": "¿Y de cuántos dólares estamos hablando para esa campaña?",
+        "start": 331106,
+        "end": 335356
+      },
+      {
+        "word": "Unos cuantos miles de dólares, quince, veinte.",
+        "start": 335511,
+        "end": 340487
+      },
+      {
+        "word": "Naturalmente, para usted, como director, tendríamos una consideración especial.",
+        "start": 341332,
+        "end": 345463
+      },
+      {
+        "word": "¿Qué opina de la idea?",
+        "start": 347213,
+        "end": 349618
+      },
+      {
+        "word": "Opino que, que no opino nada.",
+        "start": 350606,
+        "end": 353237
+      },
+      {
+        "word": "Tengo que consultar con mi equipo.",
+        "start": 353523,
+        "end": 355559
+      },
+      {
+        "word": "Consulte, consulte.",
+        "start": 355559,
+        "end": 356749
+      },
+      {
+        "word": "Pero deme una respuesta rápida.",
+        "start": 356785,
+        "end": 359297
+      },
+      {
+        "word": "Sí, sí.",
+        "start": 359297,
+        "end": 360035
+      },
+      {
+        "word": "Mire que hay otras emisoras en el municipio muy interesadas en el negocio.",
+        "start": 360035,
+        "end": 364916
+      },
+      {
+        "word": "No creo que se niegue a esta oportunidad caída del cielo.",
+        "start": 365523,
+        "end": 367940
+      },
+      {
+        "word": "[MISSING]",
+        "start": 367999,
+        "end": 369297
+      },
+      {
+        "word": "¿Veinte mil dólares?",
+        "start": 373487,
+        "end": 376118
+      },
+      {
+        "word": "¡Dios mío, eso es una fortuna!",
+        "start": 376285,
+        "end": 379845
+      },
+      {
+        "word": "¡Llegaron los reyes magos!",
+        "start": 379880,
+        "end": 382511
+      },
+      {
+        "word": "Cuando la limosna es grande hasta el santo desconfía.",
+        "start": 382761,
+        "end": 387071
+      },
+      {
+        "word": "El tipo dice que es minería es buena.",
+        "start": 387808,
+        "end": 390606
+      },
+      {
+        "word": "Dicen que no contamina la tierra.",
+        "start": 390844,
+        "end": 393523
+      },
+      {
+        "word": "Toda mina contamina la silva y agua.",
+        "start": 393523,
+        "end": 397749
+      },
+      {
+        "word": "Así dicen ellos.",
+        "start": 397927,
+        "end": 400499
+      },
+      {
+        "word": "Luego viene el desastre.",
+        "start": 400595,
+        "end": 402427
+      },
+      {
+        "word": "¿Qué es la mina?",
+        "start": 402427,
+        "end": 403987
+      },
+      {
+        "word": "Para sacar oro.",
+        "start": 403999,
+        "end": 405142
+      },
+      {
+        "word": "Una mina a cielo abierto.",
+        "start": 405452,
+        "end": 410034
+      },
+      {
+        "word": "[MISSING]",
+        "start": 410034,
+        "end": 412487
+      },
+      {
+        "word": "Se llevan el oro y al país le dejan los huecos.",
+        "start": 412499,
+        "end": 418642
+      },
+      {
+        "word": "Como los españoles cuando llegaron por acá, oro por espejitos.",
+        "start": 418713,
+        "end": 426761
+      },
+      {
+        "word": "Esas empresas son canallas.",
+        "start": 426761,
+        "end": 429750
+      },
+      {
+        "word": "Pero.",
+        "start": 429820,
+        "end": 431023
+      },
+      {
+        "word": "Con esa canalla podemos sostener la radio por un buen tiempo.",
+        "start": 431023,
+        "end": 435059
+      },
+      {
+        "word": "Durante toda la pandemia podemos vivir con eso dinero.",
+        "start": 435154,
+        "end": 439725
+      },
+      {
+        "word": "Amigos, ¿qué dicen?",
+        "start": 439737,
+        "end": 441868
+      },
+      {
+        "word": "¿Cambiamos la dignidad por un plato de lentejas?",
+        "start": 441999,
+        "end": 445344
+      },
+      {
+        "word": "Es que son 20 mil lentejas.",
+        "start": 445344,
+        "end": 450153
+      },
+      {
+        "word": "Entonces ¿qué piensan ustedes?",
+        "start": 450153,
+        "end": 452784
+      },
+      {
+        "word": "¿Decimos sí?",
+        "start": 453047,
+        "end": 454011
+      },
+      {
+        "word": "¿Estás bien, Matildita?",
+        "start": 459118,
+        "end": 461142
+      },
+      {
+        "word": "Estoy bien, doctor.",
+        "start": 461153,
+        "end": 462951
+      },
+      {
+        "word": "Un poco cansada",
+        "start": 463023,
+        "end": 464594
+      },
+      {
+        "word": "Eso es natural, hijita.",
+        "start": 464594,
+        "end": 466559
+      },
+      {
+        "word": "No tengas miedo.",
+        "start": 466844,
+        "end": 468083
+      },
+      {
+        "word": "Tu mamá va a estar contigo.",
+        "start": 468154,
+        "end": 470190
+      },
+      {
+        "word": "Sí, hija, estoy aquí.",
+        "start": 470190,
+        "end": 472094
+      },
+      {
+        "word": "Y tú, Marta, no creas en el cuento del “síndrome post aborto”.",
+        "start": 472106,
+        "end": 476951
+      },
+      {
+        "word": "¿Qué es eso, doctor?",
+        "start": 476963,
+        "end": 479059
+      },
+      {
+        "word": "Esos provida que tú dices se inventaron como así.",
+        "start": 479082,
+        "end": 483558
+      },
+      {
+        "word": "Cuando se interrumpe un embarazo, las mujeres o las niñas quedan con un sentimiento de culpa, de vergüenza, que son asesinas, malas madres.",
+        "start": 483987,
+        "end": 495035
+      },
+      {
+        "word": "O que Dios las va a castigar haciéndolas estériles.",
+        "start": 495392,
+        "end": 500939
+      },
+      {
+        "word": "No creas nada de eso, Marta.",
+        "start": 501226,
+        "end": 503464
+      },
+      {
+        "word": "¿Doctor, voy a estar bien?",
+        "start": 503464,
+        "end": 505380
+      },
+      {
+        "word": "Ya estás bien, Matildita.",
+        "start": 505380,
+        "end": 507261
+      },
+      {
+        "word": "Ahora, a casa y a tomar un buen caldo de gallina.",
+        "start": 507559,
+        "end": 511844
+      },
+      {
+        "word": "Y tú, Marta.",
+        "start": 512023,
+        "end": 513320
+      },
+      {
+        "word": "Sí, doctor.",
+        "start": 513320,
+        "end": 514332
+      },
+      {
+        "word": "Calladita.",
+        "start": 514333,
+        "end": 515202
+      },
+      {
+        "word": "Ya llegará el día en que nuestro país despenalice esta práctica de salud pública.",
+        "start": 515332,
+        "end": 522737
+      },
+      {
+        "word": "Gracias doctor, que Dios me lo bendiga.",
+        "start": 522856,
+        "end": 526701
+      },
+      {
+        "word": "Me ha quitado una cruz de encima.",
+        "start": 526749,
+        "end": 530154
+      },
+      {
+        "word": "Matildita volverá a la escuela y será feliz.",
+        "start": 530154,
+        "end": 534142
+      },
+      {
+        "word": "Marta, se me olvidaba.",
+        "start": 534154,
+        "end": 535856
+      },
+      {
+        "word": "¿Qué, doctor?",
+        "start": 535856,
+        "end": 537153
+      },
+      {
+        "word": "Le hice una pequeña heridita aquí en el bajo vientre a tu hija.",
+        "start": 537153,
+        "end": 540582
+      },
+      {
+        "word": "Mira, un par de puntos.",
+        "start": 541201,
+        "end": 543808
+      },
+      {
+        "word": "Sí, veo.",
+        "start": 543808,
+        "end": 545153
+      },
+      {
+        "word": "Y eso, ¿por qué, doctor?",
+        "start": 545202,
+        "end": 547738
+      },
+      {
+        "word": "Precauciones, mija, si algo sobra en este barrio son los chismes.",
+        "start": 547749,
+        "end": 553535
+      },
+      {
+        "word": "A ver, entonces, señor Fredy, coordinador de la radio Buen Vivir.",
+        "start": 556165,
+        "end": 560559
+      },
+      {
+        "word": "¿Ya dicen sí?",
+        "start": 560857,
+        "end": 562678
+      },
+      {
+        "word": "Sí, señor, decidido está.",
+        "start": 562737,
+        "end": 565392
+      },
+      {
+        "word": "No vamos a trabajar con ustedes.",
+        "start": 565428,
+        "end": 567749
+      },
+      {
+        "word": "¿No quieren nuestro dinero?",
+        "start": 567749,
+        "end": 570654
+      },
+      {
+        "word": "¿Y se puede saber por qué no lo quieren?",
+        "start": 571475,
+        "end": 575202
+      },
+      {
+        "word": "Porque su empresa va a ensuciar con cianuro nuestro río.",
+        "start": 575511,
+        "end": 581118
+      },
+      {
+        "word": "En la cabecera de ese río viven comunidades indígenas.",
+        "start": 581666,
+        "end": 585392
+      },
+      {
+        "word": "Indios.",
+        "start": 586475,
+        "end": 587296
+      },
+      {
+        "word": "¿Indios?",
+        "start": 587308,
+        "end": 588142
+      },
+      {
+        "word": "Sí, poblaciones atrasadas.",
+        "start": 588154,
+        "end": 591738
+      },
+      {
+        "word": "Y también violentas.",
+        "start": 592189,
+        "end": 593547
+      },
+      {
+        "word": "Me disculpa, ¿qué dice?",
+        "start": 593547,
+        "end": 595571
+      },
+      {
+        "word": "Pero usted también es indio.",
+        "start": 595773,
+        "end": 598582
+      },
+      {
+        "word": "¿Qué dice?",
+        "start": 598606,
+        "end": 599523
+      },
+      {
+        "word": "Que en este país el que no tiene de inga tiene de mandinga.",
+        "start": 599535,
+        "end": 604142
+      },
+      {
+        "word": "No entiendo su chistecito.",
+        "start": 604214,
+        "end": 606916
+      },
+      {
+        "word": "Escúcheme, amigo.",
+        "start": 606916,
+        "end": 608178
+      },
+      {
+        "word": "En este país toditos, todititos, somos mezclados.",
+        "start": 608380,
+        "end": 612987
+      },
+      {
+        "word": "Mestizos de indios, de negros, de blancos, de chinos.",
+        "start": 613047,
+        "end": 619249
+      },
+      {
+        "word": "Como un arroz con mango, una fanesca.",
+        "start": 619392,
+        "end": 623606
+      },
+      {
+        "word": "Ese no es el tema ahora.",
+        "start": 623618,
+        "end": 625927
+      },
+      {
+        "word": "Como le expliqué, nuestra empresa no contamina.",
+        "start": 626320,
+        "end": 631201
+      },
+      {
+        "word": "[MISSING]",
+        "start": 631225,
+        "end": 632928
+      },
+      {
+        "word": "[MISSING]",
+        "start": 633428,
+        "end": 636678
+      },
+      {
+        "word": "[MISSING]",
+        "start": 636868,
+        "end": 638475
+      },
+      {
+        "word": "[MISSING]",
+        "start": 638547,
+        "end": 639642
+      },
+      {
+        "word": "Ese cuento no se lo cree ni usted.",
+        "start": 639868,
+        "end": 642118
+      },
+      {
+        "word": "Señor, por cierto, todavía no sé su nombre.",
+        "start": 642904,
+        "end": 646630
+      },
+      {
+        "word": "Soy Wilson Gualachi, soy gerente.",
+        "start": 646642,
+        "end": 649499
+      },
+      {
+        "word": "Apellido indio, ¿no es cierto?",
+        "start": 649499,
+        "end": 650856
+      },
+      {
+        "word": "Jovencito insolente, ¿no es cierto?",
+        "start": 650856,
+        "end": 654094
+      },
+      {
+        "word": "Cuenta, Fredy, cuenta. ¿Qué te dijo el man?",
+        "start": 655416,
+        "end": 659511
+      },
+      {
+        "word": "Me llamó insolente.",
+        "start": 659535,
+        "end": 661190
+      },
+      {
+        "word": "Dijo otras flores.",
+        "start": 661226,
+        "end": 663559
+      },
+      {
+        "word": "¿Y qué dijo cuando le dijiste que no?",
+        "start": 663904,
+        "end": 665963
+      },
+      {
+        "word": "Que ellos hacen “una explotación responsable y sustentable, minería verde\".",
+        "start": 665963,
+        "end": 670118
+      },
+      {
+        "word": "No será así.",
+        "start": 670570,
+        "end": 672868
+      },
+      {
+        "word": "A ese man no le creo ni lo que reza.",
+        "start": 673666,
+        "end": 677356
+      },
+      {
+        "word": "Ya investigamos, Fredy.",
+        "start": 678296,
+        "end": 679499
+      },
+      {
+        "word": "¿Qué, qué?",
+        "start": 679499,
+        "end": 681034
+      },
+      {
+        "word": "Esas minas a cielo abierto son una calamidad.",
+        "start": 681034,
+        "end": 686963
+      },
+      {
+        "word": "Miren.",
+        "start": 686963,
+        "end": 688451
+      },
+      {
+        "word": "Cómo están las comunidades en Cajamarca, en el norte de Perú, con la Yanacocha, la empresa de oro que ha contaminado todo el departamento.",
+        "start": 688582,
+        "end": 700689
+      },
+      {
+        "word": "Averiguamos en Argentina, la mina Alumbrera.",
+        "start": 700749,
+        "end": 705071
+      },
+      {
+        "word": "Gastan 100 millones de litros diarios de agua.",
+        "start": 705189,
+        "end": 710392
+      },
+      {
+        "word": "Más de lo que bebe toda la población del país en ese día.",
+        "start": 710630,
+        "end": 714463
+      },
+      {
+        "word": "[MISSING]",
+        "start": 714475,
+        "end": 717475
+      },
+      {
+        "word": "Y en la guajira colombiana, una mina de carbón.",
+        "start": 717523,
+        "end": 720642
+      },
+      {
+        "word": "La mayor del mundo, que ha destruido todo el medio ambiente de la zona.",
+        "start": 720820,
+        "end": 727261
+      },
+      {
+        "word": "[MISSING]",
+        "start": 727773,
+        "end": 731618
+      },
+      {
+        "word": "Esas minas son una desgracia para la comunidad y para el país.",
+        "start": 731677,
+        "end": 741927
+      },
+      {
+        "word": "Muy bueno.",
+        "start": 741927,
+        "end": 743415
+      },
+      {
+        "word": "Los únicos que ganan son ellos, los de la empresa.",
+        "start": 743416,
+        "end": 746904
+      },
+      {
+        "word": "El país más inteligente fue Costa Rica.",
+        "start": 746916,
+        "end": 749880
+      },
+      {
+        "word": "Prohibió la minería metálica a cielo abierto en todo el país.",
+        "start": 750070,
+        "end": 754284
+      },
+      {
+        "word": "Esa gente es peor que la inundación.",
+        "start": 754297,
+        "end": 757940
+      },
+      {
+        "word": "El agua de lluvia baja.",
+        "start": 758321,
+        "end": 759869
+      },
+      {
+        "word": "La contaminación de esa minera queda para siempre.",
+        "start": 760023,
+        "end": 762618
+      },
+      {
+        "word": "Pues vamos a ponernos en campaña.",
+        "start": 762618,
+        "end": 765047
+      },
+      {
+        "word": "Pero en contra de la empresa.",
+        "start": 765226,
+        "end": 771714
+      },
+      {
+        "word": "Vamos a combatirlos.",
+        "start": 771784,
+        "end": 772975
+      },
+      {
+        "word": "[MISSING]",
+        "start": 773011,
+        "end": 774927
+      },
+      {
+        "word": "Será la batalla de David contra Goliat.",
+        "start": 774952,
+        "end": 779690
+      },
+      {
+        "word": "Sí, muy desigual.",
+        "start": 779690,
+        "end": 782511
+      },
+      {
+        "word": "Pero la pelea es peleando.",
+        "start": 782773,
+        "end": 786059
+      },
+      {
+        "word": "¿No es verdad?",
+        "start": 786285,
+        "end": 787452
+      },
+      {
+        "word": "Sí, vamos, vamos.",
+        "start": 787452,
+        "end": 789452
+      },
+      {
+        "word": "En el Barrio del Jabonero",
+        "start": 793106,
+        "end": 795499
+      },
+      {
+        "word": "Historias de la pandemia",
+        "start": 795535,
+        "end": 797820
+      }
+    ]
+  }
+}

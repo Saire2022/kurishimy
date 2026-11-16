@@ -29,10 +29,14 @@ const MS_PER_SECOND = 1000;
 /**
  * @param initialPositionMs Where to start, in ms. Read once, when the audio
  *   first loads; `isLoading` stays true until the player has jumped there.
+ * @param playbackRate Speed multiplier (1 = normal). May change at any time,
+ *   playing or paused. Positions and durations stay in media time, so the
+ *   sentence timings need no adjusting for it.
  */
 export function useAudioPlayer(
   audioSource: number,
   initialPositionMs = 0,
+  playbackRate = 1,
 ): UseAudioPlayerResult {
   const player = useExpoAudioPlayer(audioSource, {
     updateInterval: STATUS_UPDATE_INTERVAL_MS,
@@ -64,6 +68,20 @@ export function useAudioPlayer(
       mounted = false;
     };
   }, []);
+
+  // Runs again for each new player, so a chapter switch keeps the speed.
+  useEffect(() => {
+    if (!status.isLoaded) return;
+    try {
+      // Keep voices at their natural pitch instead of chipmunking. "medium"
+      // is iOS's time-domain algorithm, the one meant for speech; "low" would
+      // be varispeed, which shifts pitch with the rate.
+      player.shouldCorrectPitch = true;
+      player.setPlaybackRate(playbackRate, "medium");
+    } catch (err) {
+      console.error("Error setting playback rate:", err);
+    }
+  }, [player, status.isLoaded, playbackRate]);
 
   // The player is keyed on the source, so a new chapter starts from zero.
   useEffect(() => {
